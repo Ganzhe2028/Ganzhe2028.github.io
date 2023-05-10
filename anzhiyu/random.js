@@ -1,4 +1,4 @@
-var posts=["2023/04/04/兰亭序改词（杜甫版）-拙作拙作/","2023/05/05/最初の上线/","2023/05/05/补充anzhiyu主题Github-Actions部署小问题/","2023/03/23/网站部署后“残缺”很多的解决办法/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};var friend_link_list=[];
+var posts=["2023/04/04/兰亭序改词（杜甫版）-拙作拙作/","2023/03/23/网站部署后“残缺”很多的解决办法/","2023/05/05/补充anzhiyu主题Github-Actions部署小问题/","2023/05/05/最初の上线/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};var friend_link_list=[];
     var refreshNum = 1;
     var footerRandomFriendsBtn = document.getElementById("footer-random-friends-btn");
     function addFriendLinksInFooter() {
