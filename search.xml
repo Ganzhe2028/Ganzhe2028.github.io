@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>使用zeabur部署twikoo</title>
+    <url>/posts/20419.html</url>
+    <content><![CDATA[<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>现在的Gitee站之前其实还有一个站点，不过我改了仓库名之后就废弃了：gan_zhe.gitee.io。这个站点是用的是valine，但是前段时间回去尝试评论突然就评论不了了。再加上网上说会有安全问题，我便决定尽量不再使用valine。<br>接着，我就在B站上找到了鱼佬的视频（也是通过那期twikoo的教程视频第一次接触鱼佬），但是因为要服务器，我就放弃了。<br>前几天我在twikoo的文档里找到了另外两种不需要服务器的部署方法：railway和zeabur。尝试railway打不开，于是就剩下zeabur了。</p>
+<h1 id="zeabur部署twikoo的步骤——2023-5-28"><a href="#zeabur部署twikoo的步骤——2023-5-28" class="headerlink" title="zeabur部署twikoo的步骤——2023-5-28"></a>zeabur部署twikoo的步骤——2023-5-28</h1><p><a href="https://twikoo.js.org/quick-start.html#zeabur-%E9%83%A8%E7%BD%B2">原twikoo文档教程</a></p>
+<h2 id="在Zeabur申请并登录账号（可能需要魔法），点击部署新服务-部署其他服务-部署-MongoDB，名称随意"><a href="#在Zeabur申请并登录账号（可能需要魔法），点击部署新服务-部署其他服务-部署-MongoDB，名称随意" class="headerlink" title="在Zeabur申请并登录账号（可能需要魔法），点击部署新服务 - 部署其他服务 - 部署 MongoDB，名称随意"></a>在<a href="https://dash.zeabur.com/">Zeabur</a>申请并登录账号<strong>（可能需要魔法）</strong>，点击部署新服务 - 部署其他服务 - 部署 MongoDB，名称随意</h2><p><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/64730151bfa64.png" alt="创建项目"><br><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/64730151c12bf.png" alt="点击部署新服务"><br><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/647300ec5d230.png" alt="部署其他服务"><br><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/647300ec5d284.png" alt="MongoDB"></p>
+<p><strong>MongoDB里面的东西都不动就行</strong>（我个人是这样）</p>
+<h2 id="打开imaegoo-x2F-twikoo-zeabur点击-fork-将仓库-fork-到自己的账号下"><a href="#打开imaegoo-x2F-twikoo-zeabur点击-fork-将仓库-fork-到自己的账号下" class="headerlink" title="打开imaegoo&#x2F;twikoo-zeabur点击 fork 将仓库 fork 到自己的账号下"></a>打开<a href="https://github.com/imaegoo/twikoo-zeabur">imaegoo&#x2F;twikoo-zeabur</a>点击 fork 将仓库 fork 到自己的账号下</h2><h2 id="回到-Zeabur-点击部署新服务-部署你的源代码-授权-GitHub-选择刚才-fork-的仓库，名称随意"><a href="#回到-Zeabur-点击部署新服务-部署你的源代码-授权-GitHub-选择刚才-fork-的仓库，名称随意" class="headerlink" title="回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意"></a>回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意</h2><p><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/64730151c12bf.png" alt="点击部署新服务"><br><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/647303e076a17.png" alt="选择Git方式——GitHub"><br><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/647303fc2fda8.png" alt="选择刚才 fork 的仓库"><br>无需配置数据库连接字符串！ Zeabur 已自动配置</p>
+<h2 id="部署好后点开环境卡片-设置-域名，绑定一个域名，例如-mytwikoo-zeabur-app，“-zeabur-app”中的-名字任意"><a href="#部署好后点开环境卡片-设置-域名，绑定一个域名，例如-mytwikoo-zeabur-app，“-zeabur-app”中的-名字任意" class="headerlink" title="部署好后点开环境卡片 - 设置 - 域名，绑定一个域名，例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意"></a>部署好后点开环境卡片 - 设置 - 域名，绑定一个域名，例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意</h2><p><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/64730428d3c27.png" alt="设置 - 域名，绑定一个域名"></p>
+<h2 id="到博客配置文件中配置-envId-为-https-x2F-x2F-加域名（例如-https-mytwikoo-zeabur-app）"><a href="#到博客配置文件中配置-envId-为-https-x2F-x2F-加域名（例如-https-mytwikoo-zeabur-app）" class="headerlink" title="到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 https://mytwikoo.zeabur.app）"></a>到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 <a href="https://mytwikoo.zeabur.app)/">https://mytwikoo.zeabur.app）</a></h2><p><img src="https://img01.anzhiy.cn/useruploads/151/2023/05/28/64730703a132f.png" alt="配置文件中配置envId"></p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>zeabur也不是完全免费，但是会有充足的免费额度，对我来说肯定是够用的，估计中小个人博客都够用。<br>通过zeabur部署的方式不需要服务器，加上Twikoo的独立的配置界面，对小白超级友好。</p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>twikoo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>兰亭序改词（杜甫版）</title>
+    <url>/posts/30653.html</url>
+    <content><![CDATA[<p>京兆杜氏，年少欲致君尧舜</p>
+<p>奉儒守官，又欲使朝风俗淳</p>
+<p>年少时，赏公孙武剑又 登岱宗之巅</p>
+<p>战乱起，盛世如云烟</p>
+<p>束发初征，便至四十西营田</p>
+<p>残阳余辉，男丁埋没百草随</p>
+<p>狼烟四起</p>
+<p>武皇开边边庭流血成海水</p>
+<p>耕田荒芜百姓怎交税</p>
+<p>抬眼望月，小儿女待我回</p>
+<p>不忍忘却，尸骨积叠成堆</p>
+<p>提笔未落，恍惚间天已黑</p>
+<p>阴晴圆缺，愁满心又停杯</p>
+<p>（Skip）</p>
+<p>举头望月，千万人无家归</p>
+<p>狂风肆虐，茅草飞愁满杯</p>
+<p>沙鸥飞回，剑外传收蓟北</p>
+<p>纵酒无愧，这一生为了谁</p>
+<div class="note success flat"><p>PS：这是一次小组作业哈<br><strong>鸣谢(合作)：邹zy，孙y，杨hq</strong></p>
+</div>]]></content>
+      <categories>
+        <category>读书与文字</category>
+        <category>二创</category>
+      </categories>
+      <tags>
+        <tag>改歌词</tag>
+        <tag>拙作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最初の上线</title>
+    <url>/posts/37595.html</url>
+    <content><![CDATA[<h2 id="上线历程"><a href="#上线历程" class="headerlink" title="上线历程"></a>上线历程</h2><p> 个人站上线后我想用GitHub再部署一个网站，毕竟是主流的平台，往后的一些操作（可能？）也会方便一些。</p>
+<p> 随后我按照小红书博主 “学习Python的正确姿势” 的《教你从0开始搭建一个属于自己的个人网站》^1进行了部分设置，但是可能会在一些环节出现一些小问题。个人建议去看b站up 小宇boi 的视频^2，适当补充一些操作（我自己补充了第7节中的一些操作，不知道是不是画蛇添足hhh）</p>
+<p> 全部都弄好之后我的Github pages部署的博客页面却显示无法访问（不是GitHub pages页面）。后来在4&#x2F;10修复完WLAN显示无Internet的问题^3之后再重新打开网址就能登上了，虽然有些慢。</p>
+<p>^1: <a href="https://www.bilibili.com/video/BV1ts4y1f7Gu/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">超详细！0成本搭建个人网站！！【建议收藏】_哔哩哔哩_bilibili</a></p>
+<p>^2: <a href="https://www.xiaohongshu.com/user/profile/5b5ed4a111be10431eaca718/642d385d0000000013013b36">教你从0开始搭建一个属于自己的个人网站</a></p>
+<p>^3: 抖音@联想小新的《如何修复：无法访问internet网络连接？》</p>
+<p><strong>此为github站，Gitee站：<a href="https://ganzhetx.gitee.io/">https://ganzhetx.gitee.io</a></strong></p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站部署后“残缺”很多的解决办法</title>
+    <url>/posts/10021.html</url>
+    <content><![CDATA[<h2 id="一、css-js-img等图片加载异常"><a href="#一、css-js-img等图片加载异常" class="headerlink" title="一、css js img等图片加载异常"></a>一、css js img等图片加载异常</h2><p>​这时会造成部署后的页面缺失很多内容和样式，应该检查：<br>​ 1.Gitee&#x2F;Github用户名、仓库名、仓库路径后缀是否统一<br>​ 2.可以在blog根目录配置文件中的deploy下补充一个branch: master(这个是部署页面时你选择的部署分支)<br>​ 3.尝试在部署好后的博客页面ctrl+F5强制刷新 或 在blog根目录中打开GBH输入hexo clean</p>
+<h2 id="二、一般加载问题（这类问题强制刷新yyds"><a href="#二、一般加载问题（这类问题强制刷新yyds" class="headerlink" title="二、一般加载问题（这类问题强制刷新yyds"></a>二、一般加载问题（这类问题强制刷新yyds</h2><p>​这类情况一般文件并没有出错，而是浏览器缓存问题（例如小而美），包括多次hexo g、d、s等操作后都会产生缓存，增大负荷<br>此时建议：<br> 直接在部署好的博客页面ctrl+F5（GBH里hexo clean也可以。个人觉得前者快，因为一般都是在页面才发现不对，比如图片、文字缺失。后者需要未雨绸缪~）<br> 如果是手机端，建议下拉刷新、清除小而美等的缓存或者更换浏览器（即复制网址到小而美之外的、可以直接打开网址的浏览器中进入博客）。</p>
+<h2 id="三、养成好习惯"><a href="#三、养成好习惯" class="headerlink" title="三、养成好习惯"></a><strong>三、养成好习惯</strong></h2><div class="note info flat"><p>不管是在群里问别人还是怎么，<strong>出现异常第一时间看控制台报错</strong>，再来看终端，最后看代码部分。</p>
+</div>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>补充anzhiyu主题Github Actions部署小问题</title>
+    <url>/posts/38442.html</url>
+    <content><![CDATA[<p><strong>首先感谢鱼佬和店长的为大家提供的技术支持~</strong><br>本文所提及的Github Actions自动部署的教程来自：<a href="https://anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B">安知鱼-使用 Github Action 自动部署</a></p>
+<h2 id="这些问题的起源"><a href="#这些问题的起源" class="headerlink" title="这些问题的起源"></a>这些问题的起源</h2><p>作为一个刚换上这个优秀主题的“破站”站主，在跟着鱼佬的Github Actions教程一起操作时出现了一些情况，花费5天才解决（太菜了），今天刚好解决了，就做一个记录吧~</p>
+<h2 id="“问题0”：关于要不要设仓库环境变量"><a href="#“问题0”：关于要不要设仓库环境变量" class="headerlink" title="“问题0”：关于要不要设仓库环境变量"></a>“问题0”：关于要不要设仓库环境变量</h2><p>其实我更推荐直接看鱼佬在B站上的视频教程，其实<strong>不用设仓库环境变量</strong>。</p>
+<h2 id="问题1：-git文件没删或没移到别的不属于博客文件夹的地方"><a href="#问题1：-git文件没删或没移到别的不属于博客文件夹的地方" class="headerlink" title="问题1：.git文件没删或没移到别的不属于博客文件夹的地方"></a>问题1：.git文件没删或没移到别的不属于博客文件夹的地方</h2><p>我使用win11，最后用everything搜索出来.git的（因为是隐藏文件夹，当然也可能有更简单的方法）。<br><strong>只需打开everything，搜索.git即可搜到隐藏的.git</strong></p>
+<h2 id="问题2：没配置也没删autodeploy中的番剧更新以及gulp"><a href="#问题2：没配置也没删autodeploy中的番剧更新以及gulp" class="headerlink" title="问题2：没配置也没删autodeploy中的番剧更新以及gulp"></a>问题2：没配置也没删autodeploy中的番剧更新以及gulp</h2><p>会导致Github仓库中的Actions中deploy显示静态文件环节部署失败。此时需要在autodeploy中删除默认应该是53和55行：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">生成静态文件</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          hexo clean</span></span><br><span class="line"><span class="string">          hexo bangumi -u #bilibili番剧更新    （53行）</span></span><br><span class="line"><span class="string">          hexo generate  </span></span><br><span class="line"><span class="string">          gulp    （55行）</span></span><br></pre></td></tr></table></figure>
+<div class="note warning flat"><p><em>注意！</em><br><strong>如果你全局安装过了gulp，比如按照鱼佬的pwa教程装过了gulp，那么就可以不删除gulp，并且gulp要在hexo g后面</strong>。<br>删除后即可正常运行Actions，不影响什么。</p>
+</div>
+
+<h2 id="问题3：GBH提示“-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’”"><a href="#问题3：GBH提示“-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’”" class="headerlink" title="问题3：GBH提示“! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’”"></a>问题3：GBH提示“! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’”</h2><p>看一下这个<a href="http://t.csdn.cn/ZjBC3">老哥的文章</a></p>
+<h2 id="问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）"><a href="#问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）" class="headerlink" title="问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）"></a>问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）</h2><p>试着开&#x2F;关梯子，或者检查网络</p>
+<h2 id="一点建议"><a href="#一点建议" class="headerlink" title="一点建议"></a>一点建议</h2><p>如果使用原来你正在使用的本地博客代码碰到了其他困难无法解决，建议直接再弄一个博客（血泪啊），反正hexo很方便，然后安装好anzhiy主题，跟着鱼佬视频<a href="https://www.bilibili.com/video/BV19P41157no/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">hexo完成github action自动部署</a>直接配这个，亲测保证不出问题，除非你自己的电脑里有问题或者是步骤错误。<br>如果自己真的解决不了，建议上网直接搜或者在<strong>鱼佬的Q群：464636182</strong>问。<br>附上<strong>店长Q群：589330978</strong><br>（无恶意，如有问题请留言，一定尽快配合解决）<br>csdn上的一些<a href="http://t.csdn.cn/ec6si">git常用指令</a>，git分支切换：<a href="http://t.csdn.cn/E1Bz4">http://t.csdn.cn/E1Bz4</a></p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+        <tag>补充anzhiyu</tag>
+        <tag>Github Actions</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/manifest.json</url>
+    <content><![CDATA[{"name":"Ganzhe`Blog","short_name":"Ganzhe`Blog","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/tx16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/tx32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/tx48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/tx64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/tx128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/tx512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+  </entry>
+  <entry>
+    <title>about</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>便携小空调 - 为你的夏日带去清凉!</title>
+    <url>/air-conditioner/index.html</url>
+    <content><![CDATA[<blockquote>
+<p>终于为博客安装上了便携小空调</p>
+</blockquote>
+<style>
+.copyright-box a {
+  border-bottom: none !important;
+  padding: 0 !important;
+}
+</style>
+
+<div id="air-conditioner-vue"></div>
+<script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>
+]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/json/music.json</url>
+    <content><![CDATA[[{"name":"青花瓷","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/青花瓷/青花瓷.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002eFUFm2XYZ7z_2.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/青花瓷/青花瓷.lrc"},{"name":"稻香","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/稻香/稻香.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/稻香/稻香.lrc"},{"name":"晴天","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/晴天/晴天.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000MkMni19ClKG_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/晴天/晴天.lrc"},{"name":"七里香","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/七里香/七里香.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/七里香/七里香.lrc"},{"name":"花海","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/花海/花海.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/花海/花海.lrc"},{"name":"反方向的钟","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/反方向的钟/反方向的钟.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000f01724fd7TH_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/反方向的钟/反方向的钟.lrc"},{"name":"兰亭序","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/兰亭序/兰亭序.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/兰亭序/兰亭序.lrc"},{"name":"说好的辛福呢","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/说好的辛福呢/说好的辛福呢.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002Neh8l0uciQZ_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/说好的辛福呢/说好的幸福呢.lrc"},{"name":"等你下课 (with 杨瑞代)","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/等你下课/等你下课.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003bSL0v4bpKAx_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.1/周杰伦/等你下课/等你下课.lrc"},{"name":"我落泪情绪零碎","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/我落泪情绪零碎/我落泪情绪零碎.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000bviBl4FjTpO_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/我落泪情绪零碎/我落泪情绪零碎.lrc"},{"name":"听妈妈的话","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/听妈妈的话/听妈妈的话.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002jLGWe16Tf1H_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.2/听妈妈的话/听妈妈的话.lrc"},{"name":"明明就","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/明明就/明明就.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003Ow85E3pnoqi_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/明明就/明明就.lrc"},{"name":"我是如此相信","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/我是如此相信/我是如此相信.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000001hGx1Z0so1YX_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music-jay@1.0.1/我是如此相信/我是如此相信.lrc"},{"name":"发如雪","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/发如雪/发如雪.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M0000024bjiL2aocxT_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/发如雪/发如雪.lrc"},{"name":"以父之名","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/以父之名/以父之名.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000MkMni19ClKG_3.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/以父之名/以父之名.lrc"},{"name":"园游会","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/园游会/园游会.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.3/园游会/园游会.lrc"},{"name":"本草纲目","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/本草纲目/本草纲目.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000002jLGWe16Tf1H_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/本草纲目/本草纲目.lrc"},{"name":"龙卷风","artist":"周杰伦","url":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/龙卷风/龙卷风.mp3","cover":"https://y.qq.com/music/photo_new/T002R300x300M000000f01724fd7TH_1.jpg?max_age=2592000","lrc":"https://npm.elemecdn.com/anzhiyu-music@1.0.4/龙卷风/龙卷风.lrc"}]]]></content>
+  </entry>
+  <entry>
+    <title>link</title>
+    <url>/link/index.html</url>
+    <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://img01.anzhiy.cn/useruploads/151/2023/05/12/645dac23c60a2.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="本站添加的友链要求（-若想要申请友链，在页面最下方留言即可-）"><a href="#本站添加的友链要求（-若想要申请友链，在页面最下方留言即可-）" class="headerlink" title="本站添加的友链要求（ 若想要申请友链，在页面最下方留言即可~ ）"></a>本站添加的友链要求（ <strong>若想要申请友链，在页面最下方留言即可~</strong> ）</h2><p>1.能够正常访问<br>2.含本站友链<br>3.网站类型为个人博客<br>评论申请后在我不忙的时候会统一添加，即使不通过也会给予邮件回复。</p>
+<div class="note warning flat"><p>你提交的信息有可能被修改<br>如果有修改，我会将修改内容进行告知</p>
+<p>为了友链相关页面和组件的统一性和美观性，可能会对你的昵称进行缩短处理，例如昵称包含博客、XX 的 XX等内容或形式将被简化。<br>为了图片加载速度和内容安全性考虑，头像实际展示图片均使用博客自己图床，所以无法收到贵站自己的头像更新，如果有迫切的更改信息需求，请在本页的评论中添加。<br>为了保证鱼塘能够正确抓取文章，所有的友链链接要求为博客主页链接，而不是个人主页链接。<br>提交友链信息<br>为了避免图床问题，建议你将头像存储到安知鱼图床（总之我能放到图床上即可）。</p>
+<p>参照以下格式留言 📋 即可（请务必注意格式缩进）：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span>     <span class="string">（必）网站名</span>       </span><br><span class="line">  <span class="attr">link:</span>     <span class="string">（必）网站网址</span>     </span><br><span class="line">  <span class="attr">avatar:</span>   <span class="string">（必）网站头像</span>    </span><br><span class="line">  <span class="attr">descr:</span>    <span class="string">（必）网站描述、座右铭等</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">（选填）网站图片/站点截图</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="硬核的免责声明"><a href="#硬核的免责声明" class="headerlink" title="硬核的免责声明"></a>硬核的免责声明</h1><p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p>
+<p>所以在我力所能及的情况下，我会包括但不限于：</p>
+<p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p>
+<p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p>
+<p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#x39;&#x35;&#x39;&#48;&#48;&#54;&#x31;&#54;&#57;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;">&#x31;&#x39;&#x35;&#x39;&#48;&#48;&#54;&#x31;&#54;&#57;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;</a></strong>或<a href="mailto:&#x67;&#122;&#116;&#x78;&#119;&#x64;&#50;&#x30;&#x30;&#x38;&#50;&#x38;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#x67;&#122;&#116;&#x78;&#119;&#x64;&#50;&#x30;&#x30;&#x38;&#50;&#x38;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a>。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>音乐馆</title>
+    <url>/music/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
