@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo博客的两种搜索系统</title>
+    <url>/posts/41206.html</url>
+    <content><![CDATA[<h1 id="Algolia"><a href="#Algolia" class="headerlink" title="Algolia"></a>Algolia</h1><p>Algolia搜索系统看这篇困困鱼的文章：<a href="https://0206.ink/posts/55pbBybb44.html">https://0206.ink/posts/55pbBybb44.html</a> 很详细，非常nice~</p>
+<h1 id="本地搜索-hexo-generator-search"><a href="#本地搜索-hexo-generator-search" class="headerlink" title="本地搜索 hexo-generator-search"></a>本地搜索 hexo-generator-search</h1><p>个人认为操作比较简单，本地搜索速度也比较快哈，作为小白比较推荐</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>根目录终端先运行这两行代码：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-search</span> <span class="string">--save</span></span><br><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="修改根目录config"><a href="#修改根目录config" class="headerlink" title="修改根目录config"></a>修改根目录config</h2><p>在_config文件中新增这段代码即可：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">content:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br></pre></td></tr></table></figure>
+<div class="note info flat"><p>field的值可选：<br>    post：所以帖子<br>    page：所有页面（比如关于页面的内容也可以搜索到）<br>    all：帖子和页面</p>
+</div>
+
+<h2 id="打开本地搜索"><a href="#打开本地搜索" class="headerlink" title="打开本地搜索"></a>打开本地搜索</h2><p>修改主题config文件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">CDN:</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">cl</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></table></figure>
+<div class="note warning flat"><p><strong>hexo cl这行必须运行！</strong></p>
+</div>
+
+]]></content>
+      <categories>
+        <category>blog</category>
+        <category>新增</category>
+      </categories>
+      <tags>
+        <tag>Algolia</tag>
+        <tag>generator-search</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用zeabur部署twikoo</title>
     <url>/posts/20419.html</url>
     <content><![CDATA[<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>现在的Gitee站之前其实还有一个站点，不过我改了仓库名之后就废弃了：gan_zhe.gitee.io。这个站点是用的是valine，但是前段时间回去尝试评论突然就评论不了了。再加上网上说会有安全问题，我便决定尽量不再使用valine。<br>接着，我就在B站上找到了鱼佬的视频（也是通过那期twikoo的教程视频第一次接触鱼佬），但是因为要服务器，我就放弃了。<br>前几天我在twikoo的文档里找到了另外两种不需要服务器的部署方法：railway和zeabur。尝试railway打不开，于是就剩下zeabur了。</p>
@@ -13,6 +43,7 @@
 ]]></content>
       <categories>
         <category>blog</category>
+        <category>新增</category>
       </categories>
       <tags>
         <tag>twikoo</tag>
@@ -160,7 +191,7 @@
 <p>所以在我力所能及的情况下，我会包括但不限于：</p>
 <p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p>
 <p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p>
-<p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#x39;&#53;&#57;&#48;&#48;&#54;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#49;&#x39;&#53;&#57;&#48;&#48;&#54;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></strong>或<a href="mailto:&#x67;&#x7a;&#x74;&#120;&#x77;&#x64;&#x32;&#x30;&#48;&#x38;&#x32;&#x38;&#64;&#113;&#113;&#x2e;&#99;&#111;&#x6d;">&#x67;&#x7a;&#x74;&#120;&#x77;&#x64;&#x32;&#x30;&#48;&#x38;&#x32;&#x38;&#64;&#113;&#113;&#x2e;&#99;&#111;&#x6d;</a>。</p>
+<p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#x39;&#53;&#57;&#48;&#48;&#x36;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#x2e;&#x63;&#111;&#109;">&#49;&#x39;&#53;&#57;&#48;&#48;&#x36;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#x2e;&#x63;&#111;&#109;</a></strong>或<a href="mailto:&#x67;&#122;&#116;&#120;&#119;&#100;&#x32;&#48;&#x30;&#56;&#x32;&#56;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#x67;&#122;&#116;&#120;&#119;&#100;&#x32;&#48;&#x30;&#56;&#x32;&#56;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a>。</p>
 ]]></content>
   </entry>
   <entry>
