@@ -36,7 +36,7 @@
   isPhotoFigcaption: true,
   islazyload: true,
   isAnchor: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"分类: 转载内容",isPost:!1,isHome:!1,isHighlightShrink:!1,isToc:!1,postUpdate:"2023-06-01 06:43:18"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}#post-meta time,#recent-posts time{display:inline!important}</style></noscript><script>(win=>{
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={title:"分类: 转载内容",isPost:!1,isHome:!1,isHighlightShrink:!1,isToc:!1,postUpdate:"2023-06-01 06:52:01"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}#post-meta time,#recent-posts time{display:inline!important}</style></noscript><script>(win=>{
     win.saveToLocal = {
       set: function setWithExpiry(key, value, ttl) {
         if (ttl === 0) return
@@ -285,7 +285,7 @@ queueMicrotask(() => {
     let currentTimeHtml = "";
     if (nowHour < 18 && nowHour >= 9) {
       // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
-      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+      currentTimeHtml = `本站奄奄一息熬过了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
     } else {
       // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
       let img = document.querySelector("#workboard .workSituationImg");
@@ -293,7 +293,7 @@ queueMicrotask(() => {
       img.title = "下班了就该开开心心的玩耍，嘿嘿~";
       img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
 
-      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+      currentTimeHtml = `本站奄奄一息熬过了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
     }
 
     if (document.getElementById("runtimeTextTip")) {
