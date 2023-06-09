@@ -26,7 +26,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu主题各种疑难的教程合集</tag>
+        <tag>补充anzhiyu教程的疑难问题</tag>
         <tag>新增</tag>
         <tag>51la统计</tag>
       </tags>
@@ -3955,7 +3955,7 @@
       <categories>
         <category>Hexo</category>
         <category>新增</category>
-        <category>补充anzhiyu主题各种疑难的教程合集</category>
+        <category>补充anzhiyu教程的疑难问题</category>
       </categories>
       <tags>
         <tag>Algolia</tag>
@@ -3989,7 +3989,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu主题各种疑难的教程合集</tag>
+        <tag>补充anzhiyu教程的疑难问题</tag>
         <tag>新增</tag>
         <tag>twikoo</tag>
       </tags>
@@ -5356,7 +5356,7 @@
       </tags>
   </entry>
   <entry>
-    <title>anzhiyu主题Github Actions部署的一些小问题</title>
+    <title>鱼佬Github Actions部署教程的一些小问题</title>
     <url>/posts/38442.html</url>
     <content><![CDATA[<p><strong>首先感谢鱼佬和店长的为大家提供的技术支持~</strong><br>本文所提及的Github Actions自动部署的教程来自：</p>
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B">
@@ -5412,10 +5412,71 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu主题各种疑难的教程合集</tag>
+        <tag>补充anzhiyu教程的疑难问题</tag>
         <tag>新增</tag>
         <tag>bug</tag>
         <tag>Github Actions</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>补充音乐馆meting_api</title>
+    <url>/posts/12635.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天meting官方的api挂掉了，导致anzhiyu主题的音乐馆无法使用。解决办法就是换一个api。<br>更换具体位置是：<strong>主题config的CDN - options - meting_api</strong>。<br>因为鱼佬已经写过了，所以在此<strong>进行一些基础的细节的补充</strong>。</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/a76e.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/blog.anheyu.com/posts/a76e.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">音乐meting自建api</div>
+            <div class="tag-link-sitename"> 鱼佬的原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h1 id="修改meting-api"><a href="#修改meting-api" class="headerlink" title="修改meting_api"></a>修改meting_api</h1><p>鱼佬原文中的两个公益api：<br><a href="https://api.injahow.cn/meting/">https://api.injahow.cn/meting/</a><br><a href="https://meting.qjqq.cn/">https://meting.qjqq.cn/</a><br>作为一个小白，我一开始其实是不太明白后面的这些东西应该填什么，怎么填：<br><a href="https://api.injahow.cn/meting/**?server=:server&type=:type&id=:id&auth=:auth&r=:r">https://api.injahow.cn/meting/**?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r</a>**<br><a href="https://meting.qjqq.cn/**?server=:server&type=:type&id=:id&auth=:auth&r=:r">https://meting.qjqq.cn/**?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r</a>**</p>
+<h2 id="写法"><a href="#写法" class="headerlink" title="写法"></a>写法</h2><div class="note warning flat"><p>这个英文的问号 <strong>?</strong> 不用动</p>
+<p><strong>&#x3D;</strong> 后面填值，那个 <strong>:</strong> 填写的时候删掉即可</p>
+</div>
+
+<table>
+<thead>
+<tr>
+<th align="left">&#x3D;前</th>
+<th align="left">解释</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>server</strong></td>
+<td align="left">音乐的提供商。默认为netease，可改成tencent</td>
+<td>server&#x3D;tencent</td>
+</tr>
+<tr>
+<td align="left"><strong>type</strong></td>
+<td align="left">类型</td>
+<td>type&#x3D;playlist（只能填playlist）</td>
+</tr>
+<tr>
+<td align="left"><strong>id</strong></td>
+<td align="left"><mark class="hl-label default">**网页版**</mark> 的网易云或QQ音乐中歌单的分享链接后面的数字</td>
+<td>id&#x3D;01234567889</td>
+</tr>
+</tbody></table>
+<div class="note warning flat"><p>id必须要是<strong>网页版的QQ音乐或者网易云音乐</strong>才可以复制到带数字（即id）的链接</p>
+</div>
+
+<h3 id="nav-music的写法"><a href="#nav-music的写法" class="headerlink" title="nav_music的写法"></a>nav_music的写法</h3><p>这个东西有没有用我不太确定，反正我是这么写的：</p>
+<p><img src="https://pic.imgdb.cn/item/648359321ddac507cc858561.jpg"></p>
+<p>最重要的是这个<mark class="hl-label default">all_playlist</mark> ，QQ音乐的填写格式是：<a href="https://y.qq.com/n/ryqq/playlist/%E4%BD%A0%E7%9A%84id%E3%80%82%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E6%A0%BC%E5%BC%8F%E4%B8%8D%E5%A4%AA%E6%B8%85%E6%A5%9A%E3%80%82">https://y.qq.com/n/ryqq/playlist/你的id。网易云的格式不太清楚。</a></p>
+<p>从网页上复制下来会有点不一样，id之前都是照着上面的填写格式改就行。</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>补充anzhiyu教程的疑难问题</tag>
+        <tag>meting_api</tag>
       </tags>
   </entry>
   <entry>
@@ -5461,7 +5522,7 @@
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://img01.anheyu.com/useruploads/151/2023/05/12/645dac23c60a2.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#x39;&#53;&#57;&#x30;&#48;&#x36;&#49;&#x36;&#57;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#x31;&#x39;&#53;&#57;&#x30;&#48;&#x36;&#49;&#x36;&#57;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a></strong>或<a href="mailto:&#103;&#x7a;&#x74;&#120;&#x77;&#100;&#50;&#48;&#48;&#x38;&#x32;&#x38;&#64;&#113;&#x71;&#46;&#x63;&#111;&#x6d;">&#103;&#x7a;&#x74;&#120;&#x77;&#100;&#50;&#48;&#48;&#x38;&#x32;&#x38;&#64;&#113;&#x71;&#46;&#x63;&#111;&#x6d;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#x39;&#x35;&#57;&#x30;&#48;&#x36;&#49;&#54;&#x39;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#109;">&#x31;&#x39;&#x35;&#57;&#x30;&#48;&#x36;&#49;&#54;&#x39;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#109;</a></strong>或<a href="mailto:&#x67;&#x7a;&#x74;&#x78;&#x77;&#x64;&#50;&#48;&#x30;&#56;&#x32;&#56;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x7a;&#x74;&#x78;&#x77;&#x64;&#50;&#48;&#x30;&#56;&#x32;&#56;&#x40;&#x71;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
@@ -5557,7 +5618,9 @@
     <title>本站更新日志</title>
     <url>/update/index.html</url>
     <content><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>中大更新</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-9</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-10</p>
+</div></div><div class='timeline-item-content'><p>修复：音乐馆api</p>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-9</p>
 </div></div><div class='timeline-item-content'><p>更新：主题更新至1.3.1 main版本</p>
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-8</p>
 </div></div><div class='timeline-item-content'><p>文章：转载鱼皮学习路线<br>新增：nav编程导航</p>
