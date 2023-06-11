@@ -27,7 +27,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程的疑难问题</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>新增</tag>
         <tag>51la统计</tag>
       </tags>
@@ -3918,6 +3918,42 @@
       </tags>
   </entry>
   <entry>
+    <title>crisp在线聊天的位置修改</title>
+    <url>/posts/63757.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文主要分享一下crisp（在safari中）的位置设置。</p>
+<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>一开始我是在<a href="https://ahao.ah.cn/">阿豪的网站</a>上看到的这个在线聊天，去文档里看了一下原来叫crisp。</p>
+<p>但是我发现他的<strong>聊天头像遮挡住了音乐馆的右下角单曲循环的图标</strong>，无法点击。</p>
+<p><img src="https://pic.imgdb.cn/item/6485861b1ddac507cc9c97b9.jpg"></p>
+<p>因此，我尝试着进行位置的修改，能想到的都改过了，但是都不是很理想，最后我干脆通过指定网址隐藏的方法关掉了音乐馆的crisp，这样反而不会显得那么突兀（应该不会有访客会在音乐馆用crisp聊天吧）。</p>
+<p><img src="C:\Users\gztxw\AppData\Roaming\Typora\typora-user-images\image-20230611154819940.png"></p>
+<p>当我正满意时我发现<mark class="hl-label blue">safari的页面并不能通过网址隐藏</mark> ，这bu。。额<strong>特性</strong>真的是猝不及防。而且由于ipad上窗口有很多固定尺寸，因此每次其他图标的位置都很不一样，这就导致crisp总是会挡住一些图标。</p>
+<p>于是就有了下面这些参数设置，可以在<mark class="hl-label blue">几乎任何尺寸下</mark> 都保持crisp<strong>不会遮挡</strong>其他图标：</p>
+<p><img src="C:\Users\gztxw\AppData\Roaming\Typora\typora-user-images\image-20230611153242693.png" alt="20230611153242693"></p>
+<p>就算有些尺寸很刁钻，但还是可以做到正常点击的，不会完全遮住。</p>
+<p>此外，<strong>因为safari的分屏和台前调度在除了最窄的情况（也就是iPhone的尺寸）下一律使用desktop版的尺寸，所以需要在不同版本下尽量不变换太大crisp的位置</strong>，而这套参数做到了这一点（至少本人觉得这套是看着比较舒服的）。因此，这几乎是<mark class="hl-label blue">比较完美的设置</mark> （宽屏和窄屏）。</p>
+<h1 id="补充（这东西在哪里）"><a href="#补充（这东西在哪里）" class="headerlink" title="补充（这东西在哪里）"></a>补充（这东西在哪里）</h1><p><img src="https://pic.imgdb.cn/item/6485856c1ddac507cc9b9807.png"></p>
+<p><img src="https://pic.imgdb.cn/item/6485856c1ddac507cc9b9820.png"></p>
+<p><img src="https://pic.imgdb.cn/item/6485856c1ddac507cc9b986b.png"></p>
+<p><img src="https://pic.imgdb.cn/item/6485856c1ddac507cc9b98b4.png"></p>
+<p><strong>常用的设置基本是这两个</strong></p>
+<p><img src="https://pic.imgdb.cn/item/6485856c1ddac507cc9b98fb.png"></p>
+<p><img src="https://pic.imgdb.cn/item/6485872c1ddac507cc9e443b.png"></p>
+<p><img src="https://pic.imgdb.cn/item/6485872c1ddac507cc9e4456.png"></p>
+<mark class="hl-label blue">这个Pro我是可以直接用的（没付钱）</mark> 
+
+<p><img src="https://pic.imgdb.cn/item/6485872c1ddac507cc9e44a0.png"></p>
+<p>有疑问请留言~</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
+        <tag>新增</tag>
+        <tag>crisp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo博客的两种搜索系统</title>
     <url>/posts/41206.html</url>
     <content><![CDATA[<h1 id="Algolia"><a href="#Algolia" class="headerlink" title="Algolia"></a>Algolia</h1><p>Algolia搜索系统看这篇困困鱼的文章：<strong>很详细，非常nice~</strong></p>
@@ -3956,7 +3992,7 @@
       <categories>
         <category>Hexo</category>
         <category>新增</category>
-        <category>补充anzhiyu教程的疑难问题</category>
+        <category>补充anzhiyu教程&amp;文档的疑难</category>
       </categories>
       <tags>
         <tag>Algolia</tag>
@@ -3990,7 +4026,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程的疑难问题</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>新增</tag>
         <tag>twikoo</tag>
       </tags>
@@ -5462,7 +5498,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程的疑难问题</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>新增</tag>
         <tag>bug</tag>
         <tag>Github Actions</tag>
@@ -5530,7 +5566,7 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程的疑难问题</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>meting_api</tag>
       </tags>
   </entry>
@@ -5821,7 +5857,7 @@ document.addEventListener('pjax:complete', showWelcome);
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://img01.anheyu.com/useruploads/151/2023/05/12/645dac23c60a2.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#x39;&#53;&#57;&#48;&#x30;&#54;&#x31;&#54;&#57;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#x6d;">&#49;&#x39;&#53;&#57;&#48;&#x30;&#54;&#x31;&#54;&#57;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#x6d;</a></strong>或<a href="mailto:&#x67;&#122;&#x74;&#120;&#x77;&#100;&#x32;&#48;&#x30;&#x38;&#x32;&#56;&#64;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#x67;&#122;&#x74;&#120;&#x77;&#100;&#x32;&#48;&#x30;&#x38;&#x32;&#56;&#64;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#57;&#x35;&#57;&#x30;&#48;&#54;&#x31;&#54;&#57;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;">&#49;&#57;&#x35;&#57;&#x30;&#48;&#54;&#x31;&#54;&#57;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;</a></strong>或<a href="mailto:&#103;&#x7a;&#x74;&#x78;&#x77;&#100;&#50;&#x30;&#48;&#56;&#50;&#x38;&#x40;&#113;&#x71;&#46;&#x63;&#111;&#109;">&#103;&#x7a;&#x74;&#x78;&#x77;&#100;&#50;&#x30;&#48;&#56;&#50;&#x38;&#x40;&#113;&#x71;&#46;&#x63;&#111;&#109;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
