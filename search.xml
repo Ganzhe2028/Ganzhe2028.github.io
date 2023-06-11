@@ -4064,6 +4064,299 @@
       </tags>
   </entry>
   <entry>
+    <title>大厂研发流程</title>
+    <url>/posts/17989.html</url>
+    <content><![CDATA[<h1 id="一线大厂研发流程"><a href="#一线大厂研发流程" class="headerlink" title="一线大厂研发流程"></a>一线大厂研发流程</h1><p>大家好，我是鱼皮。</p>
+<p>很多未工作过的小伙伴都很好奇：企业中做项目是怎样的流程？尤其是大厂那些百万用户的项目，和自己学编程时做项目到底有什么区别呢？</p>
+<p><strong>实话说，区别可大了！</strong></p>
+<p>自己开发项目那是单打独斗，自己掌握命运，不会拖垮队友；但企业中开发项目是开团打本，大家是一根绳上的蚂蚱，每个人都会影响整个项目。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712012036685.png"></p>
+<p>我自己也在几家公司实习过，不得不说，大厂和其他公司的研发流程也有很大的区别。</p>
+<p>因此，对于大多数同学，如果没有在大厂工作过，对很多研发环节可能都是一无所知的。</p>
+<p>所以今天给大家揭秘一下大厂的项目研发流程，帮大家开拓思路。</p>
+<p>正好之前有同志质疑我的日常工作就只有写代码和摸鱼？！这篇文章就作为回击，让他明白，在大厂做项目，可不止写代码那么简单！</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712011545940.png"></p>
+<h2 id="大厂研发流程揭秘"><a href="#大厂研发流程揭秘" class="headerlink" title="大厂研发流程揭秘"></a>大厂研发流程揭秘</h2><p>为了规范团队、保证项目的进展，大厂研发流程通常还是比较复杂的。</p>
+<p>可以分为很多个阶段，用一张思维导图来概括：</p>
+<p><img src="https://qiniuyun.code-nav.cn/%E4%B8%80%E7%BA%BF%E5%A4%A7%E5%8E%82%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B%E6%8F%AD%E7%A7%98.png" alt="一线大厂研发流程导图"></p>
+<blockquote>
+<p>需要注意的是，以上阶段并不是完全按从上到下的顺序执行，阶段间可能存在交叉，比如 <strong>技术选型</strong> 其实在 <strong>设计阶段</strong> 就应该考虑。</p>
+</blockquote>
+<p>正式工作一年多，我也是经历过多次项目的完整研发流程的。下面就以我的视角，带大家快速过一遍~</p>
+<p>（为了内容更有趣，以下故事有虚构成分）</p>
+<h3 id="需求阶段"><a href="#需求阶段" class="headerlink" title="需求阶段"></a>需求阶段</h3><p>今天是周一，鱼皮像往常一样骑着他的小电动车来到公司，殊不知，等待他的是一场噩梦的开始。</p>
+<h4 id="需求产生"><a href="#需求产生" class="headerlink" title="需求产生"></a>需求产生</h4><p>上午十点，产品妹子找到鱼皮，告诉他：咱们的系统上线后，用户表示很多功能并不好用，需要大改。</p>
+<p>老板也找到鱼皮，告诉他：我今天打开页面竟然加载了十几秒，咱们这个系统的性能太烂了吧！</p>
+<p>鱼皮心想：呕豁，完蛋！估计得做个新的项目了，又要开会了。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712141645333.png"></p>
+<p>果然，没过多久，屏幕上弹出了一条 “欢迎加入会议” 的邀请。</p>
+<h4 id="需求评审"><a href="#需求评审" class="headerlink" title="需求评审"></a>需求评审</h4><p>第二天上午，老板、产品、测试、几位开发大哥和鱼皮一起来到会议室，具体讨论昨天提到的那些需求 <strong>是否合理、要不要做</strong> ？</p>
+<p>产品妹子打开文档，说到：这一期呢，我们要做这几个需求，下面我来详细讲一下，大家一起评估下有没有问题。</p>
+<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>接下来，产品妹子正在对着屏幕侃侃而谈、疯狂输出时，旁边的开发大哥坐不住了。</p>
+<p>开发大哥：这个需求不合理啊！</p>
+<p>产品：为啥不合理？用户就是有这个需求啊！</p>
+<p>开发大哥：我知道，实现不了啊！</p>
+<p>于是开始了经典的产品开发撕逼大战。。。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712141444097.png"></p>
+<p>而鱼皮正躲在角落冷静分析 <strong>这个需求怎么做</strong> ，过了一会儿，提出了一种改动低、实现快的解决方案，平息了这场战争。</p>
+<h4 id="排期"><a href="#排期" class="headerlink" title="排期"></a>排期</h4><p>确定需求合理、可实现之后，产品妹子问到：那这个需求啥时候能上线呀？</p>
+<p>开发大哥：我这周忙，下周吧。</p>
+<p>产品：用户可能比较着急，这周就要呢！</p>
+<p>开发大哥：我知道，做不完啊！</p>
+<p>于是开始了经典的产品开发撕逼大战。。。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712141336633.png"></p>
+<p>鱼皮：要不我们把这个需求拆解为功能 A 和功能 B，这周我先把功能 A 做了，功能 B 排到下周二测试，下周四上线？</p>
+<p>就这样，我们一个个安排了需求的计划完成日期。</p>
+<h3 id="设计阶段"><a href="#设计阶段" class="headerlink" title="设计阶段"></a>设计阶段</h3><p>终于开完会了，看了下时间，都该下班了！</p>
+<p>唉，需求讨论完了，产品的工作是完成了一些，可鱼皮的工作才刚刚开始。</p>
+<p>急着开始写代码么？</p>
+<p><strong>不，想好怎么写代码比写代码更重要。</strong></p>
+<h4 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h4><p>鱼皮打开写文档软件和画图软件，开始梳理整个系统，从整体到局部，依次设计出系统的层次结构、各层间交互的接口和通讯方式、每层之间包含哪些重要模块、模块选择何种物理部署方式等。</p>
+<p><img src="https://qiniuyun.code-nav.cn/693275-20180308155215280-770422402.png" alt="知名框架 Dubbo 的架构设计"></p>
+<h4 id="概要设计"><a href="#概要设计" class="headerlink" title="概要设计"></a>概要设计</h4><p>写完架构设计后，鱼皮开始对着产品妹子写的 PRD（产品需求文档），分析需求，然后依然是从整体到局部，先整理出系统需要的功能模块，再分析每个功能模块内有哪些子模块。</p>
+<p>和抽象的架构设计相比，概要设计和需求的关系更紧密，是对架构设计的细化。</p>
+<p>打个比方大家就明白了，你要盖一栋楼，架构设计就是从整体来考虑，总共有几层、每层管道怎么接、每层有几户、地基怎么打等；而概要设计就是考虑每户套件的内部怎么划分，哪里是客厅、哪里是卫生间。</p>
+<blockquote>
+<p>很多情况下，概要设计和架构设计可能会在一个文档中进行，划分并不明确。</p>
+</blockquote>
+<h4 id="详细设计"><a href="#详细设计" class="headerlink" title="详细设计"></a>详细设计</h4><p>想好系统有哪些功能后，鱼皮就开始具体分析每个功能如何实现，用到哪些算法、需要注重哪些细节等。</p>
+<h4 id="方案对齐"><a href="#方案对齐" class="headerlink" title="方案对齐"></a>方案对齐</h4><p>写好设计文档后，下次会议上，鱼皮和其他的开发同学（前端、后端等）一起针对自己设计的方案展开讨论，最终产生一个统一的方案，然后大家分工去做就好了。</p>
+<h4 id="测试用例设计"><a href="#测试用例设计" class="headerlink" title="测试用例设计"></a>测试用例设计</h4><p>为了保证系统功能的正常稳定，测试同学（或者叫 QA）是非常重要的，测试不是像我们自己做项目一样对着网页点几下就 ok 了。</p>
+<p>在大公司中，为了保证测试的覆盖度、提高测试效率，一般是要设计测试用例的，比如：用户点击 “登录”，未传任何数据，期望结果是警告用户输入用户名和密码。</p>
+<p><img src="https://qiniuyun.code-nav.cn/product-content-testcase-1X3-12439a68c4.png" alt="测试用例管理"></p>
+<p>测试用例设计完后，需要其他同学一起来评审把关，而不是只交给测试同学。因为一个人很容易忽略掉很多测试细节，最好让更熟悉代码的开发同学一起帮忙补充。</p>
+<p>鱼皮自己也写了几个测试可能会遗漏的用例，和测试同学一起进行了确认，尽量让问题暴露在测试阶段而不是线上。</p>
+<h3 id="研发准备"><a href="#研发准备" class="headerlink" title="研发准备"></a>研发准备</h3><p>写了快一周的设计文档，终于准备开始动手搭建项目了。但在此之前，还有一些准备工作要进行。</p>
+<h4 id="技术预研"><a href="#技术预研" class="headerlink" title="技术预研"></a>技术预研</h4><p>如今技术发展太快，新技术层出不穷，所以鱼皮首先对项目中需要或可能需要用到的技术进行了调研。</p>
+<h4 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h4><p>通过调研，鱼皮得到了几个可以满足需求的技术，但他开始纠结：这么多技术，我该用哪一个呢？是用 SSM 框架还是 Play 框架呢？用 guava 包还是 Apache Commons 呢？</p>
+<p>鱼皮又打开了写文档软件，开始对比不同技术的优劣，头疼啊，技术选型要考量的因素太多了，比如：</p>
+<ul>
+<li>单从技术考虑：性能、易用性、稳定性、主流程度和生态、文档详细度</li>
+<li>结合团队：团队成员对技术的熟悉度、掌控度（有无精通该技术的人）</li>
+<li>结合业务：是否适应业务的量级（单机 or 微服务）、是否适应业务（读多、写多 or 分析多）</li>
+</ul>
+<p>对于关键的项目，鱼皮自己还不敢完全确定选型，因此在写好自己的选型文档后，与同事和 Leader 一起讨论，才最终确认。</p>
+<h4 id="资源申请"><a href="#资源申请" class="headerlink" title="资源申请"></a>资源申请</h4><p>确认好技术后，就要申请资源。比如鱼皮用到了 MySQL 数据库，但是这个 MySQL 从哪儿来呢？</p>
+<p>以前的话，鱼皮都是去买一台云服务器，自己搭建 MySQL。但是在企业中，一般是有集中管理和分配资源的平台的，直接到平台填写预算、等领导审批、然后等着下发资源就好了。千万不能私自用自己的或买外部的服务器来部署项目，不安全！</p>
+<p>鱼皮这次直接申请到了 2 万多一年的云数据库，真的是爽死了。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140804895.png"></p>
+<h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><p>申请好数据库等资源后，鱼皮按照申请机器的版本搭建了一模一样的本地开发环境和测试环境，后面就可以直接连接了。</p>
+<h4 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h4><p>环境准备妥当后，由于是新项目，鱼皮要搞一个最小可运行的初始化项目 Demo，使用 <strong>脚手架</strong> 自动生成代码，而不是从零开始一个个新建文件、手敲重复代码。</p>
+<h4 id="依赖安装"><a href="#依赖安装" class="headerlink" title="依赖安装"></a>依赖安装</h4><p>生成了项目代码后，鱼皮使用包管理工具（前端 yarn、Java Maven &#x2F;  Gradle 等）自动安装依赖，然后项目 Demo 就可以运行啦！</p>
+<h3 id="研发阶段"><a href="#研发阶段" class="headerlink" title="研发阶段"></a>研发阶段</h3><p>前期准备完成后，这才到了程序员朋友们最熟悉的写代码环节，也是鱼皮最爱的环节。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140724830.png"></p>
+<p>因为之前设计方案时需要保持冷静、仔细思考，没法边听歌儿边做；而方案设计好后，已经明确了该怎么做，写代码实现就很简单了，顶多是遇到一些坑，上网搜索去解决就好了。</p>
+<h4 id="本地开发"><a href="#本地开发" class="headerlink" title="本地开发"></a>本地开发</h4><p>开发时，一般鱼皮会先在本地写代码，通过配置热更新工具，实现代码更新时自动重新编译打包，而不用手动重启项目，大大提高了开发效率。</p>
+<p>对了，企业开发都会使用版本控制系统的，比如 Git，开发前记得先创建一个自己的分支，在这个分支上开发。</p>
+<h4 id="远程开发"><a href="#远程开发" class="headerlink" title="远程开发"></a>远程开发</h4><p>现在还有一种比较流行的远程开发方式，就是可以像编辑本地文件一样编辑远程文件，直接修改服务器上的代码。一般我们每位研发同学是有自己的开发机的，通过远程开发就省去了反复部署调试的麻烦，提高效率。一般用 VSCode 等开发工具，安装远程开发插件就可以实现了。</p>
+<h4 id="代码优化"><a href="#代码优化" class="headerlink" title="代码优化"></a>代码优化</h4><p>鱼皮在写代码的时候，始终保持主动优化代码的好习惯，注重代码的时空复杂度；并且当重复代码多了，会想办法抽象成函数或者使用设计模式。之前专门写文章分享过我的编程习惯：<a href="https://mp.weixin.qq.com/s/df5JMmBbw294y2sAPMwGbA">我写代码时的小倔强</a> 。</p>
+<h4 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h4><p>注意！不要听到测试就以为是测试同学的工作，开发同学也同样需要编写小粒度的测试来为自己的代码负责。</p>
+<p>鱼皮一般会为每个数据库读写函数和业务逻辑函数编写单元测试，像 Java 的话一般用 JUnit 等工具，还可以用 Jacoco 生成测试覆盖度报告。每次修改关键代码后，都要执行一遍单元测试，防止意外错误。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140554038.png" alt="Jacoco 测试覆盖度报告"></p>
+<h4 id="开发联调"><a href="#开发联调" class="headerlink" title="开发联调"></a>开发联调</h4><p>鱼皮终于写好了后端代码，也自测完成了，下面就是把写好的代码打包构建，然后把可执行项目包发布到测试服务器上，和前端同学一起联调，让他请求我的接口，验证系统的功能是否可用。</p>
+<h3 id="测试验证"><a href="#测试验证" class="headerlink" title="测试验证"></a>测试验证</h3><p>鱼皮和前端联调完毕后，告知了测试和产品同学。</p>
+<p>测试验证是企业中至关重要的环节，甚至可以说是最后一道防线。测试的目的是找 Bug，尽量发现系统中的问题，把它们扼杀在测试阶段。</p>
+<p>在企业中，测试验证又有很多类型。</p>
+<h4 id="集成测试"><a href="#集成测试" class="headerlink" title="集成测试"></a>集成测试</h4><p>集成测试比单元测试粒度更大，是把多个模块或代码单元放在一起，验证模块之间的集成和调用关系。</p>
+<p>因为单个函数的执行可能是正常的，但把多个函数组合在一起顺序调用，可能就会出现问题。</p>
+<p>打个比方，我们有个吃面包系统：</p>
+<p>功能 A：小鱼吃一个面包</p>
+<p>功能 B：小皮吃一个面包</p>
+<p>每次只有一个面包，独立执行功能 A 和 B 都是允许的。但如果两个一起执行，后执行的那个功能就会报错。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140428508.png"></p>
+<h4 id="系统测试"><a href="#系统测试" class="headerlink" title="系统测试"></a>系统测试</h4><p>系统测试比集成测试的粒度更大，测试对象是整个系统，不仅包括软件，还可能覆盖对硬件的测试。</p>
+<h4 id="产品体验"><a href="#产品体验" class="headerlink" title="产品体验"></a>产品体验</h4><p>除了测试同学要验证系统可用性，产品妹子也要体验下功能是否符合预期、是否易用。大多数情况下，产品会在体验时提出修改建议，开发可能还要再去做一些修改。</p>
+<h4 id="验收测试"><a href="#验收测试" class="headerlink" title="验收测试"></a>验收测试</h4><p>测试和产品妹子终于表示没有问题啦，那就到了最后一步，把整个产品或功能给最终的用户来体验。<del>老板</del> 用户说没问题，才是真的没问题！</p>
+<h3 id="提交阶段"><a href="#提交阶段" class="headerlink" title="提交阶段"></a>提交阶段</h3><p>系统没问题之后，鱼皮就可以把代码发布到远程仓库了，一般使用 Git 和 SVN 等版本控制系统。</p>
+<h4 id="代码提交"><a href="#代码提交" class="headerlink" title="代码提交"></a>代码提交</h4><p>鱼皮首先在本地触发代码提交（git commit），为保证规范，在大项目中一般会使用提交检测插件，防止你把错误的代码进行了提交。</p>
+<h4 id="代码推送"><a href="#代码推送" class="headerlink" title="代码推送"></a>代码推送</h4><p>下一步就是把本地的提交推送到远程的同名分支。一般大厂会有推送检测工具，检测代码的错误、圈复杂度、代码规范等，和提交检测一样，防止你把错误或不规范的代码进行了推送。</p>
+<h4 id="合并请求"><a href="#合并请求" class="headerlink" title="合并请求"></a>合并请求</h4><p>代码分支推送到远程之后，鱼皮发起了一个分支合并请求（MR），希望把该分支的代码合并到主干分支（没问题的代码）。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140308463.png" alt="发起新合并请求"></p>
+<h4 id="代码审查"><a href="#代码审查" class="headerlink" title="代码审查"></a>代码审查</h4><p>并不是发起了合并请求就能直接合并，还要通过代码审查，即 CR。</p>
+<p>审查又分为两种方式：人审和机审。</p>
+<p>相信不少同学都知道人审，一般是由你的上级和其他项目负责人来阅读和评论你的代码，觉得没问题就 Approve（通过），否则打回去修改。</p>
+<p>那机审是个啥呢？其实就是机器自动检测你的代码是否符合规范，是否能够成功自动化构建等，一般是由项目负责人配置的，可以帮助发现一些人工难以发现的问题。</p>
+<p>刚接触新项目的时候，鱼皮经常被机审折磨得苦不堪言，经常被提示一些莫名其妙的代码问题，比如加号要换行，文件行末要加空行等。但后来注意编码习惯后，就很自然地适应了，的确不错。</p>
+<h3 id="发布阶段"><a href="#发布阶段" class="headerlink" title="发布阶段"></a>发布阶段</h3><p>代码审查通过后，鱼皮的项目代码就可以发布上线啦。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210613143744811.png"></p>
+<h4 id="打包构建"><a href="#打包构建" class="headerlink" title="打包构建"></a>打包构建</h4><p>传统上线方式是开发人员到正式服务器上拉取代码，然后安装依赖，再通过工具把代码打包构建，得到部署包，通过 Nginx、Tomcat、Docker 等技术运行。</p>
+<p>但这样效率很低，有很多重复工作。所以大厂一般是用自动化构建的，像 Jenkins、各种 CI &#x2F; CD 工具等。代码合并到主分之后，由机器把代码打包构建为最终的部署包。</p>
+<h4 id="预发布"><a href="#预发布" class="headerlink" title="预发布"></a>预发布</h4><p>为了防止上线出问题，一般我们会先在预发布环境部署项目，再观察一下是否能够正常运行。</p>
+<h4 id="正式发布"><a href="#正式发布" class="headerlink" title="正式发布"></a>正式发布</h4><p>预发布测试正常后，鱼皮终于等到了上线的这一刻。大项目一般都会部署在多台机器上，所以不可能一台台登录机器去发布部署包。</p>
+<p>通常公司会提供可视化发布平台，点选需要发布机器（一般先灰度，选一小部分机器，再全量发布），点击一键发布，等项目管理员审批通过之后，就交给机器自动部署吧！</p>
+<h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>鱼皮曾天真地以为项目上线之后，就可以高枕无忧了。但后来发现，项目上线之后，同样需要保持警觉。虽然已经测试过，但仍然时不时会出现个预期之外的小 Bug，还是很考验心态的。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140135097.png"></p>
+<p>来看看上线之后，鱼皮做了哪些事呢？</p>
+<h4 id="监控运维"><a href="#监控运维" class="headerlink" title="监控运维"></a>监控运维</h4><p>鱼皮会定期查看项目的监控面板，观察项目的运行情况，机器的负载等。</p>
+<h4 id="统计分析"><a href="#统计分析" class="headerlink" title="统计分析"></a>统计分析</h4><p>鱼皮在代码中添加了一些日志，可以利用 ELK 等日志收集可视化平台对这些日志进行分析，从而感知到用户的行为，进一步优化业务和系统。</p>
+<p>比如我会统计用户执行 SQL 查询的耗时，对重复率高的慢 SQL 进行针对性地优化。</p>
+<h4 id="事件反馈"><a href="#事件反馈" class="headerlink" title="事件反馈"></a>事件反馈</h4><p>有的时候，用户自己都不能清楚地描述 Bug，而且历史 Bug 也不方便找到。所以公司内部一般会有事件反馈平台，产品等内部同学在接收到 Bug 时，会在该平台发布一个 Bug 事件，详细描述 Bug 出现的时间、状况、详情等，便于我们开发集中分析和处理问题。</p>
+<p><img src="https://qiniuyun.code-nav.cn/image-20210712140028393.png" alt="事件反馈平台"></p>
+<h4 id="文档沉淀"><a href="#文档沉淀" class="headerlink" title="文档沉淀"></a>文档沉淀</h4><p>每次上线了新功能和项目，鱼皮都会通过写文档来记录项目的背景、设计方案、开发过程和一些坑点，便于后续其他同学了解项目，这是非常重要的！利人利己。</p>
+<p>曾经分享过我的写文档技巧：<a href="https://mp.weixin.qq.com/s/oQTksFE-cPYRKGJnr71-kw">如何写好文档？</a></p>
+<h4 id="迭代优化"><a href="#迭代优化" class="headerlink" title="迭代优化"></a>迭代优化</h4><p>最后，一个需求的结束往往只是另一个需求的开始。像鱼皮最近在跟进的项目，一期做完做二期，二期还没做完三期就来了；还要抽出时间去优化以前的代码，这日子遥遥无期，没盼头啊！</p>
+<hr>
+<p>看完本文后，欢迎阅读我之前的这篇文章：<a href="https://mp.weixin.qq.com/s/RyqO8ry29zAL40ToVitxTQ">大厂机密！30 个提升团队研发效能的锦囊</a> ，了解更多大厂技术。</p>
+]]></content>
+      <categories>
+        <category>转载</category>
+        <category>编程学习</category>
+      </categories>
+      <tags>
+        <tag>鱼皮</tag>
+        <tag>编程学习路线</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最初の上线</title>
+    <url>/posts/37595.html</url>
+    <content><![CDATA[<h2 id="上线历程"><a href="#上线历程" class="headerlink" title="上线历程"></a>上线历程</h2><p> 个人站上线后我想用GitHub再部署一个网站，毕竟是主流的平台，往后的一些操作（可能？）也会方便一些。</p>
+<p> 随后我按照小红书博主 “学习Python的正确姿势” 的《教你从0开始搭建一个属于自己的个人网站》^1进行了部分设置，但是可能会在一些环节出现一些小问题。个人建议去看b站up 小宇boi 的视频^2，适当补充一些操作（我自己补充了第7节中的一些操作，不知道是不是画蛇添足hhh）</p>
+<div class="note flat warning flat"><p><strong>注意！</strong>小宇的视频中没有提及<strong>要在根目录config中的deploy下补充branch参数，这个是必须的！</strong></p>
+<p>并且注意，这个branch是仓库的存代码的那个分支，比如Gitee依旧默认master分支；GitHub仓库的默认分支则2020年后从master改为main</p>
+<p><img src="https://pic.imgdb.cn/item/64835cd71ddac507cc8a9b65.jpg"></p>
+</div>
+
+<p> 全部都弄好之后我的Github pages部署的博客页面却显示无法访问（不是GitHub pages页面）。后来在4&#x2F;10修复完WLAN显示无Internet的问题^3之后再重新打开网址就能登上了，虽然有些慢。</p>
+<p>^1: <a href="https://www.bilibili.com/video/BV1ts4y1f7Gu/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">超详细！0成本搭建个人网站！！【建议收藏】_哔哩哔哩_bilibili</a></p>
+<p>^2: <a href="https://www.xiaohongshu.com/user/profile/5b5ed4a111be10431eaca718/642d385d0000000013013b36">教你从0开始搭建一个属于自己的个人网站</a></p>
+<p>^3: 抖音@联想小新的《如何修复：无法访问internet网络连接？》</p>
+<p><strong>此为github站，Gitee站：<a href="https://ganzhetx.gitee.io/">https://ganzhetx.gitee.io</a></strong></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欢迎信息显示地理位置</title>
+    <url>/posts/14542.html</url>
+    <content><![CDATA[<p>详见：<a href="https://ichika.cc/Article/beautiful_IPLocation/">给博客添加腾讯地图定位并制作个性欢迎</a><br>效果：<br><img src="https://pic.imgdb.cn/item/64837e271ddac507ccba326a.webp"></p>
+<h1 id="获取API-Key"><a href="#获取API-Key" class="headerlink" title="获取API Key"></a>获取API Key</h1><p>进入腾讯位置服务应用管理界面，点击创建应用，应用名称和类型随便填。在新创建的应用中点击添加key，产品选择WebServiceAPI，域名白名单尽量不填，把得到的key记下。</p>
+<div class="note flat warning flat"><p>如果填了白名单，<mark class="hl-label blue">记得把localhost也加上</mark> ，不清楚就别填就行，不然显示不出来</p>
+</div>
+
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="新建-BlogRoot-source-js-txmap-js，并写入如下代码，记得要替换："><a href="#新建-BlogRoot-source-js-txmap-js，并写入如下代码，记得要替换：" class="headerlink" title="新建[BlogRoot]\source\js\txmap.js，并写入如下代码，记得要替换："></a>新建[BlogRoot]\source\js\txmap.js，并写入如下代码，记得要替换<mark class="hl-label default">第6行当key和第32行的经纬度</mark> ：</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">//get请求</span></span><br><span class="line">$.<span class="title function_">ajax</span>(&#123;</span><br><span class="line">    <span class="attr">type</span>: <span class="string">&#x27;get&#x27;</span>,</span><br><span class="line">    <span class="attr">url</span>: <span class="string">&#x27;https://apis.map.qq.com/ws/location/v1/ip&#x27;</span>,</span><br><span class="line">    <span class="attr">data</span>: &#123;</span><br><span class="line">        <span class="attr">key</span>: <span class="string">&#x27;你的key&#x27;</span>,</span><br><span class="line">        <span class="attr">output</span>: <span class="string">&#x27;jsonp&#x27;</span>,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">dataType</span>: <span class="string">&#x27;jsonp&#x27;</span>,</span><br><span class="line">    <span class="attr">success</span>: <span class="keyword">function</span> (<span class="params">res</span>) &#123;</span><br><span class="line">        ipLoacation = res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getDistance</span>(<span class="params">e1, n1, e2, n2</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> R = <span class="number">6371</span></span><br><span class="line">    <span class="keyword">const</span> &#123; sin, cos, asin, <span class="variable constant_">PI</span>, hypot &#125; = <span class="title class_">Math</span></span><br><span class="line">    <span class="keyword">let</span> <span class="title function_">getPoint</span> = (<span class="params">e, n</span>) =&gt; &#123;</span><br><span class="line">        e *= <span class="variable constant_">PI</span> / <span class="number">180</span></span><br><span class="line">        n *= <span class="variable constant_">PI</span> / <span class="number">180</span></span><br><span class="line">        <span class="keyword">return</span> &#123; <span class="attr">x</span>: <span class="title function_">cos</span>(n) * <span class="title function_">cos</span>(e), <span class="attr">y</span>: <span class="title function_">cos</span>(n) * <span class="title function_">sin</span>(e), <span class="attr">z</span>: <span class="title function_">sin</span>(n) &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> a = <span class="title function_">getPoint</span>(e1, n1)</span><br><span class="line">    <span class="keyword">let</span> b = <span class="title function_">getPoint</span>(e2, n2)</span><br><span class="line">    <span class="keyword">let</span> c = <span class="title function_">hypot</span>(a.<span class="property">x</span> - b.<span class="property">x</span>, a.<span class="property">y</span> - b.<span class="property">y</span>, a.<span class="property">z</span> - b.<span class="property">z</span>)</span><br><span class="line">    <span class="keyword">let</span> r = <span class="title function_">asin</span>(c / <span class="number">2</span>) * <span class="number">2</span> * R</span><br><span class="line">    <span class="keyword">return</span> <span class="title class_">Math</span>.<span class="title function_">round</span>(r);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">showWelcome</span>(<span class="params"></span>) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> dist = <span class="title function_">getDistance</span>(<span class="number">113.34499552</span>, <span class="number">23.15537143</span>, ipLoacation.<span class="property">result</span>.<span class="property">location</span>.<span class="property">lng</span>, ipLoacation.<span class="property">result</span>.<span class="property">location</span>.<span class="property">lat</span>); <span class="comment">//这里换成自己的经纬度</span></span><br><span class="line">    <span class="keyword">let</span> pos = ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">nation</span>;</span><br><span class="line">    <span class="keyword">let</span> ip;</span><br><span class="line">    <span class="keyword">let</span> posdesc;</span><br><span class="line">    <span class="comment">//根据国家、省份、城市信息自定义欢迎语</span></span><br><span class="line">    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">nation</span>) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;日本&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;よろしく，一起去看樱花吗&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;美国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;Let us live in peace!&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;英国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;想同你一起夜乘伦敦眼&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;俄罗斯&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;干了这瓶伏特加！&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;法国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;C&#x27;est La Vie&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;德国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;Die Zeit verging im Fluge.&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;澳大利亚&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;一起去大堡礁吧！&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;加拿大&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;拾起一片枫叶赠予你&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;中国&quot;</span>:</span><br><span class="line">            pos = ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">province</span> + <span class="string">&quot; &quot;</span> + ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span> + <span class="string">&quot; &quot;</span> + ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">district</span>;</span><br><span class="line">            ip = ipLoacation.<span class="property">result</span>.<span class="property">ip</span>;</span><br><span class="line">            <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">province</span>) &#123;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;北京市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;北——京——欢迎你~~~&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;天津市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;讲段相声吧。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;河北省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;山西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;展开坐具长三尺，已占山河五百余。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;内蒙古自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;天苍苍，野茫茫，风吹草低见牛羊。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;辽宁省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;我想吃烤鸡架！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;吉林省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;状元阁就是东北烧烤之王。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;黑龙江省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;很喜欢哈尔滨大剧院。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;上海市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;众所周知，中国只有两个城市。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;江苏省&quot;</span>:</span><br><span class="line">                    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span>) &#123;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;南京市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;这是我挺想去的城市啦。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;苏州市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;上有天堂，下有苏杭。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="attr">default</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;散装是必须要散装的。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;浙江省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;东风渐绿西湖柳，雁已还人未南归。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;河南省&quot;</span>:</span><br><span class="line">                    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span>) &#123;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;郑州市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;豫州之域，天地之中。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;南阳市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;臣本布衣，躬耕于南阳。此南阳非彼南阳！&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;驻马店市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;开封市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;刚正不阿包青天。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;洛阳市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;洛阳牡丹甲天下。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="attr">default</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;可否带我品尝河南烩面啦？&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;安徽省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;蚌埠住了，芜湖起飞。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;福建省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;井邑白云间，岩城远带山。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;江西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;落霞与孤鹜齐飞，秋水共长天一色。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;山东省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;遥望齐州九点烟，一泓海水杯中泻。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;湖北省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;来碗热干面！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;湖南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;74751，长沙斯塔克。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;广东省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;老板来两斤福建人。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;广西壮族自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;桂林山水甲天下。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;海南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;朝观日出逐白浪，夕看云起收霞光。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;四川省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;康康川妹子。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;贵州省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;茅台，学生，再塞200。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;云南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;玉龙飞舞云缠绕，万仞冰川直耸天。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;西藏自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;躺在茫茫草原上，仰望蓝天。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;陕西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;来份臊子面加馍。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;甘肃省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;羌笛何须怨杨柳，春风不度玉门关。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;青海省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;牛肉干和老酸奶都好好吃。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;宁夏回族自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;大漠孤烟直，长河落日圆。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;新疆维吾尔自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;驼铃古道丝绸路，胡马犹闻唐汉风。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;台湾省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;我在这头，大陆在那头。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;香港特别行政区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;永定贼有残留地鬼嚎，迎击光非岁玉。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;澳门特别行政区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;性感荷官，在线发牌。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="attr">default</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;带我去你的城市逛逛吧！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="attr">default</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;带我去你的国家逛逛吧。&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//根据本地时间切换欢迎语</span></span><br><span class="line">    <span class="keyword">let</span> timeChange;</span><br><span class="line">    <span class="keyword">let</span> date = <span class="keyword">new</span> <span class="title class_">Date</span>();</span><br><span class="line">    <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">5</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">11</span>) timeChange = <span class="string">&quot;&lt;span&gt;上午好&lt;/span&gt;，一日之计在于晨！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">11</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">13</span>) timeChange = <span class="string">&quot;&lt;span&gt;中午好&lt;/span&gt;，该摸鱼吃午饭了。&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">13</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">15</span>) timeChange = <span class="string">&quot;&lt;span&gt;下午好&lt;/span&gt;，懒懒地睡个午觉吧！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">15</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">16</span>) timeChange = <span class="string">&quot;&lt;span&gt;三点几啦&lt;/span&gt;，一起饮茶呀！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">16</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">19</span>) timeChange = <span class="string">&quot;&lt;span&gt;夕阳无限好！&lt;/span&gt;&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">19</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">24</span>) timeChange = <span class="string">&quot;&lt;span&gt;晚上好&lt;/span&gt;，夜生活嗨起来！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> timeChange = <span class="string">&quot;夜深了，早点休息，少熬夜。&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">//自定义文本和需要放的位置</span></span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;welcome-info&quot;</span>).<span class="property">innerHTML</span> =</span><br><span class="line">            <span class="string">`&lt;b&gt;&lt;center&gt;🎉 欢迎信息 🎉&lt;/center&gt;&amp;emsp;&amp;emsp;欢迎来自 &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;pos&#125;</span>&lt;/span&gt; 的小伙伴，<span class="subst">$&#123;timeChange&#125;</span>您现在距离站长约 &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;dist&#125;</span>&lt;/span&gt; 公里，当前的IP地址为： &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;ip&#125;</span>&lt;/span&gt;， <span class="subst">$&#123;posdesc&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (err) &#123;</span><br><span class="line">        <span class="comment">// console.log(&quot;Pjax无法获取#welcome-info元素🙄🙄🙄&quot;)</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">onload</span> = showWelcome;</span><br><span class="line"><span class="comment">// 如果使用了pjax在加上下面这行代码</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;pjax:complete&#x27;</span>, showWelcome);</span><br></pre></td></tr></table></figure>
+
+<h2 id="引入js"><a href="#引入js" class="headerlink" title="引入js"></a>引入js</h2><p>在主题配置文件[BlogRoot]_config.butterfly.yml中引入jQuery依赖和刚刚的js文件</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span> </span><br><span class="line">  <span class="attr">bottom:</span> </span><br><span class="line"><span class="string">+</span>    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># jQuery</span></span><br><span class="line"><span class="string">+</span>    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">data-pjax</span> <span class="string">src=&quot;/js/txmap.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 腾讯位置API</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="pug修改"><a href="#pug修改" class="headerlink" title="pug修改"></a>pug修改</h2><p>在需要展示文本的容器上添加相应id（welcome-info）就可以了，例如我想添加在网站公告栏信息的下方，于是就在[BlogRoot]\themes\butterfly\layout\includes\widget\card_announcement.pug的最后一行加上这个，缩进与上一行相同即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">    .announcement_content!= theme.aside.card_announcement.content</span><br><span class="line">    //- 添加欢迎访客的信息</span><br><span class="line">+    #welcome-info</span><br></pre></td></tr></table></figure>
+
+<h2 id="css自定义"><a href="#css自定义" class="headerlink" title="css自定义"></a>css自定义</h2><p>在custom.css自定义样式里添加如下代码，可以根据你自己的喜好去改</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 欢迎信息 */</span></span><br><span class="line"><span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">45deg</span>, <span class="number">#b9f4f3</span>, <span class="number">#e3fbf9</span>);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#212121</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h1><p>hexo二连即可看到效果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>补充Fomalhaut教程的疑难问题</tag>
+        <tag>花里胡哨</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站部署后“残缺”很多的解决办法</title>
+    <url>/posts/10021.html</url>
+    <content><![CDATA[<h1 id="deploy-branch值"><a href="#deploy-branch值" class="headerlink" title="deploy.branch值"></a>deploy.branch值</h1><p>这<strong>可能是一个很大的问题</strong>，如果你看的教程没有提及这一点的话</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://ganzhe2028.github.io/posts/37595.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ganzhe2028.github.io/posts/37595.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">最初の上线</div>
+            <div class="tag-link-sitename"> 我的另一篇文章</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<div class="note flat warning flat"><p><strong>注意！</strong>小宇的视频中没有提及<strong>要在根目录config中的deploy下补充branch参数，这个是必须的！</strong></p>
+<p>并且注意，这个branch是仓库的存代码的那个分支，比如Gitee依旧默认master分支；GitHub仓库的默认分支则2020年后从master改为main</p>
+<p><img src="https://pic.imgdb.cn/item/64835cd71ddac507cc8a9b65.jpg"></p>
+</div>
+
+<h1 id="css-js-img等图片加载异常"><a href="#css-js-img等图片加载异常" class="headerlink" title="css js img等图片加载异常"></a>css js img等图片加载异常</h1><p>这时会造成部署后的页面缺失很多内容和样式，应该检查：<br>​ 1.Gitee&#x2F;Github用户名、仓库名、仓库路径后缀是否统一<br>​ 2.可以在blog根目录配置文件中的deploy下补充一个branch: master(这个是部署页面时你选择的部署分支)<br>​ 3.尝试在部署好后的博客页面ctrl+F5强制刷新 或 在blog根目录中打开GBH输入hexo clean</p>
+<h1 id="一般加载问题（这类问题强制刷新yyds"><a href="#一般加载问题（这类问题强制刷新yyds" class="headerlink" title="一般加载问题（这类问题强制刷新yyds"></a>一般加载问题（这类问题强制刷新yyds</h1><p>这类情况一般文件并没有出错，而是浏览器缓存问题（例如小而美），包括多次hexo g、d、s等操作后都会产生缓存，增大负荷<br>此时建议：<br> 直接在部署好的博客页面ctrl+F5（GBH里hexo clean也可以。个人觉得前者快，因为一般都是在页面才发现不对，比如图片、文字缺失。后者需要未雨绸缪~）<br> 如果是手机端，建议下拉刷新、清除小而美等的缓存或者更换浏览器（即复制网址到小而美之外的、可以直接打开网址的浏览器中进入博客）。</p>
+<h1 id="养成好习惯"><a href="#养成好习惯" class="headerlink" title="养成好习惯"></a>养成好习惯</h1><div class="note info warning flat"><p>不管是在群里问别人还是怎么，<strong>出现异常第一时间看控制台报错</strong>，再来看终端，最后看代码部分。</p>
+</div>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>鱼佬Github Actions部署教程的一些小问题</title>
+    <url>/posts/38442.html</url>
+    <content><![CDATA[<p><strong>首先感谢鱼佬和店长的为大家提供的技术支持~</strong><br>本文所提及的Github Actions自动部署的教程来自：</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">安知鱼-使用 Github Action 自动部署</div>
+            <div class="tag-link-sitename">安知鱼</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="这些问题的起源"><a href="#这些问题的起源" class="headerlink" title="这些问题的起源"></a>这些问题的起源</h2><p>作为一个刚换上这个优秀主题的“破站”站主，在跟着鱼佬的Github Actions教程一起操作时出现了一些情况，花费5天才解决（太菜了），今天刚好解决了，就做一个记录吧~</p>
+<h2 id="“问题0”：关于要不要设仓库环境变量"><a href="#“问题0”：关于要不要设仓库环境变量" class="headerlink" title="“问题0”：关于要不要设仓库环境变量"></a>“问题0”：关于要不要设仓库环境变量</h2><p>其实我更推荐直接看鱼佬在B站上的视频教程，其实<strong>不用设仓库环境变量</strong>。</p>
+<h2 id="问题1：-git文件没删或没移到别的不属于博客文件夹的地方"><a href="#问题1：-git文件没删或没移到别的不属于博客文件夹的地方" class="headerlink" title="问题1：.git文件没删或没移到别的不属于博客文件夹的地方"></a>问题1：.git文件没删或没移到别的不属于博客文件夹的地方</h2><p>我使用win11，最后用everything搜索出来.git的（因为是隐藏文件夹，当然也可能有更简单的方法）。<br><strong>只需打开everything，搜索.git即可搜到隐藏的.git</strong></p>
+<h2 id="问题2：没配置也没删autodeploy中的番剧更新以及gulp"><a href="#问题2：没配置也没删autodeploy中的番剧更新以及gulp" class="headerlink" title="问题2：没配置也没删autodeploy中的番剧更新以及gulp"></a>问题2：没配置也没删autodeploy中的番剧更新以及gulp</h2><p>会导致Github仓库中的Actions中deploy显示静态文件环节部署失败。此时需要在autodeploy中删除默认应该是53和55行：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">生成静态文件</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          hexo clean</span></span><br><span class="line"><span class="string">          hexo bangumi -u #bilibili番剧更新    （53行）</span></span><br><span class="line"><span class="string">          hexo generate  </span></span><br><span class="line"><span class="string">          gulp    （55行）</span></span><br></pre></td></tr></table></figure>
+<div class="note warning flat"><p><em>注意！</em><br><strong>如果你全局安装过了gulp，比如按照鱼佬的pwa教程装过了gulp，那么就可以不删除gulp，并且gulp要在hexo g后面</strong>。<br>删除后即可正常运行Actions，不影响什么。</p>
+</div>
+
+
+<h2 id="问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’"><a href="#问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’" class="headerlink" title="问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’"></a>问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/HIt3L">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/HIt3L.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">如题</div>
+            <div class="tag-link-sitename">wwww00o</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+
+<h2 id="问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）"><a href="#问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）" class="headerlink" title="问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）"></a>问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）</h2><p>试着开&#x2F;关梯子，或者检查网络</p>
+<h2 id="一点建议"><a href="#一点建议" class="headerlink" title="一点建议"></a>一点建议</h2><p>如果使用原来你正在使用的本地博客代码碰到了其他困难无法解决，建议进行“置换”，保存这一版的hexo博客源代码文件，然后再搞一个，替换你改动的文件，最后重新安装好anzhiy主题，跟着鱼佬视频<a href="https://www.bilibili.com/video/BV19P41157no/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">hexo完成github action自动部署</a>直接配，亲测保证不出问题，除非你自己的电脑里有问题或者是步骤错误。</p>
+<p>如果自己真的解决不了，建议上网直接搜或者在<strong>鱼佬的Q群：464636182</strong>问。<br>附上<strong>店长Q群：589330978</strong>（无恶意，如有问题请留言，一定尽快配合解决）</p>
+<h2 id="csdn上的一些Git指令合集"><a href="#csdn上的一些Git指令合集" class="headerlink" title="csdn上的一些Git指令合集"></a>csdn上的一些Git指令合集</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/I50hp">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/I50hp.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">git指令大全</div>
+            <div class="tag-link-sitename">dengsilinming</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
+        <tag>新增</tag>
+        <tag>bug</tag>
+        <tag>Github Actions</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前端学习路线</title>
     <url>/posts/11053.html</url>
     <content><![CDATA[<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><blockquote>
@@ -5215,299 +5508,6 @@
       </tags>
   </entry>
   <entry>
-    <title>大厂研发流程</title>
-    <url>/posts/17989.html</url>
-    <content><![CDATA[<h1 id="一线大厂研发流程"><a href="#一线大厂研发流程" class="headerlink" title="一线大厂研发流程"></a>一线大厂研发流程</h1><p>大家好，我是鱼皮。</p>
-<p>很多未工作过的小伙伴都很好奇：企业中做项目是怎样的流程？尤其是大厂那些百万用户的项目，和自己学编程时做项目到底有什么区别呢？</p>
-<p><strong>实话说，区别可大了！</strong></p>
-<p>自己开发项目那是单打独斗，自己掌握命运，不会拖垮队友；但企业中开发项目是开团打本，大家是一根绳上的蚂蚱，每个人都会影响整个项目。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712012036685.png"></p>
-<p>我自己也在几家公司实习过，不得不说，大厂和其他公司的研发流程也有很大的区别。</p>
-<p>因此，对于大多数同学，如果没有在大厂工作过，对很多研发环节可能都是一无所知的。</p>
-<p>所以今天给大家揭秘一下大厂的项目研发流程，帮大家开拓思路。</p>
-<p>正好之前有同志质疑我的日常工作就只有写代码和摸鱼？！这篇文章就作为回击，让他明白，在大厂做项目，可不止写代码那么简单！</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712011545940.png"></p>
-<h2 id="大厂研发流程揭秘"><a href="#大厂研发流程揭秘" class="headerlink" title="大厂研发流程揭秘"></a>大厂研发流程揭秘</h2><p>为了规范团队、保证项目的进展，大厂研发流程通常还是比较复杂的。</p>
-<p>可以分为很多个阶段，用一张思维导图来概括：</p>
-<p><img src="https://qiniuyun.code-nav.cn/%E4%B8%80%E7%BA%BF%E5%A4%A7%E5%8E%82%E7%A0%94%E5%8F%91%E6%B5%81%E7%A8%8B%E6%8F%AD%E7%A7%98.png" alt="一线大厂研发流程导图"></p>
-<blockquote>
-<p>需要注意的是，以上阶段并不是完全按从上到下的顺序执行，阶段间可能存在交叉，比如 <strong>技术选型</strong> 其实在 <strong>设计阶段</strong> 就应该考虑。</p>
-</blockquote>
-<p>正式工作一年多，我也是经历过多次项目的完整研发流程的。下面就以我的视角，带大家快速过一遍~</p>
-<p>（为了内容更有趣，以下故事有虚构成分）</p>
-<h3 id="需求阶段"><a href="#需求阶段" class="headerlink" title="需求阶段"></a>需求阶段</h3><p>今天是周一，鱼皮像往常一样骑着他的小电动车来到公司，殊不知，等待他的是一场噩梦的开始。</p>
-<h4 id="需求产生"><a href="#需求产生" class="headerlink" title="需求产生"></a>需求产生</h4><p>上午十点，产品妹子找到鱼皮，告诉他：咱们的系统上线后，用户表示很多功能并不好用，需要大改。</p>
-<p>老板也找到鱼皮，告诉他：我今天打开页面竟然加载了十几秒，咱们这个系统的性能太烂了吧！</p>
-<p>鱼皮心想：呕豁，完蛋！估计得做个新的项目了，又要开会了。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712141645333.png"></p>
-<p>果然，没过多久，屏幕上弹出了一条 “欢迎加入会议” 的邀请。</p>
-<h4 id="需求评审"><a href="#需求评审" class="headerlink" title="需求评审"></a>需求评审</h4><p>第二天上午，老板、产品、测试、几位开发大哥和鱼皮一起来到会议室，具体讨论昨天提到的那些需求 <strong>是否合理、要不要做</strong> ？</p>
-<p>产品妹子打开文档，说到：这一期呢，我们要做这几个需求，下面我来详细讲一下，大家一起评估下有没有问题。</p>
-<h4 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h4><p>接下来，产品妹子正在对着屏幕侃侃而谈、疯狂输出时，旁边的开发大哥坐不住了。</p>
-<p>开发大哥：这个需求不合理啊！</p>
-<p>产品：为啥不合理？用户就是有这个需求啊！</p>
-<p>开发大哥：我知道，实现不了啊！</p>
-<p>于是开始了经典的产品开发撕逼大战。。。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712141444097.png"></p>
-<p>而鱼皮正躲在角落冷静分析 <strong>这个需求怎么做</strong> ，过了一会儿，提出了一种改动低、实现快的解决方案，平息了这场战争。</p>
-<h4 id="排期"><a href="#排期" class="headerlink" title="排期"></a>排期</h4><p>确定需求合理、可实现之后，产品妹子问到：那这个需求啥时候能上线呀？</p>
-<p>开发大哥：我这周忙，下周吧。</p>
-<p>产品：用户可能比较着急，这周就要呢！</p>
-<p>开发大哥：我知道，做不完啊！</p>
-<p>于是开始了经典的产品开发撕逼大战。。。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712141336633.png"></p>
-<p>鱼皮：要不我们把这个需求拆解为功能 A 和功能 B，这周我先把功能 A 做了，功能 B 排到下周二测试，下周四上线？</p>
-<p>就这样，我们一个个安排了需求的计划完成日期。</p>
-<h3 id="设计阶段"><a href="#设计阶段" class="headerlink" title="设计阶段"></a>设计阶段</h3><p>终于开完会了，看了下时间，都该下班了！</p>
-<p>唉，需求讨论完了，产品的工作是完成了一些，可鱼皮的工作才刚刚开始。</p>
-<p>急着开始写代码么？</p>
-<p><strong>不，想好怎么写代码比写代码更重要。</strong></p>
-<h4 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h4><p>鱼皮打开写文档软件和画图软件，开始梳理整个系统，从整体到局部，依次设计出系统的层次结构、各层间交互的接口和通讯方式、每层之间包含哪些重要模块、模块选择何种物理部署方式等。</p>
-<p><img src="https://qiniuyun.code-nav.cn/693275-20180308155215280-770422402.png" alt="知名框架 Dubbo 的架构设计"></p>
-<h4 id="概要设计"><a href="#概要设计" class="headerlink" title="概要设计"></a>概要设计</h4><p>写完架构设计后，鱼皮开始对着产品妹子写的 PRD（产品需求文档），分析需求，然后依然是从整体到局部，先整理出系统需要的功能模块，再分析每个功能模块内有哪些子模块。</p>
-<p>和抽象的架构设计相比，概要设计和需求的关系更紧密，是对架构设计的细化。</p>
-<p>打个比方大家就明白了，你要盖一栋楼，架构设计就是从整体来考虑，总共有几层、每层管道怎么接、每层有几户、地基怎么打等；而概要设计就是考虑每户套件的内部怎么划分，哪里是客厅、哪里是卫生间。</p>
-<blockquote>
-<p>很多情况下，概要设计和架构设计可能会在一个文档中进行，划分并不明确。</p>
-</blockquote>
-<h4 id="详细设计"><a href="#详细设计" class="headerlink" title="详细设计"></a>详细设计</h4><p>想好系统有哪些功能后，鱼皮就开始具体分析每个功能如何实现，用到哪些算法、需要注重哪些细节等。</p>
-<h4 id="方案对齐"><a href="#方案对齐" class="headerlink" title="方案对齐"></a>方案对齐</h4><p>写好设计文档后，下次会议上，鱼皮和其他的开发同学（前端、后端等）一起针对自己设计的方案展开讨论，最终产生一个统一的方案，然后大家分工去做就好了。</p>
-<h4 id="测试用例设计"><a href="#测试用例设计" class="headerlink" title="测试用例设计"></a>测试用例设计</h4><p>为了保证系统功能的正常稳定，测试同学（或者叫 QA）是非常重要的，测试不是像我们自己做项目一样对着网页点几下就 ok 了。</p>
-<p>在大公司中，为了保证测试的覆盖度、提高测试效率，一般是要设计测试用例的，比如：用户点击 “登录”，未传任何数据，期望结果是警告用户输入用户名和密码。</p>
-<p><img src="https://qiniuyun.code-nav.cn/product-content-testcase-1X3-12439a68c4.png" alt="测试用例管理"></p>
-<p>测试用例设计完后，需要其他同学一起来评审把关，而不是只交给测试同学。因为一个人很容易忽略掉很多测试细节，最好让更熟悉代码的开发同学一起帮忙补充。</p>
-<p>鱼皮自己也写了几个测试可能会遗漏的用例，和测试同学一起进行了确认，尽量让问题暴露在测试阶段而不是线上。</p>
-<h3 id="研发准备"><a href="#研发准备" class="headerlink" title="研发准备"></a>研发准备</h3><p>写了快一周的设计文档，终于准备开始动手搭建项目了。但在此之前，还有一些准备工作要进行。</p>
-<h4 id="技术预研"><a href="#技术预研" class="headerlink" title="技术预研"></a>技术预研</h4><p>如今技术发展太快，新技术层出不穷，所以鱼皮首先对项目中需要或可能需要用到的技术进行了调研。</p>
-<h4 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h4><p>通过调研，鱼皮得到了几个可以满足需求的技术，但他开始纠结：这么多技术，我该用哪一个呢？是用 SSM 框架还是 Play 框架呢？用 guava 包还是 Apache Commons 呢？</p>
-<p>鱼皮又打开了写文档软件，开始对比不同技术的优劣，头疼啊，技术选型要考量的因素太多了，比如：</p>
-<ul>
-<li>单从技术考虑：性能、易用性、稳定性、主流程度和生态、文档详细度</li>
-<li>结合团队：团队成员对技术的熟悉度、掌控度（有无精通该技术的人）</li>
-<li>结合业务：是否适应业务的量级（单机 or 微服务）、是否适应业务（读多、写多 or 分析多）</li>
-</ul>
-<p>对于关键的项目，鱼皮自己还不敢完全确定选型，因此在写好自己的选型文档后，与同事和 Leader 一起讨论，才最终确认。</p>
-<h4 id="资源申请"><a href="#资源申请" class="headerlink" title="资源申请"></a>资源申请</h4><p>确认好技术后，就要申请资源。比如鱼皮用到了 MySQL 数据库，但是这个 MySQL 从哪儿来呢？</p>
-<p>以前的话，鱼皮都是去买一台云服务器，自己搭建 MySQL。但是在企业中，一般是有集中管理和分配资源的平台的，直接到平台填写预算、等领导审批、然后等着下发资源就好了。千万不能私自用自己的或买外部的服务器来部署项目，不安全！</p>
-<p>鱼皮这次直接申请到了 2 万多一年的云数据库，真的是爽死了。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140804895.png"></p>
-<h4 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h4><p>申请好数据库等资源后，鱼皮按照申请机器的版本搭建了一模一样的本地开发环境和测试环境，后面就可以直接连接了。</p>
-<h4 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h4><p>环境准备妥当后，由于是新项目，鱼皮要搞一个最小可运行的初始化项目 Demo，使用 <strong>脚手架</strong> 自动生成代码，而不是从零开始一个个新建文件、手敲重复代码。</p>
-<h4 id="依赖安装"><a href="#依赖安装" class="headerlink" title="依赖安装"></a>依赖安装</h4><p>生成了项目代码后，鱼皮使用包管理工具（前端 yarn、Java Maven &#x2F;  Gradle 等）自动安装依赖，然后项目 Demo 就可以运行啦！</p>
-<h3 id="研发阶段"><a href="#研发阶段" class="headerlink" title="研发阶段"></a>研发阶段</h3><p>前期准备完成后，这才到了程序员朋友们最熟悉的写代码环节，也是鱼皮最爱的环节。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140724830.png"></p>
-<p>因为之前设计方案时需要保持冷静、仔细思考，没法边听歌儿边做；而方案设计好后，已经明确了该怎么做，写代码实现就很简单了，顶多是遇到一些坑，上网搜索去解决就好了。</p>
-<h4 id="本地开发"><a href="#本地开发" class="headerlink" title="本地开发"></a>本地开发</h4><p>开发时，一般鱼皮会先在本地写代码，通过配置热更新工具，实现代码更新时自动重新编译打包，而不用手动重启项目，大大提高了开发效率。</p>
-<p>对了，企业开发都会使用版本控制系统的，比如 Git，开发前记得先创建一个自己的分支，在这个分支上开发。</p>
-<h4 id="远程开发"><a href="#远程开发" class="headerlink" title="远程开发"></a>远程开发</h4><p>现在还有一种比较流行的远程开发方式，就是可以像编辑本地文件一样编辑远程文件，直接修改服务器上的代码。一般我们每位研发同学是有自己的开发机的，通过远程开发就省去了反复部署调试的麻烦，提高效率。一般用 VSCode 等开发工具，安装远程开发插件就可以实现了。</p>
-<h4 id="代码优化"><a href="#代码优化" class="headerlink" title="代码优化"></a>代码优化</h4><p>鱼皮在写代码的时候，始终保持主动优化代码的好习惯，注重代码的时空复杂度；并且当重复代码多了，会想办法抽象成函数或者使用设计模式。之前专门写文章分享过我的编程习惯：<a href="https://mp.weixin.qq.com/s/df5JMmBbw294y2sAPMwGbA">我写代码时的小倔强</a> 。</p>
-<h4 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h4><p>注意！不要听到测试就以为是测试同学的工作，开发同学也同样需要编写小粒度的测试来为自己的代码负责。</p>
-<p>鱼皮一般会为每个数据库读写函数和业务逻辑函数编写单元测试，像 Java 的话一般用 JUnit 等工具，还可以用 Jacoco 生成测试覆盖度报告。每次修改关键代码后，都要执行一遍单元测试，防止意外错误。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140554038.png" alt="Jacoco 测试覆盖度报告"></p>
-<h4 id="开发联调"><a href="#开发联调" class="headerlink" title="开发联调"></a>开发联调</h4><p>鱼皮终于写好了后端代码，也自测完成了，下面就是把写好的代码打包构建，然后把可执行项目包发布到测试服务器上，和前端同学一起联调，让他请求我的接口，验证系统的功能是否可用。</p>
-<h3 id="测试验证"><a href="#测试验证" class="headerlink" title="测试验证"></a>测试验证</h3><p>鱼皮和前端联调完毕后，告知了测试和产品同学。</p>
-<p>测试验证是企业中至关重要的环节，甚至可以说是最后一道防线。测试的目的是找 Bug，尽量发现系统中的问题，把它们扼杀在测试阶段。</p>
-<p>在企业中，测试验证又有很多类型。</p>
-<h4 id="集成测试"><a href="#集成测试" class="headerlink" title="集成测试"></a>集成测试</h4><p>集成测试比单元测试粒度更大，是把多个模块或代码单元放在一起，验证模块之间的集成和调用关系。</p>
-<p>因为单个函数的执行可能是正常的，但把多个函数组合在一起顺序调用，可能就会出现问题。</p>
-<p>打个比方，我们有个吃面包系统：</p>
-<p>功能 A：小鱼吃一个面包</p>
-<p>功能 B：小皮吃一个面包</p>
-<p>每次只有一个面包，独立执行功能 A 和 B 都是允许的。但如果两个一起执行，后执行的那个功能就会报错。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140428508.png"></p>
-<h4 id="系统测试"><a href="#系统测试" class="headerlink" title="系统测试"></a>系统测试</h4><p>系统测试比集成测试的粒度更大，测试对象是整个系统，不仅包括软件，还可能覆盖对硬件的测试。</p>
-<h4 id="产品体验"><a href="#产品体验" class="headerlink" title="产品体验"></a>产品体验</h4><p>除了测试同学要验证系统可用性，产品妹子也要体验下功能是否符合预期、是否易用。大多数情况下，产品会在体验时提出修改建议，开发可能还要再去做一些修改。</p>
-<h4 id="验收测试"><a href="#验收测试" class="headerlink" title="验收测试"></a>验收测试</h4><p>测试和产品妹子终于表示没有问题啦，那就到了最后一步，把整个产品或功能给最终的用户来体验。<del>老板</del> 用户说没问题，才是真的没问题！</p>
-<h3 id="提交阶段"><a href="#提交阶段" class="headerlink" title="提交阶段"></a>提交阶段</h3><p>系统没问题之后，鱼皮就可以把代码发布到远程仓库了，一般使用 Git 和 SVN 等版本控制系统。</p>
-<h4 id="代码提交"><a href="#代码提交" class="headerlink" title="代码提交"></a>代码提交</h4><p>鱼皮首先在本地触发代码提交（git commit），为保证规范，在大项目中一般会使用提交检测插件，防止你把错误的代码进行了提交。</p>
-<h4 id="代码推送"><a href="#代码推送" class="headerlink" title="代码推送"></a>代码推送</h4><p>下一步就是把本地的提交推送到远程的同名分支。一般大厂会有推送检测工具，检测代码的错误、圈复杂度、代码规范等，和提交检测一样，防止你把错误或不规范的代码进行了推送。</p>
-<h4 id="合并请求"><a href="#合并请求" class="headerlink" title="合并请求"></a>合并请求</h4><p>代码分支推送到远程之后，鱼皮发起了一个分支合并请求（MR），希望把该分支的代码合并到主干分支（没问题的代码）。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140308463.png" alt="发起新合并请求"></p>
-<h4 id="代码审查"><a href="#代码审查" class="headerlink" title="代码审查"></a>代码审查</h4><p>并不是发起了合并请求就能直接合并，还要通过代码审查，即 CR。</p>
-<p>审查又分为两种方式：人审和机审。</p>
-<p>相信不少同学都知道人审，一般是由你的上级和其他项目负责人来阅读和评论你的代码，觉得没问题就 Approve（通过），否则打回去修改。</p>
-<p>那机审是个啥呢？其实就是机器自动检测你的代码是否符合规范，是否能够成功自动化构建等，一般是由项目负责人配置的，可以帮助发现一些人工难以发现的问题。</p>
-<p>刚接触新项目的时候，鱼皮经常被机审折磨得苦不堪言，经常被提示一些莫名其妙的代码问题，比如加号要换行，文件行末要加空行等。但后来注意编码习惯后，就很自然地适应了，的确不错。</p>
-<h3 id="发布阶段"><a href="#发布阶段" class="headerlink" title="发布阶段"></a>发布阶段</h3><p>代码审查通过后，鱼皮的项目代码就可以发布上线啦。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210613143744811.png"></p>
-<h4 id="打包构建"><a href="#打包构建" class="headerlink" title="打包构建"></a>打包构建</h4><p>传统上线方式是开发人员到正式服务器上拉取代码，然后安装依赖，再通过工具把代码打包构建，得到部署包，通过 Nginx、Tomcat、Docker 等技术运行。</p>
-<p>但这样效率很低，有很多重复工作。所以大厂一般是用自动化构建的，像 Jenkins、各种 CI &#x2F; CD 工具等。代码合并到主分之后，由机器把代码打包构建为最终的部署包。</p>
-<h4 id="预发布"><a href="#预发布" class="headerlink" title="预发布"></a>预发布</h4><p>为了防止上线出问题，一般我们会先在预发布环境部署项目，再观察一下是否能够正常运行。</p>
-<h4 id="正式发布"><a href="#正式发布" class="headerlink" title="正式发布"></a>正式发布</h4><p>预发布测试正常后，鱼皮终于等到了上线的这一刻。大项目一般都会部署在多台机器上，所以不可能一台台登录机器去发布部署包。</p>
-<p>通常公司会提供可视化发布平台，点选需要发布机器（一般先灰度，选一小部分机器，再全量发布），点击一键发布，等项目管理员审批通过之后，就交给机器自动部署吧！</p>
-<h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>鱼皮曾天真地以为项目上线之后，就可以高枕无忧了。但后来发现，项目上线之后，同样需要保持警觉。虽然已经测试过，但仍然时不时会出现个预期之外的小 Bug，还是很考验心态的。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140135097.png"></p>
-<p>来看看上线之后，鱼皮做了哪些事呢？</p>
-<h4 id="监控运维"><a href="#监控运维" class="headerlink" title="监控运维"></a>监控运维</h4><p>鱼皮会定期查看项目的监控面板，观察项目的运行情况，机器的负载等。</p>
-<h4 id="统计分析"><a href="#统计分析" class="headerlink" title="统计分析"></a>统计分析</h4><p>鱼皮在代码中添加了一些日志，可以利用 ELK 等日志收集可视化平台对这些日志进行分析，从而感知到用户的行为，进一步优化业务和系统。</p>
-<p>比如我会统计用户执行 SQL 查询的耗时，对重复率高的慢 SQL 进行针对性地优化。</p>
-<h4 id="事件反馈"><a href="#事件反馈" class="headerlink" title="事件反馈"></a>事件反馈</h4><p>有的时候，用户自己都不能清楚地描述 Bug，而且历史 Bug 也不方便找到。所以公司内部一般会有事件反馈平台，产品等内部同学在接收到 Bug 时，会在该平台发布一个 Bug 事件，详细描述 Bug 出现的时间、状况、详情等，便于我们开发集中分析和处理问题。</p>
-<p><img src="https://qiniuyun.code-nav.cn/image-20210712140028393.png" alt="事件反馈平台"></p>
-<h4 id="文档沉淀"><a href="#文档沉淀" class="headerlink" title="文档沉淀"></a>文档沉淀</h4><p>每次上线了新功能和项目，鱼皮都会通过写文档来记录项目的背景、设计方案、开发过程和一些坑点，便于后续其他同学了解项目，这是非常重要的！利人利己。</p>
-<p>曾经分享过我的写文档技巧：<a href="https://mp.weixin.qq.com/s/oQTksFE-cPYRKGJnr71-kw">如何写好文档？</a></p>
-<h4 id="迭代优化"><a href="#迭代优化" class="headerlink" title="迭代优化"></a>迭代优化</h4><p>最后，一个需求的结束往往只是另一个需求的开始。像鱼皮最近在跟进的项目，一期做完做二期，二期还没做完三期就来了；还要抽出时间去优化以前的代码，这日子遥遥无期，没盼头啊！</p>
-<hr>
-<p>看完本文后，欢迎阅读我之前的这篇文章：<a href="https://mp.weixin.qq.com/s/RyqO8ry29zAL40ToVitxTQ">大厂机密！30 个提升团队研发效能的锦囊</a> ，了解更多大厂技术。</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-        <category>编程学习</category>
-      </categories>
-      <tags>
-        <tag>鱼皮</tag>
-        <tag>编程学习路线</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最初の上线</title>
-    <url>/posts/37595.html</url>
-    <content><![CDATA[<h2 id="上线历程"><a href="#上线历程" class="headerlink" title="上线历程"></a>上线历程</h2><p> 个人站上线后我想用GitHub再部署一个网站，毕竟是主流的平台，往后的一些操作（可能？）也会方便一些。</p>
-<p> 随后我按照小红书博主 “学习Python的正确姿势” 的《教你从0开始搭建一个属于自己的个人网站》^1进行了部分设置，但是可能会在一些环节出现一些小问题。个人建议去看b站up 小宇boi 的视频^2，适当补充一些操作（我自己补充了第7节中的一些操作，不知道是不是画蛇添足hhh）</p>
-<div class="note flat warning flat"><p><strong>注意！</strong>小宇的视频中没有提及<strong>要在根目录config中的deploy下补充branch参数，这个是必须的！</strong></p>
-<p>并且注意，这个branch是仓库的存代码的那个分支，比如Gitee依旧默认master分支；GitHub仓库的默认分支则2020年后从master改为main</p>
-<p><img src="https://pic.imgdb.cn/item/64835cd71ddac507cc8a9b65.jpg"></p>
-</div>
-
-<p> 全部都弄好之后我的Github pages部署的博客页面却显示无法访问（不是GitHub pages页面）。后来在4&#x2F;10修复完WLAN显示无Internet的问题^3之后再重新打开网址就能登上了，虽然有些慢。</p>
-<p>^1: <a href="https://www.bilibili.com/video/BV1ts4y1f7Gu/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">超详细！0成本搭建个人网站！！【建议收藏】_哔哩哔哩_bilibili</a></p>
-<p>^2: <a href="https://www.xiaohongshu.com/user/profile/5b5ed4a111be10431eaca718/642d385d0000000013013b36">教你从0开始搭建一个属于自己的个人网站</a></p>
-<p>^3: 抖音@联想小新的《如何修复：无法访问internet网络连接？》</p>
-<p><strong>此为github站，Gitee站：<a href="https://ganzhetx.gitee.io/">https://ganzhetx.gitee.io</a></strong></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>bug</tag>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>欢迎信息显示地理位置</title>
-    <url>/posts/14542.html</url>
-    <content><![CDATA[<p>详见：<a href="https://ichika.cc/Article/beautiful_IPLocation/">给博客添加腾讯地图定位并制作个性欢迎</a><br>效果：<br><img src="https://pic.imgdb.cn/item/64837e271ddac507ccba326a.webp"></p>
-<h1 id="获取API-Key"><a href="#获取API-Key" class="headerlink" title="获取API Key"></a>获取API Key</h1><p>进入腾讯位置服务应用管理界面，点击创建应用，应用名称和类型随便填。在新创建的应用中点击添加key，产品选择WebServiceAPI，域名白名单尽量不填，把得到的key记下。</p>
-<div class="note flat warning flat"><p>如果填了白名单，<mark class="hl-label blue">记得把localhost也加上</mark> ，不清楚就别填就行，不然显示不出来</p>
-</div>
-
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="新建-BlogRoot-source-js-txmap-js，并写入如下代码，记得要替换："><a href="#新建-BlogRoot-source-js-txmap-js，并写入如下代码，记得要替换：" class="headerlink" title="新建[BlogRoot]\source\js\txmap.js，并写入如下代码，记得要替换："></a>新建[BlogRoot]\source\js\txmap.js，并写入如下代码，记得要替换<mark class="hl-label default">第6行当key和第32行的经纬度</mark> ：</h2><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">//get请求</span></span><br><span class="line">$.<span class="title function_">ajax</span>(&#123;</span><br><span class="line">    <span class="attr">type</span>: <span class="string">&#x27;get&#x27;</span>,</span><br><span class="line">    <span class="attr">url</span>: <span class="string">&#x27;https://apis.map.qq.com/ws/location/v1/ip&#x27;</span>,</span><br><span class="line">    <span class="attr">data</span>: &#123;</span><br><span class="line">        <span class="attr">key</span>: <span class="string">&#x27;你的key&#x27;</span>,</span><br><span class="line">        <span class="attr">output</span>: <span class="string">&#x27;jsonp&#x27;</span>,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">dataType</span>: <span class="string">&#x27;jsonp&#x27;</span>,</span><br><span class="line">    <span class="attr">success</span>: <span class="keyword">function</span> (<span class="params">res</span>) &#123;</span><br><span class="line">        ipLoacation = res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getDistance</span>(<span class="params">e1, n1, e2, n2</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> R = <span class="number">6371</span></span><br><span class="line">    <span class="keyword">const</span> &#123; sin, cos, asin, <span class="variable constant_">PI</span>, hypot &#125; = <span class="title class_">Math</span></span><br><span class="line">    <span class="keyword">let</span> <span class="title function_">getPoint</span> = (<span class="params">e, n</span>) =&gt; &#123;</span><br><span class="line">        e *= <span class="variable constant_">PI</span> / <span class="number">180</span></span><br><span class="line">        n *= <span class="variable constant_">PI</span> / <span class="number">180</span></span><br><span class="line">        <span class="keyword">return</span> &#123; <span class="attr">x</span>: <span class="title function_">cos</span>(n) * <span class="title function_">cos</span>(e), <span class="attr">y</span>: <span class="title function_">cos</span>(n) * <span class="title function_">sin</span>(e), <span class="attr">z</span>: <span class="title function_">sin</span>(n) &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> a = <span class="title function_">getPoint</span>(e1, n1)</span><br><span class="line">    <span class="keyword">let</span> b = <span class="title function_">getPoint</span>(e2, n2)</span><br><span class="line">    <span class="keyword">let</span> c = <span class="title function_">hypot</span>(a.<span class="property">x</span> - b.<span class="property">x</span>, a.<span class="property">y</span> - b.<span class="property">y</span>, a.<span class="property">z</span> - b.<span class="property">z</span>)</span><br><span class="line">    <span class="keyword">let</span> r = <span class="title function_">asin</span>(c / <span class="number">2</span>) * <span class="number">2</span> * R</span><br><span class="line">    <span class="keyword">return</span> <span class="title class_">Math</span>.<span class="title function_">round</span>(r);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">showWelcome</span>(<span class="params"></span>) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> dist = <span class="title function_">getDistance</span>(<span class="number">113.34499552</span>, <span class="number">23.15537143</span>, ipLoacation.<span class="property">result</span>.<span class="property">location</span>.<span class="property">lng</span>, ipLoacation.<span class="property">result</span>.<span class="property">location</span>.<span class="property">lat</span>); <span class="comment">//这里换成自己的经纬度</span></span><br><span class="line">    <span class="keyword">let</span> pos = ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">nation</span>;</span><br><span class="line">    <span class="keyword">let</span> ip;</span><br><span class="line">    <span class="keyword">let</span> posdesc;</span><br><span class="line">    <span class="comment">//根据国家、省份、城市信息自定义欢迎语</span></span><br><span class="line">    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">nation</span>) &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;日本&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;よろしく，一起去看樱花吗&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;美国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;Let us live in peace!&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;英国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;想同你一起夜乘伦敦眼&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;俄罗斯&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;干了这瓶伏特加！&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;法国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;C&#x27;est La Vie&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;德国&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;Die Zeit verging im Fluge.&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;澳大利亚&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;一起去大堡礁吧！&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;加拿大&quot;</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;拾起一片枫叶赠予你&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> <span class="string">&quot;中国&quot;</span>:</span><br><span class="line">            pos = ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">province</span> + <span class="string">&quot; &quot;</span> + ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span> + <span class="string">&quot; &quot;</span> + ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">district</span>;</span><br><span class="line">            ip = ipLoacation.<span class="property">result</span>.<span class="property">ip</span>;</span><br><span class="line">            <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">province</span>) &#123;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;北京市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;北——京——欢迎你~~~&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;天津市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;讲段相声吧。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;河北省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;山西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;展开坐具长三尺，已占山河五百余。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;内蒙古自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;天苍苍，野茫茫，风吹草低见牛羊。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;辽宁省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;我想吃烤鸡架！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;吉林省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;状元阁就是东北烧烤之王。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;黑龙江省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;很喜欢哈尔滨大剧院。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;上海市&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;众所周知，中国只有两个城市。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;江苏省&quot;</span>:</span><br><span class="line">                    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span>) &#123;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;南京市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;这是我挺想去的城市啦。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;苏州市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;上有天堂，下有苏杭。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="attr">default</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;散装是必须要散装的。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;浙江省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;东风渐绿西湖柳，雁已还人未南归。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;河南省&quot;</span>:</span><br><span class="line">                    <span class="keyword">switch</span> (ipLoacation.<span class="property">result</span>.<span class="property">ad_info</span>.<span class="property">city</span>) &#123;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;郑州市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;豫州之域，天地之中。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;南阳市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;臣本布衣，躬耕于南阳。此南阳非彼南阳！&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;驻马店市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;开封市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;刚正不阿包青天。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="keyword">case</span> <span class="string">&quot;洛阳市&quot;</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;洛阳牡丹甲天下。&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                        <span class="attr">default</span>:</span><br><span class="line">                            posdesc = <span class="string">&quot;可否带我品尝河南烩面啦？&quot;</span>;</span><br><span class="line">                            <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;安徽省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;蚌埠住了，芜湖起飞。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;福建省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;井邑白云间，岩城远带山。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;江西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;落霞与孤鹜齐飞，秋水共长天一色。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;山东省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;遥望齐州九点烟，一泓海水杯中泻。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;湖北省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;来碗热干面！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;湖南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;74751，长沙斯塔克。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;广东省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;老板来两斤福建人。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;广西壮族自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;桂林山水甲天下。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;海南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;朝观日出逐白浪，夕看云起收霞光。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;四川省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;康康川妹子。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;贵州省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;茅台，学生，再塞200。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;云南省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;玉龙飞舞云缠绕，万仞冰川直耸天。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;西藏自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;躺在茫茫草原上，仰望蓝天。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;陕西省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;来份臊子面加馍。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;甘肃省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;羌笛何须怨杨柳，春风不度玉门关。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;青海省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;牛肉干和老酸奶都好好吃。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;宁夏回族自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;大漠孤烟直，长河落日圆。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;新疆维吾尔自治区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;驼铃古道丝绸路，胡马犹闻唐汉风。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;台湾省&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;我在这头，大陆在那头。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;香港特别行政区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;永定贼有残留地鬼嚎，迎击光非岁玉。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&quot;澳门特别行政区&quot;</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;性感荷官，在线发牌。&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="attr">default</span>:</span><br><span class="line">                    posdesc = <span class="string">&quot;带我去你的城市逛逛吧！&quot;</span>;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        <span class="attr">default</span>:</span><br><span class="line">            posdesc = <span class="string">&quot;带我去你的国家逛逛吧。&quot;</span>;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//根据本地时间切换欢迎语</span></span><br><span class="line">    <span class="keyword">let</span> timeChange;</span><br><span class="line">    <span class="keyword">let</span> date = <span class="keyword">new</span> <span class="title class_">Date</span>();</span><br><span class="line">    <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">5</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">11</span>) timeChange = <span class="string">&quot;&lt;span&gt;上午好&lt;/span&gt;，一日之计在于晨！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">11</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">13</span>) timeChange = <span class="string">&quot;&lt;span&gt;中午好&lt;/span&gt;，该摸鱼吃午饭了。&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">13</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">15</span>) timeChange = <span class="string">&quot;&lt;span&gt;下午好&lt;/span&gt;，懒懒地睡个午觉吧！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">15</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">16</span>) timeChange = <span class="string">&quot;&lt;span&gt;三点几啦&lt;/span&gt;，一起饮茶呀！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">16</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">19</span>) timeChange = <span class="string">&quot;&lt;span&gt;夕阳无限好！&lt;/span&gt;&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (date.<span class="title function_">getHours</span>() &gt;= <span class="number">19</span> &amp;&amp; date.<span class="title function_">getHours</span>() &lt; <span class="number">24</span>) timeChange = <span class="string">&quot;&lt;span&gt;晚上好&lt;/span&gt;，夜生活嗨起来！&quot;</span>;</span><br><span class="line">    <span class="keyword">else</span> timeChange = <span class="string">&quot;夜深了，早点休息，少熬夜。&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">//自定义文本和需要放的位置</span></span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;welcome-info&quot;</span>).<span class="property">innerHTML</span> =</span><br><span class="line">            <span class="string">`&lt;b&gt;&lt;center&gt;🎉 欢迎信息 🎉&lt;/center&gt;&amp;emsp;&amp;emsp;欢迎来自 &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;pos&#125;</span>&lt;/span&gt; 的小伙伴，<span class="subst">$&#123;timeChange&#125;</span>您现在距离站长约 &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;dist&#125;</span>&lt;/span&gt; 公里，当前的IP地址为： &lt;span style=&quot;color:var(--theme-color)&quot;&gt;<span class="subst">$&#123;ip&#125;</span>&lt;/span&gt;， <span class="subst">$&#123;posdesc&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (err) &#123;</span><br><span class="line">        <span class="comment">// console.log(&quot;Pjax无法获取#welcome-info元素🙄🙄🙄&quot;)</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">onload</span> = showWelcome;</span><br><span class="line"><span class="comment">// 如果使用了pjax在加上下面这行代码</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;pjax:complete&#x27;</span>, showWelcome);</span><br></pre></td></tr></table></figure>
-
-<h2 id="引入js"><a href="#引入js" class="headerlink" title="引入js"></a>引入js</h2><p>在主题配置文件[BlogRoot]_config.butterfly.yml中引入jQuery依赖和刚刚的js文件</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span> </span><br><span class="line">  <span class="attr">bottom:</span> </span><br><span class="line"><span class="string">+</span>    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">src=&quot;https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># jQuery</span></span><br><span class="line"><span class="string">+</span>    <span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">async</span> <span class="string">data-pjax</span> <span class="string">src=&quot;/js/txmap.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># 腾讯位置API</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="pug修改"><a href="#pug修改" class="headerlink" title="pug修改"></a>pug修改</h2><p>在需要展示文本的容器上添加相应id（welcome-info）就可以了，例如我想添加在网站公告栏信息的下方，于是就在[BlogRoot]\themes\butterfly\layout\includes\widget\card_announcement.pug的最后一行加上这个，缩进与上一行相同即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">    .announcement_content!= theme.aside.card_announcement.content</span><br><span class="line">    //- 添加欢迎访客的信息</span><br><span class="line">+    #welcome-info</span><br></pre></td></tr></table></figure>
-
-<h2 id="css自定义"><a href="#css自定义" class="headerlink" title="css自定义"></a>css自定义</h2><p>在custom.css自定义样式里添加如下代码，可以根据你自己的喜好去改</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 欢迎信息 */</span></span><br><span class="line"><span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">45deg</span>, <span class="number">#b9f4f3</span>, <span class="number">#e3fbf9</span>);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#212121</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h1><p>hexo二连即可看到效果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>补充Fomalhaut教程的疑难问题</tag>
-        <tag>花里胡哨</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站部署后“残缺”很多的解决办法</title>
-    <url>/posts/10021.html</url>
-    <content><![CDATA[<h1 id="deploy-branch值"><a href="#deploy-branch值" class="headerlink" title="deploy.branch值"></a>deploy.branch值</h1><p>这<strong>可能是一个很大的问题</strong>，如果你看的教程没有提及这一点的话</p>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://ganzhe2028.github.io/posts/37595.html">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ganzhe2028.github.io/posts/37595.html.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">最初の上线</div>
-            <div class="tag-link-sitename"> 我的另一篇文章</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
-<div class="note flat warning flat"><p><strong>注意！</strong>小宇的视频中没有提及<strong>要在根目录config中的deploy下补充branch参数，这个是必须的！</strong></p>
-<p>并且注意，这个branch是仓库的存代码的那个分支，比如Gitee依旧默认master分支；GitHub仓库的默认分支则2020年后从master改为main</p>
-<p><img src="https://pic.imgdb.cn/item/64835cd71ddac507cc8a9b65.jpg"></p>
-</div>
-
-<h1 id="css-js-img等图片加载异常"><a href="#css-js-img等图片加载异常" class="headerlink" title="css js img等图片加载异常"></a>css js img等图片加载异常</h1><p>这时会造成部署后的页面缺失很多内容和样式，应该检查：<br>​ 1.Gitee&#x2F;Github用户名、仓库名、仓库路径后缀是否统一<br>​ 2.可以在blog根目录配置文件中的deploy下补充一个branch: master(这个是部署页面时你选择的部署分支)<br>​ 3.尝试在部署好后的博客页面ctrl+F5强制刷新 或 在blog根目录中打开GBH输入hexo clean</p>
-<h1 id="一般加载问题（这类问题强制刷新yyds"><a href="#一般加载问题（这类问题强制刷新yyds" class="headerlink" title="一般加载问题（这类问题强制刷新yyds"></a>一般加载问题（这类问题强制刷新yyds</h1><p>这类情况一般文件并没有出错，而是浏览器缓存问题（例如小而美），包括多次hexo g、d、s等操作后都会产生缓存，增大负荷<br>此时建议：<br> 直接在部署好的博客页面ctrl+F5（GBH里hexo clean也可以。个人觉得前者快，因为一般都是在页面才发现不对，比如图片、文字缺失。后者需要未雨绸缪~）<br> 如果是手机端，建议下拉刷新、清除小而美等的缓存或者更换浏览器（即复制网址到小而美之外的、可以直接打开网址的浏览器中进入博客）。</p>
-<h1 id="养成好习惯"><a href="#养成好习惯" class="headerlink" title="养成好习惯"></a>养成好习惯</h1><div class="note info warning flat"><p>不管是在群里问别人还是怎么，<strong>出现异常第一时间看控制台报错</strong>，再来看终端，最后看代码部分。</p>
-</div>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>bug</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>鱼佬Github Actions部署教程的一些小问题</title>
-    <url>/posts/38442.html</url>
-    <content><![CDATA[<p><strong>首先感谢鱼佬和店长的为大家提供的技术支持~</strong><br>本文所提及的Github Actions自动部署的教程来自：</p>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">安知鱼-使用 Github Action 自动部署</div>
-            <div class="tag-link-sitename">安知鱼</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
-<h2 id="这些问题的起源"><a href="#这些问题的起源" class="headerlink" title="这些问题的起源"></a>这些问题的起源</h2><p>作为一个刚换上这个优秀主题的“破站”站主，在跟着鱼佬的Github Actions教程一起操作时出现了一些情况，花费5天才解决（太菜了），今天刚好解决了，就做一个记录吧~</p>
-<h2 id="“问题0”：关于要不要设仓库环境变量"><a href="#“问题0”：关于要不要设仓库环境变量" class="headerlink" title="“问题0”：关于要不要设仓库环境变量"></a>“问题0”：关于要不要设仓库环境变量</h2><p>其实我更推荐直接看鱼佬在B站上的视频教程，其实<strong>不用设仓库环境变量</strong>。</p>
-<h2 id="问题1：-git文件没删或没移到别的不属于博客文件夹的地方"><a href="#问题1：-git文件没删或没移到别的不属于博客文件夹的地方" class="headerlink" title="问题1：.git文件没删或没移到别的不属于博客文件夹的地方"></a>问题1：.git文件没删或没移到别的不属于博客文件夹的地方</h2><p>我使用win11，最后用everything搜索出来.git的（因为是隐藏文件夹，当然也可能有更简单的方法）。<br><strong>只需打开everything，搜索.git即可搜到隐藏的.git</strong></p>
-<h2 id="问题2：没配置也没删autodeploy中的番剧更新以及gulp"><a href="#问题2：没配置也没删autodeploy中的番剧更新以及gulp" class="headerlink" title="问题2：没配置也没删autodeploy中的番剧更新以及gulp"></a>问题2：没配置也没删autodeploy中的番剧更新以及gulp</h2><p>会导致Github仓库中的Actions中deploy显示静态文件环节部署失败。此时需要在autodeploy中删除默认应该是53和55行：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">生成静态文件</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          hexo clean</span></span><br><span class="line"><span class="string">          hexo bangumi -u #bilibili番剧更新    （53行）</span></span><br><span class="line"><span class="string">          hexo generate  </span></span><br><span class="line"><span class="string">          gulp    （55行）</span></span><br></pre></td></tr></table></figure>
-<div class="note warning flat"><p><em>注意！</em><br><strong>如果你全局安装过了gulp，比如按照鱼佬的pwa教程装过了gulp，那么就可以不删除gulp，并且gulp要在hexo g后面</strong>。<br>删除后即可正常运行Actions，不影响什么。</p>
-</div>
-
-
-<h2 id="问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’"><a href="#问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’" class="headerlink" title="问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’"></a>问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/HIt3L">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/HIt3L.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">如题</div>
-            <div class="tag-link-sitename">wwww00o</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
-
-<h2 id="问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）"><a href="#问题4：类似连接类问题（单纯部署失败，没有其他报错-等等）" class="headerlink" title="问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）"></a>问题4：类似连接类问题（单纯部署失败，没有其他报错 等等）</h2><p>试着开&#x2F;关梯子，或者检查网络</p>
-<h2 id="一点建议"><a href="#一点建议" class="headerlink" title="一点建议"></a>一点建议</h2><p>如果使用原来你正在使用的本地博客代码碰到了其他困难无法解决，建议进行“置换”，保存这一版的hexo博客源代码文件，然后再搞一个，替换你改动的文件，最后重新安装好anzhiy主题，跟着鱼佬视频<a href="https://www.bilibili.com/video/BV19P41157no/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=1ba860a5f419766aa180694d0e9e3282">hexo完成github action自动部署</a>直接配，亲测保证不出问题，除非你自己的电脑里有问题或者是步骤错误。</p>
-<p>如果自己真的解决不了，建议上网直接搜或者在<strong>鱼佬的Q群：464636182</strong>问。<br>附上<strong>店长Q群：589330978</strong>（无恶意，如有问题请留言，一定尽快配合解决）</p>
-<h2 id="csdn上的一些Git指令合集"><a href="#csdn上的一些Git指令合集" class="headerlink" title="csdn上的一些Git指令合集"></a>csdn上的一些Git指令合集</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/I50hp">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/I50hp.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">git指令大全</div>
-            <div class="tag-link-sitename">dengsilinming</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>新增</tag>
-        <tag>bug</tag>
-        <tag>Github Actions</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>补充音乐馆meting_api</title>
     <url>/posts/12635.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天meting官方的api挂掉了，导致anzhiyu主题的音乐馆无法使用。解决办法就是换一个api。<br>更换具体位置是：<strong>主题config的CDN - options - meting_api</strong>。<br>因为鱼佬已经写过了，所以在此<strong>进行一些基础的细节的补充</strong>。</p>
@@ -5574,14 +5574,14 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/manifest.json</url>
-    <content><![CDATA[{"name":"Ganzhe`Blog","short_name":"Ganzhe","theme_color":"#3b70fc","background_color":"#3b70fc","display":"fullscreen","scope":"/","start_url":"/","id":"/","icons":[{"src":"img/siteicon/192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"img/siteicon/192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"img/siteicon/512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"img/siteicon/512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}],"splash_pages":null}]]></content>
-  </entry>
-  <entry>
     <title>关于</title>
     <url>/about/index.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/manifest.json</url>
+    <content><![CDATA[{"name":"Ganzhe`Blog","short_name":"Ganzhe","theme_color":"#3b70fc","background_color":"#3b70fc","display":"fullscreen","scope":"/","start_url":"/","id":"/","icons":[{"src":"img/siteicon/192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"img/siteicon/192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},{"src":"img/siteicon/512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"img/siteicon/512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}],"splash_pages":null}]]></content>
   </entry>
   <entry>
     <title>便携小空调 - 为你的夏日带去清凉!</title>
@@ -5829,18 +5829,18 @@ function showWelcome() {
     //根据本地时间切换欢迎语
     let timeChange;
     let date = new Date();
-    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";
-    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";
-    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";
+    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好鸭</span>，一日之计在于晨！";
+    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好呀</span>，该摸鱼吃午饭了。";
+    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好鸭</span>，懒懒地睡个午觉吧！";
     else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，饮茶先啦！";
     else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
-    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";
+    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好呀</span>，夜生活嗨起来！";
     else timeChange = "夜深了，早点休息，少熬夜。";
 
     try {
         //自定义文本和需要放的位置
         document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 欢迎信息 🎉</center>欢迎来自<span style="color: #a1d1b2">${pos}</span>的小伙伴~${timeChange}您现在距离站长约 <span style="color: #a1d1b2">${dist}</span> 公里。 ${posdesc}</b>`;
+            `<b><center>🎉 欢迎信息 🎉</center>欢迎来自——<br><span style="color: #a1d1b2">${pos}</span> 的友友~${timeChange}<br>您现在距离博主约 <span style="color: #a1d1b2">${dist}</span> 公里。${posdesc}</b>`;
     } catch (err) {
         // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
     }
@@ -5861,7 +5861,7 @@ document.addEventListener('pjax:complete', showWelcome);
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://img01.anheyu.com/useruploads/151/2023/05/12/645dac23c60a2.jpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#57;&#53;&#x39;&#x30;&#x30;&#54;&#x31;&#54;&#x39;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#x31;&#57;&#53;&#x39;&#x30;&#x30;&#54;&#x31;&#54;&#x39;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a></strong>或<a href="mailto:&#103;&#x7a;&#x74;&#120;&#119;&#100;&#50;&#x30;&#48;&#x38;&#x32;&#x38;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#103;&#x7a;&#x74;&#120;&#119;&#100;&#50;&#x30;&#48;&#x38;&#x32;&#x38;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#57;&#x35;&#x39;&#48;&#x30;&#54;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;">&#x31;&#57;&#x35;&#x39;&#48;&#x30;&#54;&#49;&#x36;&#x39;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;</a></strong>或<a href="mailto:&#103;&#122;&#116;&#120;&#x77;&#x64;&#50;&#48;&#48;&#56;&#x32;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#122;&#116;&#120;&#x77;&#x64;&#50;&#48;&#48;&#56;&#x32;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
