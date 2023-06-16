@@ -8,7 +8,9 @@
 <li>51LA统计（网站访问）</li>
 <li>51LA灵雀应用监控（网站性能等）</li>
 </ul>
-<h1 id="51LA访问统计"><a href="#51LA访问统计" class="headerlink" title="51LA访问统计"></a>51LA访问统计</h1><h2 id="进入官网并注册"><a href="#进入官网并注册" class="headerlink" title="进入官网并注册"></a>进入官网并注册</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://v6.51.la/">
+<h1 id="51LA访问统计"><a href="#51LA访问统计" class="headerlink" title="51LA访问统计"></a>51LA访问统计</h1><ul>
+<li><p>进入官网并注册</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://v6.51.la/">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/v6.51.la/.png);"></div>
@@ -19,16 +21,24 @@
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
     </a></div>
-
-<h2 id="添加应用统计"><a href="#添加应用统计" class="headerlink" title="添加应用统计"></a>添加应用统计</h2><p><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617f7581a7.png"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617f9dea9b.png"></p>
-<h2 id="进入配置"><a href="#进入配置" class="headerlink" title="进入配置"></a>进入配置</h2><p><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/64761bf3d3805.png"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617eb34186.png"></p>
-<h2 id="打开数据挂件"><a href="#打开数据挂件" class="headerlink" title="打开数据挂件"></a>打开数据挂件</h2><p><img src="https://pic.imgdb.cn/item/6482b2bf1ddac507cc6218b3.png" alt="打开数据挂件"></p>
-<h2 id="找到ck和id"><a href="#找到ck和id" class="headerlink" title="找到ck和id"></a>找到ck和id</h2><p><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617e960d64.png"><br><img src="https://pic.imgdb.cn/item/6489cee01ddac507cc48e98d.webp"></p>
-<ul>
-<li><strong>注意要带上 “ ” ！</strong></li>
+</li>
+<li><p>添加应用统计<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa33a3.webp"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa322c.webp"></p>
+</li>
+<li><p>进入配置<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa31ac.webp"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa36a3.webp"></p>
+</li>
+<li><p>打开数据挂件<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa36a3.webp"></p>
+</li>
+<li><p>找到ck和id<br><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617e960d64.png"><br><img src="https://pic.imgdb.cn/item/6489cee01ddac507cc48e98d.webp"></p>
+</li>
+<li><p><strong>注意要带上 “ ” ！</strong></p>
+</li>
+<li><p>修改配置文件</p>
+</li>
 </ul>
-<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p><img src="https://img01.anheyu.com/useruploads/151/2023/06/14/6489d6d970c98.webp"><br>ck下面填的就是<mark class="hl-label blue">灵雀的</mark> 的id值，灵雀的配置在下文。</p>
-<h1 id="51LA灵雀应用监控"><a href="#51LA灵雀应用监控" class="headerlink" title="51LA灵雀应用监控"></a>51LA灵雀应用监控</h1><h2 id="进入官网并登录（账号应该是互通的）"><a href="#进入官网并登录（账号应该是互通的）" class="headerlink" title="进入官网并登录（账号应该是互通的）"></a>进入官网并登录（账号应该是互通的）</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://perf.51.la/">
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/06/14/6489d6d970c98.webp"><br>ck下面填的就是<mark class="hl-label blue">灵雀</mark> 的id值，配置在下文。</p>
+<h1 id="51LA灵雀应用监控"><a href="#51LA灵雀应用监控" class="headerlink" title="51LA灵雀应用监控"></a>51LA灵雀应用监控</h1><ul>
+<li><p>进入官网并登录（账号应该是互通的）</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://perf.51.la/">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/perf.51.la/.png);"></div>
@@ -39,9 +49,11 @@
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
     </a></div>
-
-<h2 id="配置应用管理"><a href="#配置应用管理" class="headerlink" title="配置应用管理"></a>配置应用管理</h2><ul>
-<li>进入之后<strong>添加应用</strong></li>
+</li>
+<li><p>配置应用管理</p>
+</li>
+<li><p>进入之后<strong>添加应用</strong></p>
+</li>
 </ul>
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/06/14/6489d2737577b.webp"></p>
 <ul>
@@ -60,16 +72,18 @@
 <li>连着双引号 <strong>“ ”</strong> 一起复制到主题config中：</li>
 </ul>
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/06/14/6489d4199d95c.webp"></p>
-<h2 id="到此就大功告成啦！"><a href="#到此就大功告成啦！" class="headerlink" title="到此就大功告成啦！"></a>到此就大功告成啦！</h2><p>部署之后要等待5分钟，之后就可以看到数据啦</p>
+<ul>
+<li>到此就大功告成啦！</li>
+</ul>
+<p>部署之后要等待5分钟，之后就可以看到数据啦</p>
 <h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p><strong>若有缺漏步骤或者其他问题，留言即可，12h内最多48h一定给回复</strong></p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>新增</tag>
-        <tag>51LA</tag>
+        <tag>花里胡哨</tag>
       </tags>
   </entry>
   <entry>
@@ -3994,13 +4008,11 @@
 
 ]]></content>
       <categories>
-        <category>Hexo</category>
-        <category>新增</category>
-        <category>补充anzhiyu教程&amp;文档的疑难</category>
+        <category>Hexo魔改</category>
       </categories>
       <tags>
-        <tag>Algolia</tag>
-        <tag>generator-search</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
+        <tag>花里胡哨</tag>
       </tags>
   </entry>
   <entry>
@@ -4020,19 +4032,18 @@
     </a></div>
 
 
-<h2 id="zeabur里的MongoDB"><a href="#zeabur里的MongoDB" class="headerlink" title="zeabur里的MongoDB"></a>zeabur里的MongoDB</h2><p>在<a href="https://dash.zeabur.com/">Zeabur</a>申请并登录账号<strong>（可能需要魔法）</strong>，点击部署新服务 - 部署其他服务 - 部署 MongoDB，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/64730151bfa64.png" alt="创建项目"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/64730151c12bf.png" alt="点击部署新服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/647300ec5d230.png" alt="部署其他服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/647300ec5d284.png" alt="MongoDB"><br><strong>MongoDB里面的东西都不动就行</strong></p>
-<h2 id="绑定GitHub仓库"><a href="#绑定GitHub仓库" class="headerlink" title="绑定GitHub仓库"></a>绑定GitHub仓库</h2><p>打开<a href="https://github.com/imaegoo/twikoo-zeabur">imaegoo&#x2F;twikoo-zeabur</a>点击 fork 将仓库 fork 到自己的账号下。<br>回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/64730151c12bf.png" alt="点击部署新服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/647303e076a17.png" alt="选择Git方式——GitHub"><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/647303fc2fda8.png" alt="选择刚才 fork 的仓库"><br>无需配置数据库连接字符串！ Zeabur 已自动配置</p>
-<h2 id="envId"><a href="#envId" class="headerlink" title="envId"></a>envId</h2><p>部署好后点开环境卡片 - 设置 - 域名，绑定一个域名<br>例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意<br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/64730428d3c27.png" alt="设置 - 域名，绑定一个域名"></p>
-<h2 id="配置-envId"><a href="#配置-envId" class="headerlink" title="配置 envId"></a>配置 envId</h2><p>到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 <a href="https://mytwikoo.zeabur.app)/">https://mytwikoo.zeabur.app）</a><br><img src="https://img01.anheyu.com/useruploads/151/2023/05/28/64730703a132f.png" alt="配置文件中配置envId"></p>
+<h2 id="zeabur里的MongoDB"><a href="#zeabur里的MongoDB" class="headerlink" title="zeabur里的MongoDB"></a>zeabur里的MongoDB</h2><p>在<a href="https://dash.zeabur.com/">Zeabur</a>申请并登录账号<strong>（可能需要魔法）</strong>，点击部署新服务 - 部署其他服务 - 部署 MongoDB，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8e879.webp" alt="创建项目"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8f678.webp" alt="点击部署新服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8e1b4.webp" alt="部署其他服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8e809.webp" alt="MongoDB"><br><strong>MongoDB里面的东西都不动就行</strong></p>
+<h2 id="绑定GitHub仓库"><a href="#绑定GitHub仓库" class="headerlink" title="绑定GitHub仓库"></a>绑定GitHub仓库</h2><p>打开<a href="https://github.com/imaegoo/twikoo-zeabur">imaegoo&#x2F;twikoo-zeabur</a>点击 fork 将仓库 fork 到自己的账号下。<br>回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8f678.webp" alt="点击部署新服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f90872.webp" alt="选择Git方式——GitHub"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42faa459.webp" alt="选择刚才 fork 的仓库"><br>无需配置数据库连接字符串！ Zeabur 已自动配置</p>
+<h2 id="envId"><a href="#envId" class="headerlink" title="envId"></a>envId</h2><p>部署好后点开环境卡片 - 设置 - 域名，绑定一个域名<br>例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8dc63.webp" alt="设置 - 域名，绑定一个域名"></p>
+<h2 id="配置-envId"><a href="#配置-envId" class="headerlink" title="配置 envId"></a>配置 envId</h2><p>到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 <a href="https://mytwikoo.zeabur.app)/">https://mytwikoo.zeabur.app）</a><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8dfc6.webp" alt="配置文件中配置envId"></p>
 <h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>zeabur也不是完全免费，但是会有充足的免费额度，对我来说肯定是够用的，估计中小个人博客都够用。<br>通过zeabur部署的方式不需要服务器，加上Twikoo的独立的配置界面，对小白超级友好。</p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>新增</tag>
-        <tag>twikoo</tag>
+        <tag>花里胡哨</tag>
       </tags>
   </entry>
   <entry>
@@ -5006,7 +5017,7 @@
 <li>✅ Gatsby.js</li>
 <li>✅ Docusaurus</li>
 <li>Hugo</li>
-<li>Hexo</li>
+<li>Hexo魔改</li>
 </ul>
 <h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><ul>
 <li>JekyII</li>
@@ -5230,11 +5241,11 @@
 <div class="note flat info flat"><p>其中第52行的评论框默认内容我为了方便粘贴友链信息至yaml文件中而进行了修改，大家可以根据个人喜好进行自定义。</p>
 </div>]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
+        <category>转载</category>
       </categories>
       <tags>
         <tag>花里胡哨</tag>
-        <tag>友链复选框</tag>
       </tags>
   </entry>
   <entry>
@@ -5398,7 +5409,7 @@
 <p><strong>此为github站，Gitee站：<a href="https://ganzhetx.gitee.io/">https://ganzhetx.gitee.io</a></strong></p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>优化与修复</category>
       </categories>
       <tags>
         <tag>bug</tag>
@@ -5427,7 +5438,8 @@
 <h1 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h1><p>hexo二连即可看到效果</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
+        <category>转载</category>
       </categories>
       <tags>
         <tag>花里胡哨</tag>
@@ -5461,10 +5473,11 @@
 </div>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>优化与修复</category>
       </categories>
       <tags>
         <tag>bug</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
@@ -5521,13 +5534,11 @@
     </a></div>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>新增</tag>
-        <tag>bug</tag>
-        <tag>Github Actions</tag>
+        <tag>便利操作</tag>
       </tags>
   </entry>
   <entry>
@@ -5589,11 +5600,10 @@
 <p>从网页上复制下来会有点不一样，id之前都是照着上面的填写格式改就行。</p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Hexo魔改</category>
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>meting_api</tag>
       </tags>
   </entry>
   <entry>
@@ -5894,7 +5904,7 @@ document.addEventListener('pjax:complete', showWelcome);
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://pic.imgdb.cn/item/64895d391ddac507cce97bc3.webpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#57;&#x35;&#x39;&#x30;&#48;&#54;&#x31;&#x36;&#57;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;">&#49;&#57;&#x35;&#x39;&#x30;&#48;&#54;&#x31;&#x36;&#57;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;</a></strong>或<a href="mailto:&#103;&#122;&#x74;&#x78;&#x77;&#x64;&#x32;&#x30;&#x30;&#56;&#x32;&#x38;&#64;&#113;&#113;&#46;&#x63;&#x6f;&#109;">&#103;&#122;&#x74;&#x78;&#x77;&#x64;&#x32;&#x30;&#x30;&#56;&#x32;&#x38;&#64;&#113;&#113;&#46;&#x63;&#x6f;&#109;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#x39;&#53;&#57;&#x30;&#x30;&#x36;&#x31;&#x36;&#x39;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#x31;&#x39;&#53;&#57;&#x30;&#x30;&#x36;&#x31;&#x36;&#x39;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a></strong>或<a href="mailto:&#x67;&#122;&#x74;&#120;&#119;&#x64;&#x32;&#x30;&#48;&#x38;&#50;&#56;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#122;&#x74;&#120;&#119;&#x64;&#x32;&#x30;&#48;&#x38;&#50;&#56;&#64;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#109;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
@@ -5990,7 +6000,12 @@ document.addEventListener('pjax:complete', showWelcome);
     <title>本站更新日志</title>
     <url>/update/index.html</url>
     <content><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>中大更新</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-14</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-17</p>
+</div></div><div class='timeline-item-content'><ul>
+<li>更新：<br>  调整并优化了大部分tags和categories的层级关系</li>
+<li>优化：<br>  将网站的几乎所有图片都换成了经过压缩（原来10%）过的webp格式图片，以此提升网站加载速度，花费2个小时的时间！</li>
+</ul>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-14</p>
 </div></div><div class='timeline-item-content'><ul>
 <li>更新：<br>  将更新日志移到顶栏的关于下<br>  修改更新日志样式</li>
 <li>优化：<br>  压缩了引入的css和js文件<br>  压缩了网站avatar，之后还会压缩所有的图片以提高网站加载速度</li>
