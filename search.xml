@@ -4016,6 +4016,37 @@
       </tags>
   </entry>
   <entry>
+    <title>个人卡片实现渐变色</title>
+    <url>/posts/26088.html</url>
+    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://moyustar.cn/posts/65e8.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/moyustar.cn/posts/65e8.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">原作者</div>
+            <div class="tag-link-sitename"></div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<ul>
+<li>添加代码</li>
+</ul>
+<p>打开<mark class="hl-label blue">Blog根目录/source/css/custom.css</mark> 路径中的css文件夹或custom.css文件没有的话就新建，写入如下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 侧边栏个人信息卡片动态渐变色 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(</span><br><span class="line">    -<span class="number">45deg</span>,</span><br><span class="line">    <span class="number">#e8d8b9</span>,</span><br><span class="line">    <span class="number">#eccec5</span>,</span><br><span class="line">    <span class="number">#a3e9eb</span>,</span><br><span class="line">    <span class="number">#bdbdf0</span>,</span><br><span class="line">    <span class="number">#eec1ea</span></span><br><span class="line">  );</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgb</span>(<span class="number">66</span>, <span class="number">68</span>, <span class="number">68</span>);</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">background-size</span>: <span class="number">400%</span> <span class="number">400%</span>;</span><br><span class="line">  -webkit-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  -moz-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  <span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-moz-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 黑夜模式适配 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#191919ee</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 个人信息Follow me按钮 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &gt; <span class="selector-id">#card-info-btn</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#3eb8be</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>补充<mark class="hl-label blue">这里建议将css文件压缩为：.min.css</mark> ，这样有助于加快网站加载
+插件：**JS &amp; CSS Minifier (Minify)**（vscode扩展搜索即可）</li>
+<li>引入代码</li>
+</ul>
+<p>打开主题配置文件**_config.anzhiyu.yml**，搜索inject并按下列格式补充完整即可</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>花里胡哨</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用zeabur部署twikoo</title>
     <url>/posts/20419.html</url>
     <content><![CDATA[<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>现在的Gitee站之前其实还有一个站点，不过我改了仓库名之后就废弃了：gan_zhe.gitee.io。这个站点是用的是valine，但是前段时间回去尝试评论突然就评论不了了。再加上网上说会有安全问题，我便决定尽量不再使用valine。<br>接着，我就在B站上找到了鱼佬的视频（也是通过那期twikoo的教程视频第一次接触鱼佬），但是因为要服务器，我就放弃了。<br>前几天我在twikoo的文档里找到了另外两种不需要服务器的部署方法：railway和zeabur。尝试railway打不开，于是就剩下zeabur了。</p>
@@ -5640,253 +5671,8 @@
   </entry>
   <entry>
     <title></title>
-    <url>/css/custom.css</url>
-    <content><![CDATA[/* 欢迎信息 */
-#welcome-info {
-  color: #89AFE0;
-  background: linear-gradient(45deg);
-  border-radius: 18px;
-  padding: 8px;
-}
-/* [data-theme="dark"] #welcome-info {
-  background: #212121;
-} */
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>/css/custom.min.css</url>
-    <content><![CDATA[#welcome-info{color:#89afe0;background:linear-gradient(45deg);border-radius:18px;padding:8px}]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/js/txmap.js</url>
-    <content><![CDATA[//get请求
-$.ajax({
-    type: 'get',
-    url: 'https://apis.map.qq.com/ws/location/v1/ip',
-    data: {
-        key: 'JY3BZ-Q2JRT-7XGXI-L4BXT-G36ET-FKFLE',
-        output: 'jsonp',
-    },
-    dataType: 'jsonp',
-    success: function (res) {
-        ipLoacation = res;
-    }
-})
-function getDistance(e1, n1, e2, n2) {
-    const R = 6371
-    const { sin, cos, asin, PI, hypot } = Math
-    let getPoint = (e, n) => {
-        e *= PI / 180
-        n *= PI / 180
-        return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) }
-    }
-
-    let a = getPoint(e1, n1)
-    let b = getPoint(e2, n2)
-    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)
-    let r = asin(c / 2) * 2 * R
-    return Math.round(r);
-}
-
-function showWelcome() {
-
-    let dist = getDistance(122, 30, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
-    let pos = ipLoacation.result.ad_info.nation;
-    let ip;
-    let posdesc;
-    //根据国家、省份、城市信息自定义欢迎语
-    switch (ipLoacation.result.ad_info.nation) {
-        case "日本":
-            posdesc = "よろしく，一起去看樱花吗";
-            break;
-        case "美国":
-            posdesc = "Let us live in peace!";
-            break;
-        case "英国":
-            posdesc = "想同你一起夜乘伦敦眼";
-            break;
-        case "俄罗斯":
-            posdesc = "干了这瓶伏特加！";
-            break;
-        case "法国":
-            posdesc = "C'est La Vie";
-            break;
-        case "德国":
-            posdesc = "Die Zeit verging im Fluge.";
-            break;
-        case "澳大利亚":
-            posdesc = "一起去大堡礁吧！";
-            break;
-        case "加拿大":
-            posdesc = "拾起一片枫叶赠予你";
-            break;
-        case "中国":
-            pos = ipLoacation.result.ad_info.province + " " + ipLoacation.result.ad_info.city + " " + ipLoacation.result.ad_info.district;
-            ip = ipLoacation.result.ip;
-            switch (ipLoacation.result.ad_info.province) {
-                case "北京市":
-                    posdesc = "北——京——欢迎你~~~";
-                    break;
-                case "天津市":
-                    posdesc = "讲段相声吧。";
-                    break;
-                case "河北省":
-                    posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";
-                    break;
-                case "山西省":
-                    posdesc = "展开坐具长三尺，已占山河五百余。";
-                    break;
-                case "内蒙古自治区":
-                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";
-                    break;
-                case "辽宁省":
-                    posdesc = "我想吃烤鸡架！";
-                    break;
-                case "吉林省":
-                    posdesc = "状元阁就是东北烧烤之王。";
-                    break;
-                case "黑龙江省":
-                    posdesc = "很喜欢哈尔滨大剧院。";
-                    break;
-                case "上海市":
-                    posdesc = "众所周知，中国只有两个城市。";
-                    break;
-                case "江苏省":
-                    switch (ipLoacation.result.ad_info.city) {
-                        case "南京市":
-                            posdesc = "这是我挺想去的城市啦。";
-                            break;
-                        case "苏州市":
-                            posdesc = "上有天堂，下有苏杭。";
-                            break;
-                        default:
-                            posdesc = "散装是必须要散装的。";
-                            break;
-                    }
-                    break;
-                case "浙江省":
-                    posdesc = "东风渐绿西湖柳，雁已还人未南归。";
-                    break;
-                case "河南省":
-                    switch (ipLoacation.result.ad_info.city) {
-                        case "郑州市":
-                            posdesc = "豫州之域，天地之中。";
-                            break;
-                        case "南阳市":
-                            posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
-                            break;
-                        case "驻马店市":
-                            posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
-                            break;
-                        case "开封市":
-                            posdesc = "刚正不阿包青天。";
-                            break;
-                        case "洛阳市":
-                            posdesc = "洛阳牡丹甲天下。";
-                            break;
-                        default:
-                            posdesc = "可否带我品尝河南烩面啦？";
-                            break;
-                    }
-                    break;
-                case "安徽省":
-                    posdesc = "蚌埠住了，芜湖起飞。";
-                    break;
-                case "福建省":
-                    posdesc = "井邑白云间，岩城远带山。";
-                    break;
-                case "江西省":
-                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
-                    break;
-                case "山东省":
-                    posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
-                    break;
-                case "湖北省":
-                    posdesc = "来碗热干面！";
-                    break;
-                case "湖南省":
-                    posdesc = "74751，长沙斯塔克。";
-                    break;
-                case "广东省":
-                    posdesc = "老板来两斤福建人。";
-                    break;
-                case "广西壮族自治区":
-                    posdesc = "桂林山水甲天下。";
-                    break;
-                case "海南省":
-                    posdesc = "朝观日出逐白浪，夕看云起收霞光。";
-                    break;
-                case "四川省":
-                    posdesc = "康康川妹子。";
-                    break;
-                case "贵州省":
-                    posdesc = "茅台，学生，再塞200。";
-                    break;
-                case "云南省":
-                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天。";
-                    break;
-                case "西藏自治区":
-                    posdesc = "躺在茫茫草原上，仰望蓝天。";
-                    break;
-                case "陕西省":
-                    posdesc = "来份臊子面加馍。";
-                    break;
-                case "甘肃省":
-                    posdesc = "羌笛何须怨杨柳，春风不度玉门关。";
-                    break;
-                case "青海省":
-                    posdesc = "牛肉干和老酸奶都好好吃。";
-                    break;
-                case "宁夏回族自治区":
-                    posdesc = "大漠孤烟直，长河落日圆。";
-                    break;
-                case "新疆维吾尔自治区":
-                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风。";
-                    break;
-                case "台湾省":
-                    posdesc = "我在这头，大陆在那头。";
-                    break;
-                case "香港特别行政区":
-                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉。";
-                    break;
-                case "澳门特别行政区":
-                    posdesc = "性感荷官，在线发牌。";
-                    break;
-                default:
-                    posdesc = "带我去你的城市逛逛吧！";
-                    break;
-            }
-            break;
-        default:
-            posdesc = "带我去你的国家逛逛吧。";
-            break;
-    }
-
-    //根据本地时间切换欢迎语
-    let timeChange;
-    let date = new Date();
-    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好鸭</span>，一日之计在于晨！";
-    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好呀</span>，该摸鱼吃午饭了。";
-    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好鸭</span>，懒懒地睡个午觉吧！";
-    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，饮茶先啦！";
-    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
-    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好呀</span>，夜生活嗨起来！";
-    else timeChange = "夜深了，早点休息，少熬夜。";
-
-    try {
-        //自定义文本和需要放的位置
-        document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 欢迎信息 🎉</center>欢迎来自——<br><span style="color: #4E77B3">${pos}</span> 的友友~${timeChange}<br>您现在距离博主约 <span style="color: #4E77B3">${dist}</span> 公里。${posdesc}</b>`;
-    } catch (err) {
-        // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
-    }
-}
-window.onload = showWelcome;
-// 如果使用了pjax在加上下面这行代码
-document.addEventListener('pjax:complete', showWelcome);
-]]></content>
+    <content><![CDATA[#welcome-info{color:#89afe0;background:linear-gradient(45deg);border-radius:18px;padding:8px}#aside-content>.card-widget.card-info{background:linear-gradient(-45deg,#e8d8b9,#eccec5,#a3e9eb,#bdbdf0,#eec1ea);box-shadow:0 0 5px #424444;position:relative;background-size:400% 400%;-webkit-animation:Gradient 10s ease infinite;-moz-animation:Gradient 10s ease infinite;animation:Gradient 10s ease infinite!important}@-webkit-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@-moz-keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}[data-theme=dark] #aside-content>.card-widget.card-info{background:#191919ee}#aside-content>.card-widget.card-info>#card-info-btn{background-color:#3eb8be;border-radius:8px}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -5904,7 +5690,7 @@ document.addEventListener('pjax:complete', showWelcome);
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://pic.imgdb.cn/item/64895d391ddac507cce97bc3.webpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#x31;&#57;&#53;&#57;&#x30;&#48;&#x36;&#x31;&#54;&#x39;&#64;&#x71;&#x71;&#46;&#99;&#111;&#x6d;">&#x31;&#57;&#53;&#57;&#x30;&#48;&#x36;&#x31;&#54;&#x39;&#64;&#x71;&#x71;&#46;&#99;&#111;&#x6d;</a></strong>或<a href="mailto:&#x67;&#122;&#116;&#120;&#x77;&#x64;&#50;&#x30;&#48;&#56;&#50;&#x38;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x67;&#122;&#116;&#120;&#x77;&#x64;&#50;&#x30;&#48;&#56;&#50;&#x38;&#64;&#x71;&#x71;&#x2e;&#99;&#111;&#x6d;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#57;&#53;&#x39;&#48;&#48;&#x36;&#x31;&#x36;&#x39;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#49;&#57;&#53;&#x39;&#48;&#48;&#x36;&#x31;&#x36;&#x39;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a></strong>或<a href="mailto:&#x67;&#x7a;&#116;&#x78;&#119;&#100;&#x32;&#x30;&#x30;&#56;&#x32;&#x38;&#64;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#x67;&#x7a;&#116;&#x78;&#119;&#100;&#x32;&#x30;&#x30;&#56;&#x32;&#x38;&#64;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
@@ -6002,8 +5788,12 @@ document.addEventListener('pjax:complete', showWelcome);
     <content><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>中大更新</p>
 </div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-17</p>
 </div></div><div class='timeline-item-content'><ul>
-<li>更新：<br>  调整并优化了大部分tags和categories的层级关系</li>
-<li>优化：<br>  将网站的几乎所有图片都换成了经过压缩（原来10%）过的webp格式图片，以此提升网站加载速度，花费2个小时的时间！</li>
+<li><p>更新：<br>  调整并优化了大部分tags和categories的层级关系</p>
+</li>
+<li><p>优化：<br>  <mark class="hl-label blue">将网站的几乎所有图片都换成了经过压缩（原来10%）过的webp格式图片，以此提升网站加载速度，花费2个小时的时间！</mark><br>  删除多余的未经压缩的css</p>
+</li>
+<li><p>样式：<br>  实现个人卡片渐变色</p>
+</li>
 </ul>
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-6-14</p>
 </div></div><div class='timeline-item-content'><ul>
