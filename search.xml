@@ -28,7 +28,7 @@
 </li>
 <li><p>打开数据挂件<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa36a3.webp"></p>
 </li>
-<li><p>找到ck和id<br><img src="https://img01.anheyu.com/useruploads/151/2023/05/30/647617e960d64.png"><br><img src="https://pic.imgdb.cn/item/6489cee01ddac507cc48e98d.webp"></p>
+<li><p>找到ck和id<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb1caa33a3.webp"><br><img src="https://pic.imgdb.cn/item/6489cee01ddac507cc48e98d.webp"></p>
 </li>
 <li><p><strong>注意要带上 “ ” ！</strong></p>
 </li>
@@ -92,7 +92,10 @@
   <entry>
     <title>Java学习路线</title>
     <url>/posts/63587.html</url>
-    <content><![CDATA[<h1 id="Java-学习路线"><a href="#Java-学习路线" class="headerlink" title="Java 学习路线"></a>Java 学习路线</h1><blockquote>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+
+<h1 id="Java-学习路线"><a href="#Java-学习路线" class="headerlink" title="Java 学习路线"></a>Java 学习路线</h1><blockquote>
 <p>Java 学习路线一条龙版 by 程序员鱼皮-编程导航</p>
 </blockquote>
 <p>💂 + 💻 &#x3D; 👴🏽</p>
@@ -2734,7 +2737,10 @@
   <entry>
     <title>Linux学习路线</title>
     <url>/posts/22689.html</url>
-    <content><![CDATA[<h1 id="Linux-学习路线"><a href="#Linux-学习路线" class="headerlink" title="Linux 学习路线"></a>Linux 学习路线</h1><blockquote>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+
+<h1 id="Linux-学习路线"><a href="#Linux-学习路线" class="headerlink" title="Linux 学习路线"></a>Linux 学习路线</h1><blockquote>
 <p>Linux 学习路线 by 程序员鱼皮-编程导航</p>
 </blockquote>
 <p>💂 + 💻 &#x3D; 👴🏽</p>
@@ -3183,7 +3189,10 @@
   <entry>
     <title>Python学习路线</title>
     <url>/posts/49364.html</url>
-    <content><![CDATA[<h1 id="Python-学习路线"><a href="#Python-学习路线" class="headerlink" title="Python 学习路线"></a>Python 学习路线</h1><blockquote>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+
+<h1 id="Python-学习路线"><a href="#Python-学习路线" class="headerlink" title="Python 学习路线"></a>Python 学习路线</h1><blockquote>
 <p>Python 学习路线 by 程序员鱼皮-编程导航</p>
 </blockquote>
 <p>在看路线前，建议大家先通过以下视频了解几个问题：</p>
@@ -4026,8 +4035,8 @@
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/moyustar.cn/posts/65e8.html.png);"></div>
         <div class="tag-link-right">
-            <div class="tag-link-title">原作者</div>
-            <div class="tag-link-sitename"></div>
+            <div class="tag-link-title">摸鱼星球</div>
+            <div class="tag-link-sitename">原作者</div>
         </div>
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
@@ -4056,7 +4065,7 @@
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://twikoo.js.org/quick-start.html#zeabur-%E9%83%A8%E7%BD%B2">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://pic.imgdb.cn/item/64842b631ddac507ccaf528e.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648dbf42475a3.png);"></div>
         <div class="tag-link-right">
             <div class="tag-link-title">twikoo官方文档教程</div>
             <div class="tag-link-sitename">twikoo官方</div>
@@ -4115,7 +4124,9 @@
   <entry>
     <title>前端学习路线</title>
     <url>/posts/11053.html</url>
-    <content><![CDATA[<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><blockquote>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><blockquote>
 <p>这份学习路线并不完美，也不会有最终形态，正如前端不可预见、永无止境的未来。</p>
 </blockquote>
 <p>💂 + 💻 &#x3D; 👴🏽</p>
@@ -5285,7 +5296,9 @@
   <entry>
     <title>大厂研发流程</title>
     <url>/posts/17989.html</url>
-    <content><![CDATA[<h1 id="一线大厂研发流程"><a href="#一线大厂研发流程" class="headerlink" title="一线大厂研发流程"></a>一线大厂研发流程</h1><p>大家好，我是鱼皮。</p>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+<h1 id="一线大厂研发流程"><a href="#一线大厂研发流程" class="headerlink" title="一线大厂研发流程"></a>一线大厂研发流程</h1><p>大家好，我是鱼皮。</p>
 <p>很多未工作过的小伙伴都很好奇：企业中做项目是怎样的流程？尤其是大厂那些百万用户的项目，和自己学编程时做项目到底有什么区别呢？</p>
 <p><strong>实话说，区别可大了！</strong></p>
 <p>自己开发项目那是单打独斗，自己掌握命运，不会拖垮队友；但企业中开发项目是开团打本，大家是一根绳上的蚂蚱，每个人都会影响整个项目。</p>
@@ -5693,7 +5706,7 @@
     <content><![CDATA[<h2 id="我的友链："><a href="#我的友链：" class="headerlink" title="我的友链："></a>我的友链：</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Ganzhe</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://ganzhe2028.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://pic.imgdb.cn/item/64895d391ddac507cce97bc3.webpg</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">顺其自然，持之以恒</span></span><br></pre></td></tr></table></figure>
 <details class="folding-tag" ><summary> 免责声明 </summary>
               <div class='content'>
-              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#x39;&#x35;&#57;&#x30;&#x30;&#x36;&#x31;&#x36;&#x39;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#49;&#x39;&#x35;&#57;&#x30;&#x30;&#x36;&#x31;&#x36;&#x39;&#x40;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a></strong>或<a href="mailto:&#x67;&#122;&#116;&#x78;&#x77;&#x64;&#50;&#48;&#48;&#x38;&#50;&#56;&#64;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#122;&#116;&#x78;&#x77;&#x64;&#50;&#48;&#48;&#x38;&#50;&#56;&#64;&#x71;&#x71;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>
+              <p>本博客遵守中华人民共和国相关法律。本页内容仅作为方便学习而产生的快速链接的链接方式，对与友情链接中存在的链接、好文推荐链接等均为其他网站。我本人能力有限无法逐个甄别每篇文章的每个字，并无法获知是否在收录后原作者是否对链接增加了违反法律甚至其他破坏用户计算机等行为。因为部分友链网站甚至没有做备案、域名并未做实名认证等，所以友链网站均可能存在风险，请你须知。</p><p>所以在我力所能及的情况下，我会包括但不限于：</p><p>针对收录的博客中的绝大多数内容通过标题来鉴别是否存在有风险的内容<br>在收录的友链好文推荐中检查是否存在风险内容<br>但是你在访问的时候，仍然无法避免，包括但不限于：</p><p>作者更换了超链接的指向，替换成了其他内容<br>作者的服务器被恶意攻击、劫持、被注入恶意内容<br>作者的域名到期，被不法分子用作他用<br>作者修改了文章内容，增加钓鱼网站、广告等无效信息<br>不完善的隐私保护对用户的隐私造成了侵害、泄漏<br>最新文章部分为机器抓取，本站作者未经过任何审核和筛选，本着友链信任原则添加的。如果你发现其中包含违反中华人民共和国法律的内容，请及时联系和举报。该友链会被拉黑。</p><p>如果因为从本页跳转给你造成了损失，深表歉意，并且建议用户如果发现存在问题在本页面进行回复。通常会很快处理。如果长时间无法得到处理，建议联系<strong><a href="mailto:&#49;&#x39;&#x35;&#57;&#x30;&#48;&#x36;&#x31;&#x36;&#x39;&#64;&#x71;&#113;&#x2e;&#99;&#111;&#x6d;">&#49;&#x39;&#x35;&#57;&#x30;&#48;&#x36;&#x31;&#x36;&#x39;&#64;&#x71;&#113;&#x2e;&#99;&#111;&#x6d;</a></strong>或<a href="mailto:&#x67;&#122;&#116;&#120;&#x77;&#x64;&#50;&#x30;&#x30;&#x38;&#x32;&#x38;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#x67;&#122;&#116;&#120;&#x77;&#x64;&#50;&#x30;&#x30;&#x38;&#x32;&#x38;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a>。</p>
               </div>
             </details>
 <details class="folding-tag" ><summary> 本站添加的友链要求 </summary>
