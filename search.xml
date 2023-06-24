@@ -4052,10 +4052,8 @@
 </div>
 
 <ul>
-<li>引入代码</li>
+<li>引入代码<br>打开主题配置文件<mark class="hl-label blue">_config.anzhiyu.yml</mark> ，搜索inject并按下列格式补充完整即可<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure></li>
 </ul>
-<p>打开主题配置文件**_config.anzhiyu.yml**，搜索inject并按下列格式补充完整即可</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
         <tag>花里胡哨</tag>
