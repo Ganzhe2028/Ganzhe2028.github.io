@@ -4080,6 +4080,8 @@
 <h2 id="绑定GitHub仓库"><a href="#绑定GitHub仓库" class="headerlink" title="绑定GitHub仓库"></a>绑定GitHub仓库</h2><p>打开<a href="https://github.com/imaegoo/twikoo-zeabur">imaegoo&#x2F;twikoo-zeabur</a>点击 fork 将仓库 fork 到自己的账号下。<br>回到 Zeabur 点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8f678.webp" alt="点击部署新服务"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f90872.webp" alt="选择Git方式——GitHub"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42faa459.webp" alt="选择刚才 fork 的仓库"><br>无需配置数据库连接字符串！ Zeabur 已自动配置</p>
 <h2 id="envId"><a href="#envId" class="headerlink" title="envId"></a>envId</h2><p>部署好后点开环境卡片 - 设置 - 域名，绑定一个域名<br>例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8dc63.webp" alt="设置 - 域名，绑定一个域名"></p>
 <h2 id="配置-envId"><a href="#配置-envId" class="headerlink" title="配置 envId"></a>配置 envId</h2><p>到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 <a href="https://mytwikoo.zeabur.app)/">https://mytwikoo.zeabur.app）</a><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8dfc6.webp" alt="配置文件中配置envId"></p>
+<h2 id="Redeploy"><a href="#Redeploy" class="headerlink" title="Redeploy"></a>Redeploy</h2><mark class="hl-label blue">一定记得Redeploy，不然无效！</mark> 
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/04/64a4412173259.webp" alt="Redeploy"></p>
 <h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>zeabur也不是完全免费，但是会有充足的免费额度，对我来说肯定是够用的，估计中小个人博客都够用。<br>通过zeabur部署的方式不需要服务器，加上Twikoo的独立的配置界面，对小白超级友好。</p>
 ]]></content>
       <categories>
