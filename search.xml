@@ -4061,11 +4061,52 @@
   </entry>
   <entry>
     <title>使用zeabur + MongoDB官方部署Twikoo</title>
-    <url>/posts/20419.html</url>
-    <content><![CDATA[<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>因为我没有买云服务器，因此我在twikoo的文档里找了两种<strong>不需要服务器的部署方法</strong>：railway和zeabur。</p>
+    <url>/posts/49010.html</url>
+    <content><![CDATA[<h1 id="评论系统的心路历程’"><a href="#评论系统的心路历程’" class="headerlink" title="评论系统的心路历程’"></a>评论系统的心路历程’</h1><p>因为我没有买云服务器，因此我在twikoo的文档里找了两种<strong>不需要服务器的部署方法</strong>：railway和zeabur。</p>
 <div class="note flat info flat"><p>23&#x2F;7&#x2F;9日左右，我的twikoo评论数据再一次丢失，于是在Kouseki铭心石刻大佬的帮助下，将zeabur中的mongodb转成官方的，就永久不丢失了。</p>
 </div>
+<mark class="hl-label blue">并且请注意，把MongoDB托管在其他平台上其实都是有风险的，因此Kouseki大佬的组合肥肠nice~</mark> 
 
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这个方法就是把官方文档里zeabur里的MongoDB换成MongoDB官方的数据库，其中需要用到云函数vercel部署中的环境变量配置方法。</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://twikoo.js.org/quick-start.html#zeabur-%E9%83%A8%E7%BD%B">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648dbf42475a3.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Twikoo官方文档教程</div>
+            <div class="tag-link-sitename">twikoo官方</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="zeabur部署新服务"><a href="#zeabur部署新服务" class="headerlink" title="zeabur部署新服务"></a>zeabur部署新服务</h2><p>在<a href="https://dash.zeabur.com/">Zeabur</a>申请并登录账号<strong>（可能需要魔法）</strong>，点击部署新服务，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8e879.webp" alt="创建项目"></p>
+<h2 id="绑定GitHub仓库"><a href="#绑定GitHub仓库" class="headerlink" title="绑定GitHub仓库"></a>绑定GitHub仓库</h2><p>打开<a href="https://github.com/imaegoo/twikoo-zeabur">imaegoo&#x2F;twikoo-zeabur</a>点击 fork 将仓库 fork 到自己的账号下。<br>回到 Zeabur 左边一栏的nodejs下面点击部署新服务 - 部署你的源代码 - 授权 GitHub - 选择刚才 fork 的仓库，名称随意<br><img src="https://img01.anheyu.com/useruploads/151/2023/07/11/64ad09d29edf5.webp"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f90872.webp" alt="选择Git方式——GitHub"><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42faa459.webp" alt="选择刚才 fork 的仓库"></p>
+<h2 id="配置envId"><a href="#配置envId" class="headerlink" title="配置envId"></a>配置envId</h2><ul>
+<li>部署好后点开环境卡片 - 设置 - 域名，绑定一个域名<br>例如 mytwikoo.zeabur.app，“().zeabur.app”中的()名字任意<br><img src="https://img01.anheyu.com/useruploads/151/2023/07/11/64ad0aa7159ad.webp" alt="设置 - 域名，绑定一个域名"></li>
+<li>然后到博客配置文件中配置 envId 为 https:&#x2F;&#x2F; 加域名（例如 <a href="https://mytwikoo.zeabur.app)/">https://mytwikoo.zeabur.app）</a><br><img src="https://img01.anheyu.com/useruploads/151/2023/06/17/648cb42f8dfc6.webp" alt="配置文件中配置envId"></li>
+</ul>
+<h2 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h2><ul>
+<li>按照<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=1ba860a5f419766aa180694d0e9e3282">这个视频</a>操作即可，只要部署了MongoDB数据库、拿到MONGODB_URL即可，不用部署vercel哈。</li>
+<li>然后将MONGODB_URL作为环境变量放到zeabur的nodejs服务中即可：</li>
+</ul>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/11/64ad02961ff2d.webp"></p>
+<h2 id="Redeploy"><a href="#Redeploy" class="headerlink" title="Redeploy"></a>Redeploy</h2><mark class="hl-label blue">一定记得Redeploy，不然无效！</mark> 
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/04/64a4412173259.webp" alt="Redeploy"></p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>zeabur的服务也<strong>不是完全免费，但是会有充足的免费额度</strong>，对我来说肯定是够用的，估计<strong>中小个人博客都够用</strong>。</p>
+<p>通过zeabur + MongoDB官方部署的方式免费且不需要服务器，加上Twikoo的独立的配置界面，对小白超级友好。</p>
+<div class="note flat success flat"><p>鸣谢~</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.kouseki.cn">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://blog.kouseki.cn/imgs/avatar.webp);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">铭心石刻</div>
+            <div class="tag-link-sitename"> 再次感谢Kouseki铭心石刻大佬~</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div></div>
 ]]></content>
       <categories>
         <category>Hexo魔改</category>
