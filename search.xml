@@ -4090,7 +4090,7 @@
 <li>按照<a href="https://www.bilibili.com/video/BV1Fh411e7ZH/?vd_source=1ba860a5f419766aa180694d0e9e3282">这个视频</a>操作即可，只要部署了MongoDB数据库、拿到MONGODB_URL即可，不用部署vercel哈。</li>
 <li>然后将MONGODB_URL作为环境变量放到zeabur的nodejs服务中即可：</li>
 </ul>
-<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/11/64ad02961ff2d.webp"></p>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/13/64af9a7c7d957.webp"></p>
 <h2 id="Redeploy"><a href="#Redeploy" class="headerlink" title="Redeploy"></a>Redeploy</h2><mark class="hl-label blue">一定记得Redeploy，不然无效！</mark> 
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/07/04/64a4412173259.webp" alt="Redeploy"></p>
 <h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>zeabur的服务也<strong>不是完全免费，但是会有充足的免费额度</strong>，对我来说肯定是够用的，估计<strong>中小个人博客都够用</strong>。</p>
