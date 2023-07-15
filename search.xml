@@ -4062,7 +4062,12 @@
   <entry>
     <title>使用zeabur + MongoDB官方部署Twikoo</title>
     <url>/posts/49010.html</url>
-    <content><![CDATA[<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>因为我没有买云服务器，因此我在twikoo的文档里找了两种<strong>不需要服务器的部署方法</strong>：railway和zeabur。</p>
+    <content><![CDATA[<details class="folding-tag" ><summary> 本文更新记录 </summary>
+              <div class='content'>
+              <ul><li>23-5-28 v1.0<br>将MongoDB放在了zeabur内，导致丢了两次评论数据。</li><li>23-7-9 v2.0<br>在Kouseki铭心石刻大佬的帮助下，将zeabur中的MongoDB转成官方的。</li></ul>
+              </div>
+            </details>
+<h1 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h1><p>因为我没有买云服务器，因此我在twikoo的文档里找了两种<strong>不需要服务器的部署方法</strong>：railway和zeabur。</p>
 <div class="note flat info flat"><p>23&#x2F;7&#x2F;9日左右，我的twikoo评论数据再一次丢失，于是在Kouseki铭心石刻大佬的帮助下，将zeabur中的mongodb转成官方的，就永久不丢失了。</p>
 </div>
 <mark class="hl-label blue">并且请注意，把MongoDB托管在其他平台上其实都是有风险的，因此Kouseki大佬的组合肥肠nice~</mark> 
