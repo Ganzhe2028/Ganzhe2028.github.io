@@ -2726,12 +2726,12 @@
 <p>我是鱼皮，持续分享编程干货的程序员，欢迎关注，下期再见~</p>
 ]]></content>
       <categories>
-        <category>转载</category>
         <category>编程学习</category>
       </categories>
       <tags>
         <tag>鱼皮</tag>
         <tag>编程学习路线</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -3178,12 +3178,12 @@
 </ul>
 ]]></content>
       <categories>
-        <category>转载</category>
         <category>编程学习</category>
       </categories>
       <tags>
         <tag>鱼皮</tag>
         <tag>编程学习路线</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -3975,12 +3975,12 @@
 </ul>
 ]]></content>
       <categories>
-        <category>转载</category>
         <category>编程学习</category>
       </categories>
       <tags>
         <tag>鱼皮</tag>
         <tag>编程学习路线</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -4057,6 +4057,7 @@
 ]]></content>
       <tags>
         <tag>花里胡哨</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -5298,12 +5299,12 @@
 </ul>
 ]]></content>
       <categories>
-        <category>转载</category>
         <category>编程学习</category>
       </categories>
       <tags>
         <tag>鱼皮</tag>
         <tag>编程学习路线</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -5320,10 +5321,10 @@
 ]]></content>
       <categories>
         <category>Hexo魔改</category>
-        <category>转载</category>
       </categories>
       <tags>
         <tag>花里胡哨</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -5464,12 +5465,12 @@
 <p>看完本文后，欢迎阅读我之前的这篇文章：<a href="https://mp.weixin.qq.com/s/RyqO8ry29zAL40ToVitxTQ">大厂机密！30 个提升团队研发效能的锦囊</a> ，了解更多大厂技术。</p>
 ]]></content>
       <categories>
-        <category>转载</category>
         <category>编程学习</category>
       </categories>
       <tags>
         <tag>鱼皮</tag>
         <tag>编程学习路线</tag>
+        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
@@ -5540,10 +5541,10 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo魔改</category>
-        <category>转载</category>
       </categories>
       <tags>
         <tag>花里胡哨</tag>
+        <tag>转载</tag>
         <tag>补充Fomalhaut教程的疑难问题</tag>
       </tags>
   </entry>
