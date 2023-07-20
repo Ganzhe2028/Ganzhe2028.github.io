@@ -86,7 +86,7 @@
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>花里胡哨</tag>
+        <tag>功能</tag>
       </tags>
   </entry>
   <entry>
@@ -4026,7 +4026,7 @@
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>花里胡哨</tag>
+        <tag>功能</tag>
       </tags>
   </entry>
   <entry>
@@ -4056,8 +4056,8 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>花里胡哨</tag>
         <tag>转载</tag>
+        <tag>样式</tag>
       </tags>
   </entry>
   <entry>
@@ -4119,7 +4119,7 @@
       </categories>
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>花里胡哨</tag>
+        <tag>功能</tag>
       </tags>
   </entry>
   <entry>
@@ -5308,6 +5308,31 @@
       </tags>
   </entry>
   <entry>
+    <title>博客页面样式优化</title>
+    <url>/posts/9281.html</url>
+    <content><![CDATA[<p>这个教程是通过css样式调节各个页面透明度、模糊度（亚克力效果）、圆角、边框样式等，看起来会更加舒适。</p>
+<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><p>复制以下代码进去自定义的custom.css文件</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-pseudo">:root</span> &#123;</span><br><span class="line">  <span class="attr">--trans-light</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, <span class="number">0.88</span>);</span><br><span class="line">  <span class="attr">--trans-dark</span>: <span class="built_in">rgba</span>(<span class="number">25</span>, <span class="number">25</span>, <span class="number">25</span>, <span class="number">0.88</span>);</span><br><span class="line">  <span class="attr">--border-style</span>: <span class="number">1px</span> solid <span class="built_in">rgb</span>(<span class="number">169</span>, <span class="number">169</span>, <span class="number">169</span>);</span><br><span class="line">  <span class="attr">--backdrop-filter</span>: <span class="built_in">blur</span>(<span class="number">5px</span>) <span class="built_in">saturate</span>(<span class="number">150%</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 首页文章卡片 */</span></span><br><span class="line"><span class="selector-id">#recent-posts</span> &gt; <span class="selector-class">.recent-post-item</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--trans-light);</span><br><span class="line">  backdrop-<span class="attribute">filter</span>: <span class="built_in">var</span>(--backdrop-filter);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">25px</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="built_in">var</span>(--border-style);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 首页侧栏卡片 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> <span class="selector-class">.card-widget</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--trans-light);</span><br><span class="line">  backdrop-<span class="attribute">filter</span>: <span class="built_in">var</span>(--backdrop-filter);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="built_in">var</span>(--border-style);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 文章页、归档页、普通页面 */</span></span><br><span class="line"><span class="selector-tag">div</span><span class="selector-id">#post</span>,</span><br><span class="line"><span class="selector-tag">div</span><span class="selector-id">#page</span>,</span><br><span class="line"><span class="selector-tag">div</span><span class="selector-id">#archive</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--trans-light);</span><br><span class="line">  backdrop-<span class="attribute">filter</span>: <span class="built_in">var</span>(--backdrop-filter);</span><br><span class="line">  <span class="attribute">border</span>: <span class="built_in">var</span>(--border-style);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">20px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 导航栏 */</span></span><br><span class="line"><span class="selector-id">#page-header</span><span class="selector-class">.nav-fixed</span> <span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, <span class="number">0.75</span>);</span><br><span class="line">  backdrop-<span class="attribute">filter</span>: <span class="built_in">var</span>(--backdrop-filter);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#page-header</span><span class="selector-class">.nav-fixed</span> <span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.7</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 夜间模式遮罩 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#recent-posts</span> &gt; <span class="selector-class">.recent-post-item</span>,</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#aside-content</span> <span class="selector-class">.card-widget</span>,</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-tag">div</span><span class="selector-id">#post</span>,</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-tag">div</span><span class="selector-id">#archive</span>,</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-tag">div</span><span class="selector-id">#page</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--trans-dark);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 夜间模式页脚页头遮罩透明 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#footer</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: transparent <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#page-header</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: transparent <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 阅读模式 */</span></span><br><span class="line"><span class="selector-class">.read-mode</span> <span class="selector-id">#aside-content</span> <span class="selector-class">.card-widget</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">158</span>, <span class="number">204</span>, <span class="number">171</span>, <span class="number">0.5</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.read-mode</span> <span class="selector-tag">div</span><span class="selector-id">#post</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">158</span>, <span class="number">204</span>, <span class="number">171</span>, <span class="number">0.5</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 夜间模式下的阅读模式 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-class">.read-mode</span> <span class="selector-id">#aside-content</span> <span class="selector-class">.card-widget</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">25</span>, <span class="number">25</span>, <span class="number">25</span>, <span class="number">0.9</span>) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#ffffff</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-class">.read-mode</span> <span class="selector-tag">div</span><span class="selector-id">#post</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">25</span>, <span class="number">25</span>, <span class="number">25</span>, <span class="number">0.9</span>) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#ffffff</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="参数说明："><a href="#参数说明：" class="headerlink" title="参数说明："></a>参数说明：</h2><p>–trans-light：白天模式带透明度的背景色，如rgba(255, 255, 255, 0.88)底色是纯白色，其中0.88就透明度，在0-1之间调节，值越大越不透明；</p>
+<p>–trans-dark: 夜间模式带透明度的背景色，如rgba(25, 25, 25, 0.88)底色是柔和黑色，其中0.88就透明度，在0-1之间调节，值越大越不透明;</p>
+<p>–border-style: 边框样式，1px solid rgb(169, 169, 169)指宽度为1px的灰色实体边框;</p>
+<p>–backdrop-filter: 背景过滤器，如blur(5px) saturate(150%)表示饱和度为150%的、高斯模糊半径为5px的过滤器，这是亚克力效果的一种实现方法;</p>
+<p>大家可以根据自己喜好进行调节，不用拘泥于我的样式！</p>
+<p>记住在主题配置文件_config.butterfly.yml的inject配置项中引入该css文件：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span> </span><br><span class="line">  <span class="attr">head:</span> </span><br><span class="line"><span class="string">+</span>    <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
+<p>重启项目即可看见效果：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl; hexo s</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Hexo魔改</category>
+      </categories>
+      <tags>
+        <tag>转载</tag>
+        <tag>样式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>友链页复选框代码分享</title>
     <url>/posts/3802.html</url>
     <content><![CDATA[<div class="note flat info flat"><p>注意，本文代码部分不是原创，是从别的（应该是我友链里的）博主的文章里拿来用的，我有时间会去找TA，但TA也不一定是原作者。</p>
@@ -5323,7 +5348,7 @@
         <category>Hexo魔改</category>
       </categories>
       <tags>
-        <tag>花里胡哨</tag>
+        <tag>功能</tag>
         <tag>转载</tag>
       </tags>
   </entry>
@@ -5543,9 +5568,8 @@
         <category>Hexo魔改</category>
       </categories>
       <tags>
-        <tag>花里胡哨</tag>
+        <tag>功能</tag>
         <tag>转载</tag>
-        <tag>补充Fomalhaut教程的疑难问题</tag>
       </tags>
   </entry>
   <entry>
