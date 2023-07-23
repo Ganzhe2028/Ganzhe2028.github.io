@@ -5563,7 +5563,10 @@
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 欢迎信息 */</span></span><br><span class="line"><span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">45deg</span>, <span class="number">#b9f4f3</span>, <span class="number">#e3fbf9</span>);</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#welcome-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#212121</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h1 id="大功告成！"><a href="#大功告成！" class="headerlink" title="大功告成！"></a>大功告成！</h1><p>hexo二连即可看到效果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<div class="note info flat"><p>如果你发现没有bug到情况下没有显示，那么等待一段时间即可，这个定位需要时间才能显示，大概几小时</p>
+</div>]]></content>
       <categories>
         <category>hexo魔改</category>
       </categories>
