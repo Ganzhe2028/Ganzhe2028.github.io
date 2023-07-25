@@ -90,7 +90,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Deta + Leancloud0成本部署Waline</title>
+    <title>Deta + Leancloud 0成本部署Waline</title>
     <url>/posts/19526.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>7月24号左右，我的zeabur服务崩了，因此Twikoo就用不了了，于是我转了Waline，在官方的文档中找到了Deta + Leancloud的免费部署方式。<br>不过我还是想说，Twikoo yyds！</p>
 <h1 id="Leancloud"><a href="#Leancloud" class="headerlink" title="Leancloud"></a>Leancloud</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">
@@ -127,7 +127,7 @@
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3117a.webp"></p>
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f307e8.webp"></p>
 <ul>
-<li>这里填Leancloud的“应用 Key”中的3个值</li>
+<li>往下找，这里填Leancloud的“应用Key”中的3个值</li>
 </ul>
 <p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f4635e.webp"></p>
 <ul>
@@ -4053,21 +4053,7 @@
   <entry>
     <title>hexo博客的两种搜索系统</title>
     <url>/posts/41206.html</url>
-    <content><![CDATA[<h1 id="Algolia"><a href="#Algolia" class="headerlink" title="Algolia"></a>Algolia</h1><p>Algolia搜索系统看这篇困困鱼的文章：<strong>很详细，非常nice~</strong></p>
-<div class="note warning flat"><p>如果开了魔法的话，Algolia可能在hexo algolia这一步报错</p>
-</div>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://0206.ink/posts/55pbBybb44.html">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/0206.ink/posts/55pbBybb44.html.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">hexo AnZhiYu主题中怎么使用algolia搜索</div>
-            <div class="tag-link-sitename">困困鱼</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
+    <content><![CDATA[<h1 id="Docsearch"><a href="#Docsearch" class="headerlink" title="Docsearch"></a>Docsearch</h1><p>Algolia的另外一个服务，同样是搜索系统，参见：<a href="https://docsearch.algolia.com/">Docsearch</a></p>
 <h1 id="本地搜索-hexo-generator-search"><a href="#本地搜索-hexo-generator-search" class="headerlink" title="本地搜索 hexo-generator-search"></a>本地搜索 hexo-generator-search</h1><p><a href="https://github.com/wzpan/hexo-generator-search">GitHub原项目</a><br>个人认为本地搜索操作比较简单，<strong>文章不多时</strong>速度比较快哈，作为小白比较推荐（先用上）。</p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>根目录终端先运行这两行代码：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-search</span> <span class="string">--save</span></span><br><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
@@ -4080,7 +4066,7 @@
 <h2 id="打开本地搜索"><a href="#打开本地搜索" class="headerlink" title="打开本地搜索"></a>打开本地搜索</h2><p>修改主题config文件：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">CDN:</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h2><p><strong>根目录新建一个search.xml文件</strong>，否则时不时会抽风出bug：</p>
+<h2 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h2><p><strong>根目录新建一个search.xml文件</strong>，里面不用放东西。否则时不时会抽风出一下报错：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">Error: ENOENT:</span> <span class="literal">no</span> <span class="string">such</span> <span class="string">file</span> <span class="string">or</span> <span class="string">directory,</span> <span class="string">open</span> <span class="string">&#x27;./search.xml&#x27;</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">cl</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></table></figure>
@@ -4097,7 +4083,7 @@
       </tags>
   </entry>
   <entry>
-    <title>使用zeabur + MongoDB0成本部署Twikoo</title>
+    <title>使用zeabur + MongoDB 0成本部署Twikoo</title>
     <url>/posts/49010.html</url>
     <content><![CDATA[<details class="folding-tag" ><summary> 本文更新记录 </summary>
               <div class='content'>
