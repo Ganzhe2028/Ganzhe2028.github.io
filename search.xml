@@ -90,6 +90,69 @@
       </tags>
   </entry>
   <entry>
+    <title>Deta + Leancloud0成本部署Waline</title>
+    <url>/posts/19526.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>7月24号左右，我的zeabur服务崩了，因此Twikoo就用不了了，于是我转了Waline，在官方的文档中找到了Deta + Leancloud的免费部署方式。<br>不过我还是想说，Twikoo yyds！</p>
+<h1 id="Leancloud"><a href="#Leancloud" class="headerlink" title="Leancloud"></a>Leancloud</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Leancloud</div>
+            <div class="tag-link-sitename">官方原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<ul>
+<li>搞定Leancloud即可，不用到vercel部署</li>
+</ul>
+<h1 id="Deta"><a href="#Deta" class="headerlink" title="Deta"></a>Deta</h1><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/deploy/deta.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Deta部署</div>
+            <div class="tag-link-sitename">官方文档原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><ul>
+<li>环境变量藏得有点深</li>
+</ul>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3118c.webp" alt="2023-07-25_203147"></p>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3117a.webp" alt="2023-07-25_203242"></p>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f307e8.webp" alt="2023-07-25_203452"></p>
+<ul>
+<li>这里填Leancloud的“应用 Key”中的3个值</li>
+</ul>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f4635e.webp" alt="2023-07-25_203514"></p>
+<h1 id="管理端"><a href="#管理端" class="headerlink" title="管理端"></a>管理端</h1><ul>
+<li>最后别忘了这个~</li>
+</ul>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E7%AB%AF">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">评论管理端</div>
+            <div class="tag-link-sitename">原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>功能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java学习路线</title>
     <url>/posts/63587.html</url>
     <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
@@ -4030,38 +4093,7 @@
       </tags>
   </entry>
   <entry>
-    <title>个人卡片实现渐变色</title>
-    <url>/posts/26088.html</url>
-    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://moyustar.cn/posts/65e8.html">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca4dfb30ed.webp);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">摸鱼星球</div>
-            <div class="tag-link-sitename">原作者</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-<ul>
-<li>添加代码</li>
-</ul>
-<p>打开<mark class="hl-label blue">Blog根目录/source/css/custom.css</mark> 路径中的css文件夹或custom.css文件没有的话就新建，写入如下代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 侧边栏个人信息卡片动态渐变色 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(</span><br><span class="line">    -<span class="number">45deg</span>,</span><br><span class="line">    <span class="number">#e8d8b9</span>,</span><br><span class="line">    <span class="number">#eccec5</span>,</span><br><span class="line">    <span class="number">#a3e9eb</span>,</span><br><span class="line">    <span class="number">#bdbdf0</span>,</span><br><span class="line">    <span class="number">#eec1ea</span></span><br><span class="line">  );</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgb</span>(<span class="number">66</span>, <span class="number">68</span>, <span class="number">68</span>);</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">background-size</span>: <span class="number">400%</span> <span class="number">400%</span>;</span><br><span class="line">  -webkit-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  -moz-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  <span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-moz-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 黑夜模式适配 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#191919ee</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 个人信息Follow me按钮 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &gt; <span class="selector-id">#card-info-btn</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#3eb8be</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<div class="note info flat"><p><mark class="hl-label blue">这里建议将css文件压缩为：.min.css</mark> ，这样有助于加快网站加载。<br>插件：JS &amp; CSS Minifier (Minify)（vscode扩展搜索即可）</p>
-</div>
-
-<ul>
-<li>引入代码<br>打开主题配置文件<mark class="hl-label blue">_config.anzhiyu.yml</mark> ，搜索inject并按下列格式补充完整即可<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>转载</tag>
-        <tag>样式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用zeabur + MongoDB官方部署Twikoo</title>
+    <title>使用zeabur + MongoDB0成本部署Twikoo</title>
     <url>/posts/49010.html</url>
     <content><![CDATA[<details class="folding-tag" ><summary> 本文更新记录 </summary>
               <div class='content'>
@@ -4120,6 +4152,37 @@
       <tags>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>功能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人卡片实现渐变色</title>
+    <url>/posts/26088.html</url>
+    <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://moyustar.cn/posts/65e8.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca4dfb30ed.webp);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">摸鱼星球</div>
+            <div class="tag-link-sitename">原作者</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+<ul>
+<li>添加代码</li>
+</ul>
+<p>打开<mark class="hl-label blue">Blog根目录/source/css/custom.css</mark> 路径中的css文件夹或custom.css文件没有的话就新建，写入如下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 侧边栏个人信息卡片动态渐变色 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(</span><br><span class="line">    -<span class="number">45deg</span>,</span><br><span class="line">    <span class="number">#e8d8b9</span>,</span><br><span class="line">    <span class="number">#eccec5</span>,</span><br><span class="line">    <span class="number">#a3e9eb</span>,</span><br><span class="line">    <span class="number">#bdbdf0</span>,</span><br><span class="line">    <span class="number">#eec1ea</span></span><br><span class="line">  );</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgb</span>(<span class="number">66</span>, <span class="number">68</span>, <span class="number">68</span>);</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">background-size</span>: <span class="number">400%</span> <span class="number">400%</span>;</span><br><span class="line">  -webkit-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  -moz-<span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite;</span><br><span class="line">  <span class="attribute">animation</span>: Gradient <span class="number">10s</span> ease infinite <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-moz-keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@keyframes</span> Gradient &#123;</span><br><span class="line">  <span class="number">0%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">50%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="number">100%</span> &#123;</span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">0%</span> <span class="number">50%</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 黑夜模式适配 */</span></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#191919ee</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 个人信息Follow me按钮 */</span></span><br><span class="line"><span class="selector-id">#aside-content</span> &gt; <span class="selector-class">.card-widget</span><span class="selector-class">.card-info</span> &gt; <span class="selector-id">#card-info-btn</span> &#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#3eb8be</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="note info flat"><p><mark class="hl-label blue">这里建议将css文件压缩为：.min.css</mark> ，这样有助于加快网站加载。<br>插件：JS &amp; CSS Minifier (Minify)（vscode扩展搜索即可）</p>
+</div>
+
+<ul>
+<li>引入代码<br>打开主题配置文件<mark class="hl-label blue">_config.anzhiyu.yml</mark> ，搜索inject并按下列格式补充完整即可<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">&lt;link</span> <span class="string">rel=&quot;stylesheet&quot;</span> <span class="string">href=&quot;/css/custom.css&quot;&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>转载</tag>
+        <tag>样式</tag>
       </tags>
   </entry>
   <entry>
