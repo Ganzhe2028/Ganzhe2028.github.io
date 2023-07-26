@@ -4068,9 +4068,8 @@
 <li>记住这几个数据，和以下代码一起填到根目录config文件中（填写<strong>appId，apikey，adminApikey和indexName</strong>）<br><img src="https://didilinkin.cn/assets/images/wx-api-keys-53ccd26bf2b7754951b6adddd6c37c91.png"><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch</span></span><br><span class="line"><span class="attr">algolia:</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">apiKey:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">adminApiKey:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">chunkSize:</span> <span class="number">5000</span></span><br><span class="line">  <span class="attr">indexName:</span> <span class="string">&quot;&quot;</span> <span class="comment"># application名称</span></span><br><span class="line">  <span class="attr">fields:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">content:strip:truncate,0,200</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">excerpt:strip</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">gallery</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">permalink</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">photos</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">slug</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tags</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">title</span></span><br></pre></td></tr></table></figure></li>
 <li>运行<strong>以下代码</strong>，大功告成！去网站上看看吧~<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo algolia</span><br></pre></td></tr></table></figure>
 <div class="note warning flat"><p>没效果多半是忘记运行hexo algolia了</p>
-</div></li>
-</ul>
-<h2 id="以上参考："><a href="#以上参考：" class="headerlink" title="以上参考："></a>以上参考：</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://didilinkin.cn/blog/algoliasearch/#2-%E8%8E%B7%E5%8F%96-application-id--api-keys">
+</div>
+本部分参考：<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://didilinkin.cn/blog/algoliasearch/#2-%E8%8E%B7%E5%8F%96-application-id--api-keys">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://didilinkin.cn/img/avataaars.png);"></div>
@@ -4080,9 +4079,8 @@
         </div>
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
-    </a></div>
-
-
+    </a></div></li>
+</ul>
 <h1 id="本地搜索-hexo-generator-search"><a href="#本地搜索-hexo-generator-search" class="headerlink" title="本地搜索 hexo-generator-search"></a>本地搜索 hexo-generator-search</h1><p><a href="https://github.com/wzpan/hexo-generator-search">GitHub原项目</a><br>个人认为本地搜索操作比较简单，<strong>文章&lt;10时</strong>速度比较快哈，小白比较推荐（先用上）。</p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>根目录终端先运行这两行代码：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-search</span> <span class="string">--save</span></span><br><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
