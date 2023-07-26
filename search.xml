@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Deta + Leancloud 0成本部署Waline</title>
+    <url>/posts/19526.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>7月24号左右，我的zeabur服务崩了，因此Twikoo就用不了了，于是我转了Waline，在官方的文档中找到了Deta + Leancloud的免费部署方式。<br>不过我还是想说，Twikoo yyds！</p>
+<h1 id="Leancloud"><a href="#Leancloud" class="headerlink" title="Leancloud"></a>Leancloud</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Leancloud</div>
+            <div class="tag-link-sitename">官方原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<ul>
+<li>搞定Leancloud即可，不用到vercel部署</li>
+</ul>
+<h1 id="Deta"><a href="#Deta" class="headerlink" title="Deta"></a>Deta</h1><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/deploy/deta.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Deta部署</div>
+            <div class="tag-link-sitename">官方文档原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><ul>
+<li>环境变量藏得有点深</li>
+</ul>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3118c.webp"></p>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3117a.webp"></p>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f307e8.webp"></p>
+<ul>
+<li>往下找，这里填Leancloud的“应用Key”中的3个值</li>
+</ul>
+<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f4635e.webp"></p>
+<ul>
+<li>记得划到最下面点击保存<br><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfd9406e3d1.webp"><div class="note info flat"><p>注意，官方文档中的环境变量比如“邮件通知”等等变量都在这里设置</p>
+</div></li>
+</ul>
+<h1 id="管理端"><a href="#管理端" class="headerlink" title="管理端"></a>管理端</h1><ul>
+<li>最后别忘了这个~</li>
+</ul>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E7%AB%AF">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">评论管理端</div>
+            <div class="tag-link-sitename">原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>功能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>51LA统计+灵雀监控教程</title>
     <url>/posts/29786.html</url>
     <content><![CDATA[<h1 id="本文初衷"><a href="#本文初衷" class="headerlink" title="本文初衷"></a>本文初衷</h1><p>看到安知鱼主题群里有很多小伙伴一直在问这个问题，鱼佬的文档可能不是那么完善（太忙了），因此本文于此进行步骤方面的补充。</p>
@@ -85,75 +152,8 @@
         <category>hexo</category>
       </categories>
       <tags>
+        <tag>功能</tag>
         <tag>补充anzhiyu教程&amp;文档的疑难</tag>
-        <tag>功能</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Deta + Leancloud 0成本部署Waline</title>
-    <url>/posts/19526.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>7月24号左右，我的zeabur服务崩了，因此Twikoo就用不了了，于是我转了Waline，在官方的文档中找到了Deta + Leancloud的免费部署方式。<br>不过我还是想说，Twikoo yyds！</p>
-<h1 id="Leancloud"><a href="#Leancloud" class="headerlink" title="Leancloud"></a>Leancloud</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Leancloud</div>
-            <div class="tag-link-sitename">官方原文</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
-<ul>
-<li>搞定Leancloud即可，不用到vercel部署</li>
-</ul>
-<h1 id="Deta"><a href="#Deta" class="headerlink" title="Deta"></a>Deta</h1><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/deploy/deta.html">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">Deta部署</div>
-            <div class="tag-link-sitename">官方文档原文</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-
-<h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><ul>
-<li>环境变量藏得有点深</li>
-</ul>
-<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3118c.webp"></p>
-<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f3117a.webp"></p>
-<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f307e8.webp"></p>
-<ul>
-<li>往下找，这里填Leancloud的“应用Key”中的3个值</li>
-</ul>
-<p><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfc40f4635e.webp"></p>
-<ul>
-<li>记得划到最下面点击保存<br><img src="https://img01.anheyu.com/useruploads/151/2023/07/25/64bfd9406e3d1.webp"><div class="note info flat"><p>注意，官方文档中的环境变量比如“邮件通知”等等变量都在这里设置</p>
-</div></li>
-</ul>
-<h1 id="管理端"><a href="#管理端" class="headerlink" title="管理端"></a>管理端</h1><ul>
-<li>最后别忘了这个~</li>
-</ul>
-<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E7%AB%AF">
-    <div class="tag-link-tips">引用站外地址</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">评论管理端</div>
-            <div class="tag-link-sitename">原文</div>
-        </div>
-        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
-    </div>
-    </a></div>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>功能</tag>
       </tags>
   </entry>
   <entry>
@@ -4078,8 +4078,8 @@
         <category>hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>功能</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
       </tags>
   </entry>
   <entry>
@@ -4140,8 +4140,8 @@
         <category>hexo</category>
       </categories>
       <tags>
-        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
         <tag>功能</tag>
+        <tag>补充anzhiyu教程&amp;文档的疑难</tag>
       </tags>
   </entry>
   <entry>
