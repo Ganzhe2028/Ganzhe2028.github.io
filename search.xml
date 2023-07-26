@@ -4053,8 +4053,37 @@
   <entry>
     <title>hexo博客的两种搜索系统</title>
     <url>/posts/41206.html</url>
-    <content><![CDATA[<h1 id="Docsearch"><a href="#Docsearch" class="headerlink" title="Docsearch"></a>Docsearch</h1><p>Algolia的另外一个服务，同样是搜索系统，参见：<a href="https://docsearch.algolia.com/">Docsearch</a></p>
-<h1 id="本地搜索-hexo-generator-search"><a href="#本地搜索-hexo-generator-search" class="headerlink" title="本地搜索 hexo-generator-search"></a>本地搜索 hexo-generator-search</h1><p><a href="https://github.com/wzpan/hexo-generator-search">GitHub原项目</a><br>个人认为本地搜索操作比较简单，<strong>文章不多时</strong>速度比较快哈，作为小白比较推荐（先用上）。</p>
+    <content><![CDATA[<h1 id="Algolia（推荐）"><a href="#Algolia（推荐）" class="headerlink" title="Algolia（推荐）"></a>Algolia（推荐）</h1><h2 id="创建账户"><a href="#创建账户" class="headerlink" title="创建账户"></a>创建账户</h2><p>在<a href="https://www.algolia.com/">Algolia官网</a>上创建账户并登录</p>
+<h2 id="官网操作"><a href="#官网操作" class="headerlink" title="官网操作"></a>官网操作</h2><ul>
+<li><p>创建Application<br><img src="https://didilinkin.cn/assets/images/wx-create-708ff14211556c1237847c5ce9600a09.png"></p>
+</li>
+<li><p>设置 Application 名称，随意填写。选择免费计划<br><img src="https://didilinkin.cn/assets/images/wx-select-7396ce152d6094743b41fe1610a1578c.png"></p>
+</li>
+<li><p>右边点击进去之后，选择响应速度快的服务后，创建成功✅<br><img src="https://didilinkin.cn/assets/images/wx-select-7396ce152d6094743b41fe1610a1578c.png"></p>
+</li>
+<li><p>找到控制台的设置页面，找到Api keys<br><img src="https://didilinkin.cn/assets/images/wx-settings-36a8bc41fea9c378f34c2317bdeac3ae.png"></p>
+</li>
+</ul>
+<h2 id="本地操作"><a href="#本地操作" class="headerlink" title="本地操作"></a>本地操作</h2><ul>
+<li>记住这几个数据，和以下代码一起填到根目录config文件中（填写<strong>appId，apikey，adminApikey和indexName</strong>）<br><img src="https://didilinkin.cn/assets/images/wx-api-keys-53ccd26bf2b7754951b6adddd6c37c91.png"><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch</span></span><br><span class="line"><span class="attr">algolia:</span></span><br><span class="line">  <span class="attr">appId:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">apiKey:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">adminApiKey:</span> <span class="string">&quot;xxxx&quot;</span></span><br><span class="line">  <span class="attr">chunkSize:</span> <span class="number">5000</span></span><br><span class="line">  <span class="attr">indexName:</span> <span class="string">&quot;&quot;</span> <span class="comment"># application名称</span></span><br><span class="line">  <span class="attr">fields:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">content:strip:truncate,0,200</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">excerpt:strip</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">gallery</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">permalink</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">photos</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">slug</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">tags</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">title</span></span><br></pre></td></tr></table></figure></li>
+<li>运行<strong>以下代码</strong>，大功告成！去网站上看看吧~<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo algolia</span><br></pre></td></tr></table></figure>
+<div class="note warning flat"><p>没效果多半是忘记运行hexo algolia了</p>
+</div></li>
+</ul>
+<h2 id="以上参考："><a href="#以上参考：" class="headerlink" title="以上参考："></a>以上参考：</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://didilinkin.cn/blog/algoliasearch/#2-%E8%8E%B7%E5%8F%96-application-id--api-keys">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://didilinkin.cn/img/avataaars.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">哈肯希</div>
+            <div class="tag-link-sitename">参考了部分原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+
+<h1 id="本地搜索-hexo-generator-search"><a href="#本地搜索-hexo-generator-search" class="headerlink" title="本地搜索 hexo-generator-search"></a>本地搜索 hexo-generator-search</h1><p><a href="https://github.com/wzpan/hexo-generator-search">GitHub原项目</a><br>个人认为本地搜索操作比较简单，<strong>文章&lt;10时</strong>速度比较快哈，小白比较推荐（先用上）。</p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>根目录终端先运行这两行代码：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-search</span> <span class="string">--save</span></span><br><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-generator-searchdb</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
 
@@ -4072,7 +4101,6 @@
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">hexo</span> <span class="string">cl</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">g</span></span><br><span class="line"><span class="string">hexo</span> <span class="string">s</span></span><br></pre></td></tr></table></figure>
 <div class="note warning flat"><p><strong>hexo cl这行必须运行！</strong></p>
 </div>
-
 ]]></content>
       <categories>
         <category>hexo</category>
