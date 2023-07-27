@@ -4109,6 +4109,43 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo教程合集</title>
+    <url>/posts/46286.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文希望收集一些hexo基础教程来供萌新小白（和我自己）参考，文章都是以连接的形式收录于本文中。会不断更新</p>
+<h1 id="hexo基础教程"><a href="#hexo基础教程" class="headerlink" title="hexo基础教程"></a>hexo基础教程</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://manamn.space/posts/95771693.html">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/07/15/64b2525d6c6fe.webp);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Hexo+Github博客搭建教程</div>
+            <div class="tag-link-sitename">LEO大佬</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://fe32.top/articles/hexo1600/">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://bu.dusays.com/2022/05/02/626f92e193879.jpg);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">基于 Hexo 从零开始搭建个人博客系列</div>
+            <div class="tag-link-sitename">唐志远大佬</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+<h1 id="继续更新中…"><a href="#继续更新中…" class="headerlink" title="继续更新中…"></a>继续更新中…</h1>]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>转载</tag>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用zeabur + MongoDB 0成本部署Twikoo</title>
     <url>/posts/49010.html</url>
     <content><![CDATA[<details class="folding-tag" ><summary> 本文更新记录 </summary>
