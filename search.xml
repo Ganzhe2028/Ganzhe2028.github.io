@@ -4136,6 +4136,18 @@
     </div>
     </a></div>
 
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/ddae.html#post-comment">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca3dcbddb2.webp);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">使用Github Pages和Hexo搭建自己的独立博客</div>
+            <div class="tag-link-sitename">鱼佬的</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
 <h1 id="继续更新中…"><a href="#继续更新中…" class="headerlink" title="继续更新中…"></a>继续更新中…</h1>]]></content>
       <categories>
         <category>hexo</category>
