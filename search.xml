@@ -5463,7 +5463,7 @@
   <entry>
     <title>友链页复选框代码分享</title>
     <url>/posts/3802.html</url>
-    <content><![CDATA[<div class="note flat info flat"><p>注意，本文代码部分不是原创，是从别的（应该是我友链里的）博主的文章里拿来用的，我有时间会去找TA，但TA也不一定是原作者。</p>
+    <content><![CDATA[<div class="note flat info flat"><p>注意，本文代码部分不是原创，是从别的（应该是我友链里的）博主的文章里拿来用的，TA也不一定是原作者。</p>
 </div>
 <p>友链页的复选框可以让我们<strong>更加便捷地添加友链，同时不会出现过多无用留言</strong>。</p>
 <ul>
