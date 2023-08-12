@@ -2802,6 +2802,458 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux学习路线</title>
+    <url>/posts/22689.html</url>
+    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
+</div>
+
+<h1 id="Linux-学习路线"><a href="#Linux-学习路线" class="headerlink" title="Linux 学习路线"></a>Linux 学习路线</h1><blockquote>
+<p>Linux 学习路线 by 程序员鱼皮-编程导航</p>
+</blockquote>
+<p>💂 + 💻 &#x3D; 👴🏽</p>
+<p>建议先观看视频入门：<a href="https://www.bilibili.com/video/BV1ev411G7VE/">https://www.bilibili.com/video/BV1ev411G7VE/</a></p>
+<h2 id="为什么学-Linux？"><a href="#为什么学-Linux？" class="headerlink" title="为什么学 Linux？"></a>为什么学 Linux？</h2><p>相比于 Windows，Linux 免费、开源、安全、灵活、稳定、便于开发，所以更受企业青睐，甚至 <strong>90% 以上</strong> 的企业应用都是用 Linux 服务器部署的。</p>
+<p>无论是前端、后端、算法、测试、运维等计算机相关岗位的同学，都建议学习下 Linux，大有裨益。</p>
+<h2 id="学习境界"><a href="#学习境界" class="headerlink" title="学习境界"></a>学习境界</h2><p>首先，Linux 入门很简单，但想学的透彻难上加难！</p>
+<p>因此，在学习之前要明确目标。</p>
+<p>可以 Linux 的学习分为几种境界：</p>
+<ol>
+<li>明劲，就是了解 Linux 的基本概念，会敲常用命令来应对工作。对于大多数想从事开发和运维岗位的同学，学到这就足够找到工作了。</li>
+<li>暗劲，又分为两种境界，能理解 Linux 尤其是其内核的设计思想，为小圆满；能将其思想应用到系统的架构设计中，为大圆满。暗劲境界的高手，冲击大厂、做架构师、从事底层开发，都不成问题。</li>
+<li>化劲，可谓出神入化，不仅熟知 Linux 的使用、思想和细节，更能推陈出新，自主创造新的系统。</li>
+</ol>
+<p>当然，一般情况下，会用就够了，想进大厂最好也学习一些内核的设计思想。找到工作后，是否要深入学习完全取决于你自己。</p>
+<h2 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h2><p><img src="https://qiniuyun.code-nav.cn/img/%E9%B1%BC%E7%9A%AE%20-%20Linux%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.png" alt="鱼皮 - Linux 学习路线"></p>
+<h2 id="路线"><a href="#路线" class="headerlink" title="路线"></a>路线</h2><h3 id="Linux-基础知识"><a href="#Linux-基础知识" class="headerlink" title="Linux 基础知识"></a>Linux 基础知识</h3><ul>
+<li>发展历史</li>
+<li>⭐ 特点和优势</li>
+<li>应用场景</li>
+<li>⭐ 常见 Linux 系统版本（推荐 CentOS 7+）<ul>
+<li>⭐ CentOS</li>
+<li>⭐ Ubuntu</li>
+<li>Debian</li>
+<li>Fedora</li>
+</ul>
+</li>
+<li>何为开源？</li>
+</ul>
+<h3 id="Linux-环境"><a href="#Linux-环境" class="headerlink" title="Linux 环境"></a>Linux 环境</h3><ul>
+<li><p>搭建方式</p>
+<ul>
+<li>⭐ 虚拟机</li>
+<li>⭐ 云服务器</li>
+<li>在线工具</li>
+<li>WSL</li>
+<li>Docker 容器</li>
+</ul>
+</li>
+<li><p>远程连接</p>
+<ul>
+<li>⭐ SSH</li>
+<li>连接工具<ul>
+<li>⭐ XShell</li>
+<li>⭐ MobaXterm</li>
+<li>SecureCRT</li>
+<li>Putty</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h3><blockquote>
+<p>此处只列举命令名称，命令的具体用法可直接在手册中（<a href="https://www.linuxcool.com/%EF%BC%89%E6%9F%A5%E8%AF%A2">https://www.linuxcool.com/）查询</a></p>
+</blockquote>
+<h4 id="系统信息"><a href="#系统信息" class="headerlink" title="系统信息"></a>系统信息</h4><ul>
+<li>uname 查看系统信息</li>
+<li>hostname 查看主机名</li>
+<li>cat &#x2F;proc&#x2F;cpuinfo 查看 CPU 信息</li>
+<li>lsmod 查看已加载的系统模块</li>
+<li>top 查看系统使用情况</li>
+<li>df 查看磁盘使用情况</li>
+<li>fdisk 查看磁盘分区</li>
+<li>du 查看目录使用情况</li>
+<li>iostat 查看 I &#x2F; O 使用情况</li>
+<li>free 显示系统内存情况</li>
+<li>env 查看环境变量</li>
+<li>uptime 查看系统运行时间、用户数、负载</li>
+</ul>
+<h4 id="系统操作"><a href="#系统操作" class="headerlink" title="系统操作"></a>系统操作</h4><ul>
+<li>shutdown 关机</li>
+<li>reboot 重启</li>
+<li>mount 挂载设备</li>
+<li>umount 卸载设备</li>
+</ul>
+<h4 id="用户相关"><a href="#用户相关" class="headerlink" title="用户相关"></a>用户相关</h4><ul>
+<li>su 切换用户</li>
+<li>sudo 以管理员身份执行</li>
+<li>who 查看当前用户名</li>
+<li>ssh 远程连接</li>
+<li>logout 注销</li>
+<li>useradd 创建用户</li>
+<li>userdel 删除用户</li>
+<li>usermod 修改用户</li>
+<li>groupadd 创建用户组</li>
+<li>groupdel 删除用户组</li>
+<li>groupmod 修改用户组</li>
+<li>passwd 修改密码</li>
+<li>last 显示用户或终端的登录情况</li>
+</ul>
+<h4 id="文件相关"><a href="#文件相关" class="headerlink" title="文件相关"></a>文件相关</h4><ul>
+<li>cd 切换目录</li>
+<li>ls 查看目录列表</li>
+<li>tree 打印目录树</li>
+<li>mkdir 创建目录</li>
+<li>rm 删除目录</li>
+<li>touch 新建文件</li>
+<li>cp 复制文件</li>
+<li>mv 移动文件</li>
+<li>ln 创建文件链接</li>
+<li>find 搜索文件</li>
+<li>locate 定位文件</li>
+<li>whereis 查看可执行文件路径</li>
+<li>which 在 PATH 指定的路径中，搜索某系统命令的位置</li>
+<li>chmod 设置目录权限</li>
+<li>cat &#x2F; more &#x2F; less 查看文件</li>
+<li>tac 倒序查看文件</li>
+<li>head &#x2F; tail 查看文件开头 &#x2F; 结尾</li>
+<li>paste 合并文件</li>
+<li>zip &#x2F; tar &#x2F; gzip 压缩文件</li>
+<li>unzip &#x2F; tar &#x2F; gunzip 解压文件</li>
+<li>grep &#x2F; sed &#x2F; awk 文本处理</li>
+<li>vim 文本编辑</li>
+</ul>
+<h4 id="程序相关"><a href="#程序相关" class="headerlink" title="程序相关"></a>程序相关</h4><ul>
+<li>crontab 计划任务</li>
+<li>nohup 后台运行程序</li>
+<li>jobs 查看系统任务</li>
+<li>ps 查看进程</li>
+<li>kill 杀死进程</li>
+<li>rpm &#x2F; yum &#x2F; apt &#x2F; apt-get &#x2F; dpkg 软件包管理</li>
+<li>service &#x2F; systemctl 服务管理</li>
+</ul>
+<h4 id="网络相关"><a href="#网络相关" class="headerlink" title="网络相关"></a>网络相关</h4><ul>
+<li>ifconfig 查看网络属性</li>
+<li>netstat 查看网络状态</li>
+<li>iptables 查看 iptables 规则</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><p>date 显示系统时间</p>
+</li>
+<li><p>cal 显示日历</p>
+</li>
+<li><p>history 显示与操作历史</p>
+</li>
+<li><p>help 帮助</p>
+</li>
+<li><p>alias 别名</p>
+</li>
+</ul>
+<h3 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h3><ul>
+<li>用户</li>
+<li>用户组</li>
+<li>ACL 权限管理</li>
+<li>用户切换</li>
+<li>管理员</li>
+</ul>
+<h3 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h3><ul>
+<li>文件操作<ul>
+<li>创建</li>
+<li>修改</li>
+<li>复制</li>
+<li>移动</li>
+<li>删除</li>
+</ul>
+</li>
+<li>文件浏览</li>
+<li>文件搜索</li>
+<li>文件权限</li>
+<li>软硬链接</li>
+<li>压缩 &#x2F; 解压</li>
+</ul>
+<h3 id="文本操作"><a href="#文本操作" class="headerlink" title="文本操作"></a>文本操作</h3><ul>
+<li>正则表达式</li>
+<li>grep</li>
+<li>sed</li>
+<li>awk</li>
+</ul>
+<h3 id="VIM-编辑器"><a href="#VIM-编辑器" class="headerlink" title="VIM 编辑器"></a>VIM 编辑器</h3><ul>
+<li><p>基本操作</p>
+</li>
+<li><p>模式</p>
+</li>
+<li><p>快捷键</p>
+</li>
+<li><p>VIM 定制</p>
+</li>
+<li><p>插件增强</p>
+</li>
+</ul>
+<p>送张 VIM 键盘图：</p>
+<p><img src="https://qiniuyun.code-nav.cn/img/vi-vim-cheat-sheet-sch.gif"></p>
+<h3 id="磁盘管理"><a href="#磁盘管理" class="headerlink" title="磁盘管理"></a>磁盘管理</h3><ul>
+<li>使用情况查询</li>
+<li>磁盘分区</li>
+<li>挂载</li>
+</ul>
+<h3 id="驱动管理"><a href="#驱动管理" class="headerlink" title="驱动管理"></a>驱动管理</h3><ul>
+<li>驱动加载</li>
+<li>驱动更新</li>
+<li>网卡</li>
+<li>显卡</li>
+</ul>
+<h3 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h3><ul>
+<li>启动进程</li>
+<li>杀死进程</li>
+<li>查看进程</li>
+<li>前台 &#x2F; 后台任务</li>
+<li>进程监控</li>
+</ul>
+<h3 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h3><ul>
+<li>crond 服务</li>
+<li>crontab 命令</li>
+</ul>
+<h3 id="网络管理"><a href="#网络管理" class="headerlink" title="网络管理"></a>网络管理</h3><ul>
+<li>IP</li>
+<li>端口</li>
+<li>主机名</li>
+<li>hosts</li>
+<li>网络配置</li>
+<li>网络状态</li>
+<li>网络监控</li>
+</ul>
+<h3 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h3><ul>
+<li><p>系统设置</p>
+<ul>
+<li>日期时间</li>
+<li>语言</li>
+<li>字符集</li>
+</ul>
+</li>
+<li><p>系统服务</p>
+</li>
+<li><p>环境变量</p>
+</li>
+<li><p>日志</p>
+</li>
+<li><p>系统关机 &#x2F; 重启</p>
+</li>
+<li><p>数据备份与恢复</p>
+</li>
+</ul>
+<h3 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h3><ul>
+<li>服务查看</li>
+<li>启动服务</li>
+<li>禁用服务</li>
+<li>删除服务</li>
+<li>开机自启</li>
+</ul>
+<h3 id="软件管理"><a href="#软件管理" class="headerlink" title="软件管理"></a>软件管理</h3><ul>
+<li><p>软件包管理器</p>
+<ul>
+<li>⭐ rpm</li>
+<li>⭐ yum</li>
+<li>apt</li>
+<li>apt-get</li>
+<li>dpkg</li>
+</ul>
+</li>
+<li><p>软件安装</p>
+</li>
+<li><p>软件更新</p>
+</li>
+<li><p>软件卸载</p>
+</li>
+<li><p>源码安装</p>
+</li>
+</ul>
+<h3 id="常用软件-x2F-服务搭建"><a href="#常用软件-x2F-服务搭建" class="headerlink" title="常用软件 &#x2F; 服务搭建"></a>常用软件 &#x2F; 服务搭建</h3><ul>
+<li><p>HTTP</p>
+</li>
+<li><p>Mail</p>
+</li>
+<li><p>NFS</p>
+</li>
+<li><p>DNS</p>
+</li>
+<li><p>FTP</p>
+</li>
+<li><p>mysql</p>
+</li>
+<li><p>LVS + Keepalived</p>
+</li>
+<li><p>Apache</p>
+</li>
+<li><p>Nginx</p>
+</li>
+<li><p>Redis</p>
+</li>
+<li><p>日志服务</p>
+</li>
+</ul>
+<h3 id="Shell-脚本编程"><a href="#Shell-脚本编程" class="headerlink" title="Shell 脚本编程"></a>Shell 脚本编程</h3><ul>
+<li><p>默认变量</p>
+</li>
+<li><p>运算符</p>
+</li>
+<li><p>条件</p>
+</li>
+<li><p>循环</p>
+</li>
+<li><p>执行</p>
+</li>
+<li><p>函数</p>
+<ul>
+<li>系统函数</li>
+<li>自定义函数</li>
+</ul>
+</li>
+<li><p>规范</p>
+</li>
+<li><p>调试方法</p>
+</li>
+<li><p>管道</p>
+</li>
+<li><p>I&#x2F;O 重定向</p>
+</li>
+</ul>
+<h3 id="Linux-启动过程"><a href="#Linux-启动过程" class="headerlink" title="Linux 启动过程"></a>Linux 启动过程</h3><ul>
+<li>BIOS 启动引导</li>
+<li>引导加载程序</li>
+<li>内核加载</li>
+<li>系统初始化（init）</li>
+<li>运行级别</li>
+<li>启动内核</li>
+<li>执行初始化脚本</li>
+<li>用户登录</li>
+</ul>
+<h3 id="Linux-内核"><a href="#Linux-内核" class="headerlink" title="Linux 内核"></a>Linux 内核</h3><ul>
+<li>内核的组成</li>
+<li>目录结构</li>
+<li>版本</li>
+<li>模块</li>
+<li>编译</li>
+<li>裁剪</li>
+</ul>
+<p>具体路线图参考：</p>
+<p><img src="https://qiniuyun.code-nav.cn/img/%E5%86%85%E6%A0%B8%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.jpg" alt="内核知识体系 by 0Voice"></p>
+<h3 id="第三方工具"><a href="#第三方工具" class="headerlink" title="第三方工具"></a>第三方工具</h3><ul>
+<li><p>Ansible</p>
+</li>
+<li><p>Webmin</p>
+</li>
+<li><p>宝塔 Linux</p>
+</li>
+</ul>
+<h2 id="岗位"><a href="#岗位" class="headerlink" title="岗位"></a>岗位</h2><ul>
+<li><p>后端开发（Java &#x2F; Go &#x2F; C++）</p>
+</li>
+<li><p>底层开发（C &#x2F; C++）</p>
+</li>
+<li><p>运维开发</p>
+</li>
+<li><p>大数据</p>
+</li>
+<li><p>云计算</p>
+</li>
+<li><p>自动化运维</p>
+</li>
+<li><p>嵌入式开发</p>
+</li>
+<li><p>网络工程师</p>
+</li>
+</ul>
+<h2 id="学习建议"><a href="#学习建议" class="headerlink" title="学习建议"></a>学习建议</h2><p>多动手实践，建议自己购买一台云服务器，并且在本地搭建 Linux 虚拟机环境。</p>
+<p>一定要自己从 0 开始手敲命令安装软件、部署服务，熟悉整个项目的上线流程。</p>
+<p>每个命令至少要跟着敲一遍，了解它们的作用，并通过自然地练习，熟悉常用的 Linux 命令。</p>
+<p>记不住没关系，用文档查就行了。</p>
+<p>先会用，再理解。</p>
+<p>时间不多的话，可以通过面试题来了解一些 Linux 设计思想，而不是直接去深入学习内核，虽说学会了的确大有裨益，但性价比不高。</p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><ul>
+<li><p>视频</p>
+<ul>
+<li>⭐ 2021 韩顺平 一周学会Linux：<a href="https://www.bilibili.com/video/BV1Sv411r7vd%EF%BC%88%E5%9F%BA%E4%BA%8E">https://www.bilibili.com/video/BV1Sv411r7vd（基于</a> CentOS 7.6 版本较新，视频长度刚刚好，也比较完整）</li>
+<li>【千锋】Linux 云计算基础视频教程 650 集入门：<a href="https://www.bilibili.com/video/BV1pz4y1D73n%EF%BC%88%E5%BE%88%E5%85%A8%E9%9D%A2%EF%BC%8C%E9%80%82%E5%90%88%E6%97%B6%E9%97%B4%E8%B6%B3%E5%A4%9F%E3%80%81%E6%83%B3%E8%AE%A4%E7%9C%9F%E5%AD%A6%E7%9A%84%E5%90%8C%E5%AD%A6%EF%BC%89">https://www.bilibili.com/video/BV1pz4y1D73n（很全面，适合时间足够、想认真学的同学）</a></li>
+<li>【狂神说Java】Linux 教程 - 阿里云真实环境学习：<a href="https://www.bilibili.com/video/BV187411y7hF%EF%BC%88%E7%AE%97%E6%98%AF%E4%B8%AA%E5%B0%8F%E7%9A%84%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E5%90%A7%EF%BC%8C%E6%97%B6%E9%97%B4%E8%B6%B3%E5%A4%9F%E7%9A%84%E8%AF%9D%E8%BF%98%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9C%8B%E6%9B%B4%E5%AE%8C%E6%95%B4%E7%9A%84%EF%BC%89">https://www.bilibili.com/video/BV187411y7hF（算是个小的入门教程吧，时间足够的话还是推荐看更完整的）</a></li>
+<li>细说Linux - 从入门到精通：<a href="https://study.163.com/course/courseMain.htm?courseId=983014%EF%BC%88%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E5%95%B0%E5%97%A6%EF%BC%8C%E4%BD%9C%E4%B8%BA%E5%A4%87%E7%94%A8%E5%90%A7%EF%BC%89">https://study.163.com/course/courseMain.htm?courseId=983014（感觉有点啰嗦，作为备用吧）</a></li>
+<li>玩转Vim 从放弃到爱不释手：<a href="https://www.imooc.com/learn/1129%EF%BC%88%E5%A5%BD%E8%AF%84%E5%BE%88%E5%A4%9A%EF%BC%89">https://www.imooc.com/learn/1129（好评很多）</a></li>
+<li>阿里云 Linux 运维学习路线：<a href="https://edu.aliyun.com/roadmap/linux">https://edu.aliyun.com/roadmap/linux</a></li>
+</ul>
+</li>
+<li><p>书籍</p>
+<ul>
+<li>《鸟哥的 Linux 私房菜 —— 基础篇》：<a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php%EF%BC%88%E7%BB%8F%E5%85%B8%EF%BC%89">http://cn.linux.vbird.org/linux_basic/linux_basic.php（经典）</a></li>
+<li>《深入理解 LINUX 内核》：<a href="https://book.douban.com/subject/1767120/">https://book.douban.com/subject/1767120/</a></li>
+<li>《深入Linux内核架构》：<a href="https://book.douban.com/subject/4843567/">https://book.douban.com/subject/4843567/</a></li>
+<li>《Linux内核完全剖析》：<a href="https://book.douban.com/subject/3229243/">https://book.douban.com/subject/3229243/</a></li>
+<li>《Linux内核设计与实现(原书第3版)》：<a href="https://book.douban.com/subject/6097773/">https://book.douban.com/subject/6097773/</a></li>
+</ul>
+</li>
+<li><p>文档</p>
+<ul>
+<li><p>Linux  教程（菜鸟教程）：<a href="https://www.runoob.com/linux/linux-tutorial.html">https://www.runoob.com/linux/linux-tutorial.html</a></p>
+</li>
+<li><p>Linux 教程（W3CSchool）：<a href="https://www.w3cschool.cn/linux/">https://www.w3cschool.cn/linux/</a></p>
+</li>
+<li><p>Linux 工具快速教程：<a href="https://linuxtools-rst.readthedocs.io(基础、工具进阶、工具参考)/">https://linuxtools-rst.readthedocs.io（基础、工具进阶、工具参考）</a></p>
+</li>
+</ul>
+</li>
+<li><p>合集</p>
+<ul>
+<li>Linux内核学习资料：<a href="https://github.com/0voice/linux_kernel_wiki">https://github.com/0voice/linux_kernel_wiki</a></li>
+<li>GitHub Linux 专区：<a href="https://github.com/topics/linux%EF%BC%88%E5%BE%88%E5%A4%9A%E5%A5%BD%E9%A1%B9%E7%9B%AE%EF%BC%89">https://github.com/topics/linux（很多好项目）</a></li>
+<li>GitHub Linux 合集：<a href="https://github.com/inputsh/awesome-linux%EF%BC%88Linux">https://github.com/inputsh/awesome-linux（Linux</a> 系列技术）</li>
+<li>StackOverflow：<a href="https://stackoverflow.com/questions/tagged/linux%EF%BC%88%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E5%BF%85%E5%A4%87%EF%BC%89">https://stackoverflow.com/questions/tagged/linux（解决问题必备）</a></li>
+<li>掘金 Linux 专区：<a href="https://juejin.cn/tag/Linux%EF%BC%88%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%EF%BC%89">https://juejin.cn/tag/Linux（技术文章）</a></li>
+</ul>
+</li>
+<li><p>实战</p>
+<ul>
+<li>⭐ 蓝桥云课 Linux 基础入门：<a href="https://www.lanqiao.cn/courses/1%EF%BC%88%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90%EF%BC%89">https://www.lanqiao.cn/courses/1（强烈推荐）</a></li>
+<li>腾讯云动手实验室：<a href="https://cloud.tencent.com/developer/labs">https://cloud.tencent.com/developer/labs</a></li>
+<li>阿里云体验实验室：<a href="https://developer.aliyun.com/adc/labs/">https://developer.aliyun.com/adc/labs/</a></li>
+<li>阿里云知行实验室：<a href="https://start.aliyun.com/">https://start.aliyun.com/</a></li>
+<li>华为云沙箱实验室：<a href="https://lab.huaweicloud.com/">https://lab.huaweicloud.com/</a></li>
+</ul>
+</li>
+<li><p>社区（国内倒的差不多了）</p>
+<ul>
+<li>Linux 中国：<a href="https://linux.cn/">https://linux.cn/</a></li>
+<li>开源中国：<a href="https://www.oschina.net/%EF%BC%88%E7%BB%BC%E5%90%88%E7%9A%84%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%EF%BC%89">https://www.oschina.net/（综合的开源社区）</a></li>
+<li>红帽官网：<a href="https://www.redhat.com/zh">https://www.redhat.com/zh</a></li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li>DistroTest 在线操作系统测试：<a href="https://distrotest.net/">https://distrotest.net</a></li>
+<li>⭐ Linux 命令搜索：<a href="https://wangchujiang.com/linux-command">https://wangchujiang.com/linux-command</a></li>
+<li>Linux 命令大全手册：<a href="https://man.linuxde.net/">https://man.linuxde.net/</a></li>
+<li>Linux 命令大全手册：<a href="https://www.linuxcool.com/">https://www.linuxcool.com/</a></li>
+<li>Linux 命令示例：<a href="http://linux-commands-examples.com/">http://linux-commands-examples.com/</a></li>
+<li>宝塔 Linux 面板：<a href="https://www.bt.cn/">https://www.bt.cn/</a></li>
+<li>在线 Shell 脚本检查：<a href="https://www.shellcheck.net/">https://www.shellcheck.net</a></li>
+</ul>
+</li>
+<li><p>面试题</p>
+<ul>
+<li>牛客网 Linux 专项练习：<a href="https://www.nowcoder.com/intelligentTest">https://www.nowcoder.com/intelligentTest</a></li>
+<li>牛客网 Linux 面试题：<a href="https://www.nowcoder.com/search?query=linux%E9%9D%A2%E8%AF%95%E9%A2%98&type=question">https://www.nowcoder.com/search?query=linux%E9%9D%A2%E8%AF%95%E9%A2%98&amp;type=question</a></li>
+<li>Linux 常见面试题整理：<a href="https://zhuanlan.zhihu.com/p/376749877">https://zhuanlan.zhihu.com/p/376749877</a></li>
+<li>Linux 常见面试题整理：<a href="https://github.com/0voice/linux_kernel_wiki#-%E9%9D%A2%E8%AF%95%E9%A2%98">https://github.com/0voice/linux_kernel_wiki#-%E9%9D%A2%E8%AF%95%E9%A2%98</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>编程学习</category>
+      </categories>
+      <tags>
+        <tag>鱼皮</tag>
+        <tag>编程学习路线</tag>
+        <tag>转载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python学习路线</title>
     <url>/posts/49364.html</url>
     <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
@@ -3815,458 +4267,6 @@
       <tags>
         <tag>样式</tag>
         <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习路线</title>
-    <url>/posts/22689.html</url>
-    <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
-</div>
-
-<h1 id="Linux-学习路线"><a href="#Linux-学习路线" class="headerlink" title="Linux 学习路线"></a>Linux 学习路线</h1><blockquote>
-<p>Linux 学习路线 by 程序员鱼皮-编程导航</p>
-</blockquote>
-<p>💂 + 💻 &#x3D; 👴🏽</p>
-<p>建议先观看视频入门：<a href="https://www.bilibili.com/video/BV1ev411G7VE/">https://www.bilibili.com/video/BV1ev411G7VE/</a></p>
-<h2 id="为什么学-Linux？"><a href="#为什么学-Linux？" class="headerlink" title="为什么学 Linux？"></a>为什么学 Linux？</h2><p>相比于 Windows，Linux 免费、开源、安全、灵活、稳定、便于开发，所以更受企业青睐，甚至 <strong>90% 以上</strong> 的企业应用都是用 Linux 服务器部署的。</p>
-<p>无论是前端、后端、算法、测试、运维等计算机相关岗位的同学，都建议学习下 Linux，大有裨益。</p>
-<h2 id="学习境界"><a href="#学习境界" class="headerlink" title="学习境界"></a>学习境界</h2><p>首先，Linux 入门很简单，但想学的透彻难上加难！</p>
-<p>因此，在学习之前要明确目标。</p>
-<p>可以 Linux 的学习分为几种境界：</p>
-<ol>
-<li>明劲，就是了解 Linux 的基本概念，会敲常用命令来应对工作。对于大多数想从事开发和运维岗位的同学，学到这就足够找到工作了。</li>
-<li>暗劲，又分为两种境界，能理解 Linux 尤其是其内核的设计思想，为小圆满；能将其思想应用到系统的架构设计中，为大圆满。暗劲境界的高手，冲击大厂、做架构师、从事底层开发，都不成问题。</li>
-<li>化劲，可谓出神入化，不仅熟知 Linux 的使用、思想和细节，更能推陈出新，自主创造新的系统。</li>
-</ol>
-<p>当然，一般情况下，会用就够了，想进大厂最好也学习一些内核的设计思想。找到工作后，是否要深入学习完全取决于你自己。</p>
-<h2 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h2><p><img src="https://qiniuyun.code-nav.cn/img/%E9%B1%BC%E7%9A%AE%20-%20Linux%20%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.png" alt="鱼皮 - Linux 学习路线"></p>
-<h2 id="路线"><a href="#路线" class="headerlink" title="路线"></a>路线</h2><h3 id="Linux-基础知识"><a href="#Linux-基础知识" class="headerlink" title="Linux 基础知识"></a>Linux 基础知识</h3><ul>
-<li>发展历史</li>
-<li>⭐ 特点和优势</li>
-<li>应用场景</li>
-<li>⭐ 常见 Linux 系统版本（推荐 CentOS 7+）<ul>
-<li>⭐ CentOS</li>
-<li>⭐ Ubuntu</li>
-<li>Debian</li>
-<li>Fedora</li>
-</ul>
-</li>
-<li>何为开源？</li>
-</ul>
-<h3 id="Linux-环境"><a href="#Linux-环境" class="headerlink" title="Linux 环境"></a>Linux 环境</h3><ul>
-<li><p>搭建方式</p>
-<ul>
-<li>⭐ 虚拟机</li>
-<li>⭐ 云服务器</li>
-<li>在线工具</li>
-<li>WSL</li>
-<li>Docker 容器</li>
-</ul>
-</li>
-<li><p>远程连接</p>
-<ul>
-<li>⭐ SSH</li>
-<li>连接工具<ul>
-<li>⭐ XShell</li>
-<li>⭐ MobaXterm</li>
-<li>SecureCRT</li>
-<li>Putty</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Linux-常用命令"><a href="#Linux-常用命令" class="headerlink" title="Linux 常用命令"></a>Linux 常用命令</h3><blockquote>
-<p>此处只列举命令名称，命令的具体用法可直接在手册中（<a href="https://www.linuxcool.com/%EF%BC%89%E6%9F%A5%E8%AF%A2">https://www.linuxcool.com/）查询</a></p>
-</blockquote>
-<h4 id="系统信息"><a href="#系统信息" class="headerlink" title="系统信息"></a>系统信息</h4><ul>
-<li>uname 查看系统信息</li>
-<li>hostname 查看主机名</li>
-<li>cat &#x2F;proc&#x2F;cpuinfo 查看 CPU 信息</li>
-<li>lsmod 查看已加载的系统模块</li>
-<li>top 查看系统使用情况</li>
-<li>df 查看磁盘使用情况</li>
-<li>fdisk 查看磁盘分区</li>
-<li>du 查看目录使用情况</li>
-<li>iostat 查看 I &#x2F; O 使用情况</li>
-<li>free 显示系统内存情况</li>
-<li>env 查看环境变量</li>
-<li>uptime 查看系统运行时间、用户数、负载</li>
-</ul>
-<h4 id="系统操作"><a href="#系统操作" class="headerlink" title="系统操作"></a>系统操作</h4><ul>
-<li>shutdown 关机</li>
-<li>reboot 重启</li>
-<li>mount 挂载设备</li>
-<li>umount 卸载设备</li>
-</ul>
-<h4 id="用户相关"><a href="#用户相关" class="headerlink" title="用户相关"></a>用户相关</h4><ul>
-<li>su 切换用户</li>
-<li>sudo 以管理员身份执行</li>
-<li>who 查看当前用户名</li>
-<li>ssh 远程连接</li>
-<li>logout 注销</li>
-<li>useradd 创建用户</li>
-<li>userdel 删除用户</li>
-<li>usermod 修改用户</li>
-<li>groupadd 创建用户组</li>
-<li>groupdel 删除用户组</li>
-<li>groupmod 修改用户组</li>
-<li>passwd 修改密码</li>
-<li>last 显示用户或终端的登录情况</li>
-</ul>
-<h4 id="文件相关"><a href="#文件相关" class="headerlink" title="文件相关"></a>文件相关</h4><ul>
-<li>cd 切换目录</li>
-<li>ls 查看目录列表</li>
-<li>tree 打印目录树</li>
-<li>mkdir 创建目录</li>
-<li>rm 删除目录</li>
-<li>touch 新建文件</li>
-<li>cp 复制文件</li>
-<li>mv 移动文件</li>
-<li>ln 创建文件链接</li>
-<li>find 搜索文件</li>
-<li>locate 定位文件</li>
-<li>whereis 查看可执行文件路径</li>
-<li>which 在 PATH 指定的路径中，搜索某系统命令的位置</li>
-<li>chmod 设置目录权限</li>
-<li>cat &#x2F; more &#x2F; less 查看文件</li>
-<li>tac 倒序查看文件</li>
-<li>head &#x2F; tail 查看文件开头 &#x2F; 结尾</li>
-<li>paste 合并文件</li>
-<li>zip &#x2F; tar &#x2F; gzip 压缩文件</li>
-<li>unzip &#x2F; tar &#x2F; gunzip 解压文件</li>
-<li>grep &#x2F; sed &#x2F; awk 文本处理</li>
-<li>vim 文本编辑</li>
-</ul>
-<h4 id="程序相关"><a href="#程序相关" class="headerlink" title="程序相关"></a>程序相关</h4><ul>
-<li>crontab 计划任务</li>
-<li>nohup 后台运行程序</li>
-<li>jobs 查看系统任务</li>
-<li>ps 查看进程</li>
-<li>kill 杀死进程</li>
-<li>rpm &#x2F; yum &#x2F; apt &#x2F; apt-get &#x2F; dpkg 软件包管理</li>
-<li>service &#x2F; systemctl 服务管理</li>
-</ul>
-<h4 id="网络相关"><a href="#网络相关" class="headerlink" title="网络相关"></a>网络相关</h4><ul>
-<li>ifconfig 查看网络属性</li>
-<li>netstat 查看网络状态</li>
-<li>iptables 查看 iptables 规则</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li><p>date 显示系统时间</p>
-</li>
-<li><p>cal 显示日历</p>
-</li>
-<li><p>history 显示与操作历史</p>
-</li>
-<li><p>help 帮助</p>
-</li>
-<li><p>alias 别名</p>
-</li>
-</ul>
-<h3 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h3><ul>
-<li>用户</li>
-<li>用户组</li>
-<li>ACL 权限管理</li>
-<li>用户切换</li>
-<li>管理员</li>
-</ul>
-<h3 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h3><ul>
-<li>文件操作<ul>
-<li>创建</li>
-<li>修改</li>
-<li>复制</li>
-<li>移动</li>
-<li>删除</li>
-</ul>
-</li>
-<li>文件浏览</li>
-<li>文件搜索</li>
-<li>文件权限</li>
-<li>软硬链接</li>
-<li>压缩 &#x2F; 解压</li>
-</ul>
-<h3 id="文本操作"><a href="#文本操作" class="headerlink" title="文本操作"></a>文本操作</h3><ul>
-<li>正则表达式</li>
-<li>grep</li>
-<li>sed</li>
-<li>awk</li>
-</ul>
-<h3 id="VIM-编辑器"><a href="#VIM-编辑器" class="headerlink" title="VIM 编辑器"></a>VIM 编辑器</h3><ul>
-<li><p>基本操作</p>
-</li>
-<li><p>模式</p>
-</li>
-<li><p>快捷键</p>
-</li>
-<li><p>VIM 定制</p>
-</li>
-<li><p>插件增强</p>
-</li>
-</ul>
-<p>送张 VIM 键盘图：</p>
-<p><img src="https://qiniuyun.code-nav.cn/img/vi-vim-cheat-sheet-sch.gif"></p>
-<h3 id="磁盘管理"><a href="#磁盘管理" class="headerlink" title="磁盘管理"></a>磁盘管理</h3><ul>
-<li>使用情况查询</li>
-<li>磁盘分区</li>
-<li>挂载</li>
-</ul>
-<h3 id="驱动管理"><a href="#驱动管理" class="headerlink" title="驱动管理"></a>驱动管理</h3><ul>
-<li>驱动加载</li>
-<li>驱动更新</li>
-<li>网卡</li>
-<li>显卡</li>
-</ul>
-<h3 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h3><ul>
-<li>启动进程</li>
-<li>杀死进程</li>
-<li>查看进程</li>
-<li>前台 &#x2F; 后台任务</li>
-<li>进程监控</li>
-</ul>
-<h3 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h3><ul>
-<li>crond 服务</li>
-<li>crontab 命令</li>
-</ul>
-<h3 id="网络管理"><a href="#网络管理" class="headerlink" title="网络管理"></a>网络管理</h3><ul>
-<li>IP</li>
-<li>端口</li>
-<li>主机名</li>
-<li>hosts</li>
-<li>网络配置</li>
-<li>网络状态</li>
-<li>网络监控</li>
-</ul>
-<h3 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h3><ul>
-<li><p>系统设置</p>
-<ul>
-<li>日期时间</li>
-<li>语言</li>
-<li>字符集</li>
-</ul>
-</li>
-<li><p>系统服务</p>
-</li>
-<li><p>环境变量</p>
-</li>
-<li><p>日志</p>
-</li>
-<li><p>系统关机 &#x2F; 重启</p>
-</li>
-<li><p>数据备份与恢复</p>
-</li>
-</ul>
-<h3 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h3><ul>
-<li>服务查看</li>
-<li>启动服务</li>
-<li>禁用服务</li>
-<li>删除服务</li>
-<li>开机自启</li>
-</ul>
-<h3 id="软件管理"><a href="#软件管理" class="headerlink" title="软件管理"></a>软件管理</h3><ul>
-<li><p>软件包管理器</p>
-<ul>
-<li>⭐ rpm</li>
-<li>⭐ yum</li>
-<li>apt</li>
-<li>apt-get</li>
-<li>dpkg</li>
-</ul>
-</li>
-<li><p>软件安装</p>
-</li>
-<li><p>软件更新</p>
-</li>
-<li><p>软件卸载</p>
-</li>
-<li><p>源码安装</p>
-</li>
-</ul>
-<h3 id="常用软件-x2F-服务搭建"><a href="#常用软件-x2F-服务搭建" class="headerlink" title="常用软件 &#x2F; 服务搭建"></a>常用软件 &#x2F; 服务搭建</h3><ul>
-<li><p>HTTP</p>
-</li>
-<li><p>Mail</p>
-</li>
-<li><p>NFS</p>
-</li>
-<li><p>DNS</p>
-</li>
-<li><p>FTP</p>
-</li>
-<li><p>mysql</p>
-</li>
-<li><p>LVS + Keepalived</p>
-</li>
-<li><p>Apache</p>
-</li>
-<li><p>Nginx</p>
-</li>
-<li><p>Redis</p>
-</li>
-<li><p>日志服务</p>
-</li>
-</ul>
-<h3 id="Shell-脚本编程"><a href="#Shell-脚本编程" class="headerlink" title="Shell 脚本编程"></a>Shell 脚本编程</h3><ul>
-<li><p>默认变量</p>
-</li>
-<li><p>运算符</p>
-</li>
-<li><p>条件</p>
-</li>
-<li><p>循环</p>
-</li>
-<li><p>执行</p>
-</li>
-<li><p>函数</p>
-<ul>
-<li>系统函数</li>
-<li>自定义函数</li>
-</ul>
-</li>
-<li><p>规范</p>
-</li>
-<li><p>调试方法</p>
-</li>
-<li><p>管道</p>
-</li>
-<li><p>I&#x2F;O 重定向</p>
-</li>
-</ul>
-<h3 id="Linux-启动过程"><a href="#Linux-启动过程" class="headerlink" title="Linux 启动过程"></a>Linux 启动过程</h3><ul>
-<li>BIOS 启动引导</li>
-<li>引导加载程序</li>
-<li>内核加载</li>
-<li>系统初始化（init）</li>
-<li>运行级别</li>
-<li>启动内核</li>
-<li>执行初始化脚本</li>
-<li>用户登录</li>
-</ul>
-<h3 id="Linux-内核"><a href="#Linux-内核" class="headerlink" title="Linux 内核"></a>Linux 内核</h3><ul>
-<li>内核的组成</li>
-<li>目录结构</li>
-<li>版本</li>
-<li>模块</li>
-<li>编译</li>
-<li>裁剪</li>
-</ul>
-<p>具体路线图参考：</p>
-<p><img src="https://qiniuyun.code-nav.cn/img/%E5%86%85%E6%A0%B8%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.jpg" alt="内核知识体系 by 0Voice"></p>
-<h3 id="第三方工具"><a href="#第三方工具" class="headerlink" title="第三方工具"></a>第三方工具</h3><ul>
-<li><p>Ansible</p>
-</li>
-<li><p>Webmin</p>
-</li>
-<li><p>宝塔 Linux</p>
-</li>
-</ul>
-<h2 id="岗位"><a href="#岗位" class="headerlink" title="岗位"></a>岗位</h2><ul>
-<li><p>后端开发（Java &#x2F; Go &#x2F; C++）</p>
-</li>
-<li><p>底层开发（C &#x2F; C++）</p>
-</li>
-<li><p>运维开发</p>
-</li>
-<li><p>大数据</p>
-</li>
-<li><p>云计算</p>
-</li>
-<li><p>自动化运维</p>
-</li>
-<li><p>嵌入式开发</p>
-</li>
-<li><p>网络工程师</p>
-</li>
-</ul>
-<h2 id="学习建议"><a href="#学习建议" class="headerlink" title="学习建议"></a>学习建议</h2><p>多动手实践，建议自己购买一台云服务器，并且在本地搭建 Linux 虚拟机环境。</p>
-<p>一定要自己从 0 开始手敲命令安装软件、部署服务，熟悉整个项目的上线流程。</p>
-<p>每个命令至少要跟着敲一遍，了解它们的作用，并通过自然地练习，熟悉常用的 Linux 命令。</p>
-<p>记不住没关系，用文档查就行了。</p>
-<p>先会用，再理解。</p>
-<p>时间不多的话，可以通过面试题来了解一些 Linux 设计思想，而不是直接去深入学习内核，虽说学会了的确大有裨益，但性价比不高。</p>
-<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><ul>
-<li><p>视频</p>
-<ul>
-<li>⭐ 2021 韩顺平 一周学会Linux：<a href="https://www.bilibili.com/video/BV1Sv411r7vd%EF%BC%88%E5%9F%BA%E4%BA%8E">https://www.bilibili.com/video/BV1Sv411r7vd（基于</a> CentOS 7.6 版本较新，视频长度刚刚好，也比较完整）</li>
-<li>【千锋】Linux 云计算基础视频教程 650 集入门：<a href="https://www.bilibili.com/video/BV1pz4y1D73n%EF%BC%88%E5%BE%88%E5%85%A8%E9%9D%A2%EF%BC%8C%E9%80%82%E5%90%88%E6%97%B6%E9%97%B4%E8%B6%B3%E5%A4%9F%E3%80%81%E6%83%B3%E8%AE%A4%E7%9C%9F%E5%AD%A6%E7%9A%84%E5%90%8C%E5%AD%A6%EF%BC%89">https://www.bilibili.com/video/BV1pz4y1D73n（很全面，适合时间足够、想认真学的同学）</a></li>
-<li>【狂神说Java】Linux 教程 - 阿里云真实环境学习：<a href="https://www.bilibili.com/video/BV187411y7hF%EF%BC%88%E7%AE%97%E6%98%AF%E4%B8%AA%E5%B0%8F%E7%9A%84%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E5%90%A7%EF%BC%8C%E6%97%B6%E9%97%B4%E8%B6%B3%E5%A4%9F%E7%9A%84%E8%AF%9D%E8%BF%98%E6%98%AF%E6%8E%A8%E8%8D%90%E7%9C%8B%E6%9B%B4%E5%AE%8C%E6%95%B4%E7%9A%84%EF%BC%89">https://www.bilibili.com/video/BV187411y7hF（算是个小的入门教程吧，时间足够的话还是推荐看更完整的）</a></li>
-<li>细说Linux - 从入门到精通：<a href="https://study.163.com/course/courseMain.htm?courseId=983014%EF%BC%88%E6%84%9F%E8%A7%89%E6%9C%89%E7%82%B9%E5%95%B0%E5%97%A6%EF%BC%8C%E4%BD%9C%E4%B8%BA%E5%A4%87%E7%94%A8%E5%90%A7%EF%BC%89">https://study.163.com/course/courseMain.htm?courseId=983014（感觉有点啰嗦，作为备用吧）</a></li>
-<li>玩转Vim 从放弃到爱不释手：<a href="https://www.imooc.com/learn/1129%EF%BC%88%E5%A5%BD%E8%AF%84%E5%BE%88%E5%A4%9A%EF%BC%89">https://www.imooc.com/learn/1129（好评很多）</a></li>
-<li>阿里云 Linux 运维学习路线：<a href="https://edu.aliyun.com/roadmap/linux">https://edu.aliyun.com/roadmap/linux</a></li>
-</ul>
-</li>
-<li><p>书籍</p>
-<ul>
-<li>《鸟哥的 Linux 私房菜 —— 基础篇》：<a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php%EF%BC%88%E7%BB%8F%E5%85%B8%EF%BC%89">http://cn.linux.vbird.org/linux_basic/linux_basic.php（经典）</a></li>
-<li>《深入理解 LINUX 内核》：<a href="https://book.douban.com/subject/1767120/">https://book.douban.com/subject/1767120/</a></li>
-<li>《深入Linux内核架构》：<a href="https://book.douban.com/subject/4843567/">https://book.douban.com/subject/4843567/</a></li>
-<li>《Linux内核完全剖析》：<a href="https://book.douban.com/subject/3229243/">https://book.douban.com/subject/3229243/</a></li>
-<li>《Linux内核设计与实现(原书第3版)》：<a href="https://book.douban.com/subject/6097773/">https://book.douban.com/subject/6097773/</a></li>
-</ul>
-</li>
-<li><p>文档</p>
-<ul>
-<li><p>Linux  教程（菜鸟教程）：<a href="https://www.runoob.com/linux/linux-tutorial.html">https://www.runoob.com/linux/linux-tutorial.html</a></p>
-</li>
-<li><p>Linux 教程（W3CSchool）：<a href="https://www.w3cschool.cn/linux/">https://www.w3cschool.cn/linux/</a></p>
-</li>
-<li><p>Linux 工具快速教程：<a href="https://linuxtools-rst.readthedocs.io(基础、工具进阶、工具参考)/">https://linuxtools-rst.readthedocs.io（基础、工具进阶、工具参考）</a></p>
-</li>
-</ul>
-</li>
-<li><p>合集</p>
-<ul>
-<li>Linux内核学习资料：<a href="https://github.com/0voice/linux_kernel_wiki">https://github.com/0voice/linux_kernel_wiki</a></li>
-<li>GitHub Linux 专区：<a href="https://github.com/topics/linux%EF%BC%88%E5%BE%88%E5%A4%9A%E5%A5%BD%E9%A1%B9%E7%9B%AE%EF%BC%89">https://github.com/topics/linux（很多好项目）</a></li>
-<li>GitHub Linux 合集：<a href="https://github.com/inputsh/awesome-linux%EF%BC%88Linux">https://github.com/inputsh/awesome-linux（Linux</a> 系列技术）</li>
-<li>StackOverflow：<a href="https://stackoverflow.com/questions/tagged/linux%EF%BC%88%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98%E5%BF%85%E5%A4%87%EF%BC%89">https://stackoverflow.com/questions/tagged/linux（解决问题必备）</a></li>
-<li>掘金 Linux 专区：<a href="https://juejin.cn/tag/Linux%EF%BC%88%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%EF%BC%89">https://juejin.cn/tag/Linux（技术文章）</a></li>
-</ul>
-</li>
-<li><p>实战</p>
-<ul>
-<li>⭐ 蓝桥云课 Linux 基础入门：<a href="https://www.lanqiao.cn/courses/1%EF%BC%88%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90%EF%BC%89">https://www.lanqiao.cn/courses/1（强烈推荐）</a></li>
-<li>腾讯云动手实验室：<a href="https://cloud.tencent.com/developer/labs">https://cloud.tencent.com/developer/labs</a></li>
-<li>阿里云体验实验室：<a href="https://developer.aliyun.com/adc/labs/">https://developer.aliyun.com/adc/labs/</a></li>
-<li>阿里云知行实验室：<a href="https://start.aliyun.com/">https://start.aliyun.com/</a></li>
-<li>华为云沙箱实验室：<a href="https://lab.huaweicloud.com/">https://lab.huaweicloud.com/</a></li>
-</ul>
-</li>
-<li><p>社区（国内倒的差不多了）</p>
-<ul>
-<li>Linux 中国：<a href="https://linux.cn/">https://linux.cn/</a></li>
-<li>开源中国：<a href="https://www.oschina.net/%EF%BC%88%E7%BB%BC%E5%90%88%E7%9A%84%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%EF%BC%89">https://www.oschina.net/（综合的开源社区）</a></li>
-<li>红帽官网：<a href="https://www.redhat.com/zh">https://www.redhat.com/zh</a></li>
-</ul>
-</li>
-<li><p>工具</p>
-<ul>
-<li>DistroTest 在线操作系统测试：<a href="https://distrotest.net/">https://distrotest.net</a></li>
-<li>⭐ Linux 命令搜索：<a href="https://wangchujiang.com/linux-command">https://wangchujiang.com/linux-command</a></li>
-<li>Linux 命令大全手册：<a href="https://man.linuxde.net/">https://man.linuxde.net/</a></li>
-<li>Linux 命令大全手册：<a href="https://www.linuxcool.com/">https://www.linuxcool.com/</a></li>
-<li>Linux 命令示例：<a href="http://linux-commands-examples.com/">http://linux-commands-examples.com/</a></li>
-<li>宝塔 Linux 面板：<a href="https://www.bt.cn/">https://www.bt.cn/</a></li>
-<li>在线 Shell 脚本检查：<a href="https://www.shellcheck.net/">https://www.shellcheck.net</a></li>
-</ul>
-</li>
-<li><p>面试题</p>
-<ul>
-<li>牛客网 Linux 专项练习：<a href="https://www.nowcoder.com/intelligentTest">https://www.nowcoder.com/intelligentTest</a></li>
-<li>牛客网 Linux 面试题：<a href="https://www.nowcoder.com/search?query=linux%E9%9D%A2%E8%AF%95%E9%A2%98&type=question">https://www.nowcoder.com/search?query=linux%E9%9D%A2%E8%AF%95%E9%A2%98&amp;type=question</a></li>
-<li>Linux 常见面试题整理：<a href="https://zhuanlan.zhihu.com/p/376749877">https://zhuanlan.zhihu.com/p/376749877</a></li>
-<li>Linux 常见面试题整理：<a href="https://github.com/0voice/linux_kernel_wiki#-%E9%9D%A2%E8%AF%95%E9%A2%98">https://github.com/0voice/linux_kernel_wiki#-%E9%9D%A2%E8%AF%95%E9%A2%98</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>编程学习</category>
-      </categories>
-      <tags>
-        <tag>鱼皮</tag>
-        <tag>编程学习路线</tag>
-        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
