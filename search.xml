@@ -4253,12 +4253,14 @@
   <entry>
     <title>主题文件魔改记录</title>
     <url>/posts/1263.html</url>
-    <content><![CDATA[<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><ul>
+    <content><![CDATA[<h1 id="js"><a href="#js" class="headerlink" title="js"></a>js</h1><p>主题文件夹中新增fcircle.js，内容为朋友圈的vue_js内容</p>
+<h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><ul>
 <li>index.styl中的 –anzhiyu-theme-deep ，将值#1856fb和#0076e5改为 #4e77b3</li>
 <li>random-banner.css，让技能点的蓝色#425aefdd变成 #6295E0</li>
 </ul>
 <h1 id="pug"><a href="#pug" class="headerlink" title="pug"></a>pug</h1><ul>
 <li>card_announcement.pug，增加以下代码以实现欢迎语  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.announcement_content!= theme.aside.card_announcement.content</span><br><span class="line">+  //- 添加欢迎访客的信息</span><br><span class="line">+  #welcome-info</span><br></pre></td></tr></table></figure></li>
+<li>random-friends-post-js.pug，将“来自友链”四个字删除</li>
 </ul>
 ]]></content>
       <categories>
