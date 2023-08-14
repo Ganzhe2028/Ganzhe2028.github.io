@@ -4055,14 +4055,10 @@
     <url>/posts/49010.html</url>
     <content><![CDATA[<details class="folding-tag" ><summary> 本文更新记录 </summary>
               <div class='content'>
-              <ul><li>23-05-28：v1.0<br>将MongoDB放在了zeabur内，导致丢了两次评论数据。</li><li>23-07-09：v2.0<br>在Kouseki铭心石刻大佬的帮助下，将zeabur中的MongoDB转成官方的。</li></ul>
+              <ul><li><p>23-05-28：v1.0<br>将MongoDB放在了zeabur内，导致丢了两次评论数据。</p></li><li><p>23-07-09：v2.0<br>在Kouseki铭心石刻大佬的帮助下，将zeabur中的MongoDB转成官方的。</p></li><li><p>23-08-13：v3.0</p><p>因为12号买了域名，于是基于<a href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&vd_source=1ba860a5f419766aa180694d0e9e3282">鱼佬的vervel部署方案</a>部署了Twikoo。于是让文章变成了两部分（托管于zeabur&#x2F;vercel）</p></li></ul>
               </div>
             </details>
-<ul>
-<li><p>23-08-13：v3.0</p>
-<p>因为12号买了域名，于是基于<a href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.337.search-card.all.click&vd_source=1ba860a5f419766aa180694d0e9e3282">鱼佬的vervel部署方案</a>部署了Twikoo。于是让文章变成了两部分（托管于zeabur&#x2F;vercel）</p>
-</li>
-</ul>
+
 <h1 id="使用zeabur-MongoDB-0成本部署"><a href="#使用zeabur-MongoDB-0成本部署" class="headerlink" title="使用zeabur + MongoDB 0成本部署"></a>使用zeabur + MongoDB 0成本部署</h1><h2 id="评论系统的心路历程"><a href="#评论系统的心路历程" class="headerlink" title="评论系统的心路历程"></a>评论系统的心路历程</h2><p>因为我没有买云服务器，因此我在twikoo的文档里找了两种<strong>不需要服务器的部署方法</strong>：railway和zeabur。</p>
 <div class="note flat info flat"><p>23&#x2F;7&#x2F;9日左右，我的twikoo评论数据再一次丢失，于是在Kouseki铭心石刻大佬的帮助下，将zeabur中的mongodb转成官方的，就永久不丢失了。</p>
 </div>
@@ -4111,8 +4107,25 @@
 
 
 
-<h1 id="有域名-vercel部署"><a href="#有域名-vercel部署" class="headerlink" title="有域名 + vercel部署"></a>有域名 + vercel部署</h1><p>{ note info }本文v3.0版本的链接{ endnote }</p>
-<p>{ link vercel部署,文档原文,<a href="https://twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2">https://twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2</a>, }</p>
+<h1 id="有域名-vercel部署"><a href="#有域名-vercel部署" class="headerlink" title="有域名 + vercel部署"></a>有域名 + vercel部署</h1><div class="note info flat"><p>本文v3.0版本的链接</p>
+</div>
+
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">vercel部署</div>
+            <div class="tag-link-sitename">文档原文</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+
+
+
+
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -5528,7 +5541,7 @@
 <p><img src="https://qiniuyun.code-nav.cn/image-20210712012036685.png"></p>
 <p>我自己也在几家公司实习过，不得不说，大厂和其他公司的研发流程也有很大的区别。</p>
 <p>因此，对于大多数同学，如果没有在大厂工作过，对很多研发环节可能都是一无所知的。</p>
-<p>所以今天给大家揭秘一下大厂的项目研发流程，帮大家开拓思路。</p>
+<p>xxxxxxxxxx inject:  head:   - <link rel="stylesheet" href="/css/custom.css">yaml</p>
 <p>正好之前有同志质疑我的日常工作就只有写代码和摸鱼？！这篇文章就作为回击，让他明白，在大厂做项目，可不止写代码那么简单！</p>
 <p><img src="https://qiniuyun.code-nav.cn/image-20210712011545940.png"></p>
 <h2 id="大厂研发流程揭秘"><a href="#大厂研发流程揭秘" class="headerlink" title="大厂研发流程揭秘"></a>大厂研发流程揭秘</h2><p>为了规范团队、保证项目的进展，大厂研发流程通常还是比较复杂的。</p>
@@ -5794,10 +5807,7 @@
 <h2 id="问题1：-git文件没删或没移到别的不属于博客文件夹的地方"><a href="#问题1：-git文件没删或没移到别的不属于博客文件夹的地方" class="headerlink" title="问题1：.git文件没删或没移到别的不属于博客文件夹的地方"></a>问题1：.git文件没删或没移到别的不属于博客文件夹的地方</h2><p>我使用win11，最后用everything搜索出来.git的（因为是隐藏文件夹，当然也可能有更简单的方法）。<br><strong>只需打开everything，搜索.git即可搜到隐藏的.git</strong></p>
 <h2 id="问题2：没配置也没删autodeploy中的番剧更新以及gulp"><a href="#问题2：没配置也没删autodeploy中的番剧更新以及gulp" class="headerlink" title="问题2：没配置也没删autodeploy中的番剧更新以及gulp"></a>问题2：没配置也没删autodeploy中的番剧更新以及gulp</h2><p>会导致Github仓库中的Actions中deploy显示静态文件环节部署失败。此时需要在autodeploy中删除默认应该是53和55行：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">生成静态文件</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          hexo clean</span></span><br><span class="line"><span class="string">          hexo bangumi -u #bilibili番剧更新    （53行）</span></span><br><span class="line"><span class="string">          hexo generate  </span></span><br><span class="line"><span class="string">          gulp    （55行）</span></span><br></pre></td></tr></table></figure>
-<div class="note warning flat"><p><em>注意！</em><br><strong>如果你全局安装过了gulp，比如按照鱼佬的pwa教程装过了gulp，那么就可以不删除gulp，并且gulp要在hexo g后面</strong>。<br>删除后即可正常运行Actions，不影响什么。</p>
-</div>
-
-
+<p>xxxxxxxxxx hexo cl; hexo sbash</p>
 <h2 id="问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’"><a href="#问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’" class="headerlink" title="问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’"></a>问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/HIt3L">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
