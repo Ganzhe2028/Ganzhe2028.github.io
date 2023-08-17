@@ -4245,6 +4245,41 @@
       </tags>
   </entry>
   <entry>
+    <title>【空刻意面】的两种制作方法</title>
+    <url>/posts/37961.html</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在家里吃饭的时候总是会遇到人生的难题之一：中午&#x2F;晚上吃什么？空刻意面做起来简单，不费时不费力，很好地解决了我的很多顿午餐。并且味道也十分不错，方便面吃腻了可以试试这款意面~</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="意面的做法"><a href="#意面的做法" class="headerlink" title="意面的做法"></a>意面的做法</h2><ol>
+<li>煮开水后放盐和橄榄油</li>
+<li>下面，煮9分钟为最好，最好是看上去略有透明</li>
+<li>随后把汤倒掉，但是留下5-8个矿泉水瓶盖的量，足够保持面湿的状态即可</li>
+</ol>
+<p>以上是必做的步骤，接下来分为2种做法：</p>
+<h4 id="将面和酱分开"><a href="#将面和酱分开" class="headerlink" title="将面和酱分开"></a>将面和酱分开</h4><ul>
+<li>把面直接放到盘中</li>
+<li>把酱倒进锅里，尽量用铲子抹匀</li>
+<li>开小火，等到酱料开始冒泡即可关火，用铲子把酱拨进盘中</li>
+</ul>
+<h4 id="将面和酱一起"><a href="#将面和酱一起" class="headerlink" title="将面和酱一起"></a>将面和酱一起</h4><ul>
+<li>倒掉汤水后直接把酱料均匀倒在面上</li>
+<li>开小火，等待酱料冒泡即可关火</li>
+<li>将面和酱料一起倒进盘中</li>
+</ul>
+<p><strong>两种方法最后撒上调料即可大功告成。</strong></p>
+<h2 id="口感以及味道"><a href="#口感以及味道" class="headerlink" title="口感以及味道"></a>口感以及味道</h2><ol>
+<li>面和酱分开翻炒的方法更加适合喜欢酱料更浓一些、或者觉得酱料味道比较淡的人群，吃起来酱的味道会较一起翻炒的方法更加浓郁、酱吃起来的存在感更加明显一些。</li>
+<li>面和酱一起翻炒的方法得益于第3步留了一些汤水让面依然保有一定的湿度，以此让酱的味道更加渗透进面里。做好之后也减少了拌面的次数。总之酱的味道更能渗入到面里，与面融合，同时方便一点点，个人比较推荐。</li>
+</ol>
+<p>总而言之，个人感觉两种味道区别不是特别大，但是还是可以尝出来一些的。对于味道、口感等不那么敏感的人群，使用第二种一起翻炒的方法会更加方便一些。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>美食</tag>
+        <tag>个人</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人卡片实现渐变色</title>
     <url>/posts/26088.html</url>
     <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://moyustar.cn/posts/65e8.html">
@@ -4280,7 +4315,7 @@
     <url>/posts/1263.html</url>
     <content><![CDATA[<h1 id="js"><a href="#js" class="headerlink" title="js"></a>js</h1><ul>
 <li>主题文件夹中新增fcircle.js，内容为朋友圈的vue_js内容</li>
-<li>friends-什么的-js的，将“来自友链”四个字删除</li>
+<li>random-friends-post-js.pug中的，将“来自友链”四个字删除</li>
 </ul>
 <h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><ul>
 <li>index.styl中的 –anzhiyu-theme-deep ，将值#1856fb和#0076e5改为 #4e77b3</li>
