@@ -4136,6 +4136,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Cloudflare域名重定向过多</title>
+    <url>/posts/29184.html</url>
+    <content><![CDATA[<p>最近把域名放在Cloudflare上之后就莫名其妙出现了“重定向过多”的提示，但是访问：<a href="http://www.ganzhe.site/">www.ganzhe.site</a> 就是没问题的。<br>解决办法如下：<br><img src="https://img01.anheyu.com/useruploads/151/2023/08/21/64e3427d584bf.webp"></p>
+]]></content>
+      <categories>
+        <category>Bug</category>
+      </categories>
+      <tags>
+        <tag>bug</tag>
+        <tag>域名</tag>
+        <tag>cloudflare</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo博客的两种搜索系统</title>
     <url>/posts/41206.html</url>
     <content><![CDATA[<h1 id="Algolia（推荐）"><a href="#Algolia（推荐）" class="headerlink" title="Algolia（推荐）"></a>Algolia（推荐）</h1><h2 id="创建账户"><a href="#创建账户" class="headerlink" title="创建账户"></a>创建账户</h2><p>在<a href="https://www.algolia.com/">Algolia官网</a>上创建账户并登录</p>
