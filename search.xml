@@ -4328,7 +4328,7 @@
     <title>主题文件魔改记录</title>
     <url>/posts/1263.html</url>
     <content><![CDATA[<h1 id="js"><a href="#js" class="headerlink" title="js"></a>js</h1><ul>
-<li>主题文件夹中新增fcircle.js，内容为朋友圈的vue_js内容</li>
+<li>主题文件夹中新增fcircle.js，内容为朋友圈的vue_js内容，更新时记得复制</li>
 </ul>
 <h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><ul>
 <li>index.styl中的 –anzhiyu-theme-deep ，将值#1856fb和#0076e5改为 #4e77b3</li>
