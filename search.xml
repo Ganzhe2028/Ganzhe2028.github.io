@@ -13,7 +13,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://v6.51.la/">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/v6.51.la/.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">51la统计官网</div>
             <div class="tag-link-sitename"></div>
@@ -44,7 +46,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://perf.51.la/">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/perf.51.la/.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">51lA灵雀应用监控</div>
             <div class="tag-link-sitename"></div>
@@ -96,7 +100,9 @@
 <h1 id="Leancloud"><a href="#Leancloud" class="headerlink" title="Leancloud"></a>Leancloud</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">Leancloud</div>
             <div class="tag-link-sitename">官方原文</div>
@@ -111,7 +117,9 @@
 <h1 id="Deta"><a href="#Deta" class="headerlink" title="Deta"></a>Deta</h1><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/deploy/deta.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">Deta部署</div>
             <div class="tag-link-sitename">官方文档原文</div>
@@ -140,7 +148,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://waline.js.org/guide/get-started/#%E8%AF%84%E8%AE%BA%E7%AE%A1%E7%90%86-%E7%AE%A1%E7%90%86%E7%AB%AF">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://waline.js.org/logo.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">评论管理端</div>
             <div class="tag-link-sitename">原文</div>
@@ -4068,7 +4078,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://twikoo.js.org/quick-start.html#zeabur-%E9%83%A8%E7%BD%B">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648dbf42475a3.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648dbf42475a3.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">Twikoo官方文档教程</div>
             <div class="tag-link-sitename">twikoo官方</div>
@@ -4096,7 +4108,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.kouseki.cn">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://blog.kouseki.cn/imgs/avatar.webp);"></div>
+        <div class="tag-link-left" style="background-image: url(https://blog.kouseki.cn/imgs/avatar.webp)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">铭心石刻</div>
             <div class="tag-link-sitename"> 再次感谢Kouseki铭心石刻大佬~</div>
@@ -4113,7 +4127,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/twikoo.js.org/quick-start.html#vercel-%E9%83%A8%E7%BD%B2.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">vercel部署</div>
             <div class="tag-link-sitename">文档原文</div>
@@ -4171,7 +4187,9 @@
 本部分参考：<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://didilinkin.cn/blog/algoliasearch/#2-%E8%8E%B7%E5%8F%96-application-id--api-keys">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://didilinkin.cn/img/avataaars.png);"></div>
+        <div class="tag-link-left" style="background-image: url(https://didilinkin.cn/img/avataaars.png)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">哈肯希</div>
             <div class="tag-link-sitename">参考了部分原文</div>
@@ -4214,7 +4232,9 @@
 <h1 id="hexo基础教程"><a href="#hexo基础教程" class="headerlink" title="hexo基础教程"></a>hexo基础教程</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://manamn.space/posts/95771693.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/07/15/64b2525d6c6fe.webp);"></div>
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/07/15/64b2525d6c6fe.webp)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">Hexo+Github博客搭建教程</div>
             <div class="tag-link-sitename">LEO大佬</div>
@@ -4226,7 +4246,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://fe32.top/articles/hexo1600/">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://bu.dusays.com/2022/05/02/626f92e193879.jpg);"></div>
+        <div class="tag-link-left" style="background-image: url(https://bu.dusays.com/2022/05/02/626f92e193879.jpg)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">基于 Hexo 从零开始搭建个人博客系列</div>
             <div class="tag-link-sitename">唐志远大佬</div>
@@ -4238,7 +4260,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/ddae.html#post-comment">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca3dcbddb2.webp);"></div>
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca3dcbddb2.webp)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">使用Github Pages和Hexo搭建自己的独立博客</div>
             <div class="tag-link-sitename">鱼佬的</div>
@@ -4299,7 +4323,9 @@
     <content><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://moyustar.cn/posts/65e8.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca4dfb30ed.webp);"></div>
+        <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/06/17/648ca4dfb30ed.webp)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">摸鱼星球</div>
             <div class="tag-link-sitename">原作者</div>
@@ -4332,7 +4358,6 @@
 </ul>
 <h1 id="css"><a href="#css" class="headerlink" title="css"></a>css</h1><ul>
 <li>index.styl中的 –anzhiyu-theme-deep ，将值#1856fb和#0076e5改为 #4e77b3</li>
-<li>random-banner.css，让技能点的蓝色#425aefdd变成 #6295E0</li>
 </ul>
 <h1 id="pug"><a href="#pug" class="headerlink" title="pug"></a>pug</h1><ul>
 <li>card_announcement.pug，增加以下代码以实现欢迎语  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.announcement_content!= theme.aside.card_announcement.content</span><br><span class="line">+  //- 添加欢迎访客的信息</span><br><span class="line">+  #welcome-info</span><br></pre></td></tr></table></figure></li>
@@ -5754,7 +5779,9 @@
 <h1 id="获取API-Key"><a href="#获取API-Key" class="headerlink" title="获取API Key"></a>获取API Key</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://lbs.qq.com/dev/console/application/mine">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/lbs.qq.com/dev/console/application/mine.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">腾讯位置服务</div>
             <div class="tag-link-sitename"></div>
@@ -5769,7 +5796,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.kouseki.cn/posts/da2a.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://blog.kouseki.cn/imgs/avatar.webp);"></div>
+        <div class="tag-link-left" style="background-image: url(https://blog.kouseki.cn/imgs/avatar.webp)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">在侧边栏添加个性定位欢迎信息</div>
             <div class="tag-link-sitename">Kouseki大佬原文</div>
@@ -5807,7 +5836,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://ganzhe.site/posts/37595.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ganzhe.site/posts/37595.html.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">最初の上线</div>
             <div class="tag-link-sitename"> 我的另一篇文章</div>
@@ -5841,7 +5872,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/anzhiy.cn/posts/asdx.html#Github-Action-%E7%AE%80%E4%BB%8B.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">安知鱼-使用 Github Action 自动部署</div>
             <div class="tag-link-sitename">安知鱼</div>
@@ -5859,7 +5892,9 @@
 <h2 id="问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’"><a href="#问题3：报错：-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…’" class="headerlink" title="问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’"></a>问题3：报错：! [rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …’</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/HIt3L">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/HIt3L.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">如题</div>
             <div class="tag-link-sitename">wwww00o</div>
@@ -5875,7 +5910,9 @@
 <h2 id="csdn上的一些Git指令合集"><a href="#csdn上的一些Git指令合集" class="headerlink" title="csdn上的一些Git指令合集"></a>csdn上的一些Git指令合集</h2><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://t.csdn.cn/I50hp">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/t.csdn.cn/I50hp.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">git指令大全</div>
             <div class="tag-link-sitename">dengsilinming</div>
@@ -5899,7 +5936,9 @@
 <div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/a76e.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/blog.anheyu.com/posts/a76e.html.png);"></div>
+        <div class="tag-link-left" style="">
+          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>
+        </div>
         <div class="tag-link-right">
             <div class="tag-link-title">音乐meting自建api</div>
             <div class="tag-link-sitename"> 鱼佬的原文</div>
