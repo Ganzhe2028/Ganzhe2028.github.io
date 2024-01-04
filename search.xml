@@ -5799,6 +5799,12 @@
       </tags>
   </entry>
   <entry>
+    <title>2023年度总结——尝试&amp;幸运</title>
+    <url>/posts/17885.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>未完待续哈哈哈晚上写</p>
+]]></content>
+  </entry>
+  <entry>
     <title>补充音乐馆meting_api</title>
     <url>/posts/12635.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前几天meting官方的api挂掉了，导致anzhiyu主题的音乐馆无法使用。解决办法就是换一个api。<br>更换具体位置是：<strong>主题config的CDN - options - meting_api</strong>。<br>因为鱼佬已经写过了，所以在此<strong>进行一些基础的细节的补充</strong>。</p>
