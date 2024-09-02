@@ -4613,6 +4613,39 @@
       </tags>
   </entry>
   <entry>
+    <title>🪜非保姆简易教程</title>
+    <url>/posts/16323.html</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>写这篇文章的原因很多，但大多都是身边的人在<strong>需要魔法的时候却无法使用</strong>，当想帮助他们时，发现资源和步骤都非常的多，并且有一定操作门槛，让我感到心有余而力不足，很难受……</p>
+<p>因此想先写这么一片比较简陋的介绍文章，起码<strong>整合了一些必要的资源和步骤，让大家能够顺利渡过起步阶段</strong>。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="下载Clash"><a href="#下载Clash" class="headerlink" title="下载Clash"></a>下载Clash</h3><p><code>Clash</code>在<code>GitHub</code>的删库让很多小白无从下手，也让<code>Clash</code>几近绝版。这里就简单提供两个版本（非Pro版）吧：</p>
+<ul>
+<li><a href="https://wwtu.lanzoue.com/imNmZ28yw1oh">Win</a> <code>密码：8dsu</code></li>
+<li><a href="https://wwtu.lanzoue.com/i8sF728yw2rg">Mac</a> <code>密码：3j0w</code></li>
+</ul>
+<p>Download之后就正常安装，这个就不多说了。</p>
+<h3 id="免费节点，快速起步"><a href="#免费节点，快速起步" class="headerlink" title="免费节点，快速起步"></a>免费节点，快速起步</h3><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
+<ul>
+<li>这里是👉<a href="https://github.com/aiboboxx/clashfree">GitHub上的免费节点仓库</a></li>
+</ul>
+<p>这是对应的导入节点的教程：</p>
+<ul>
+<li><a href="https://www.v2rayfree.eu.org/post/clash-for-windows-tutorial">Win</a></li>
+<li><a href="https://www.v2rayfree.eu.org/post/clash-for-mac-tutorial/">Mac</a></li>
+<li><a href="https://www.v2rayfree.eu.org/post/clash-for-android-tutorial/">安卓</a></li>
+</ul>
+<p>用这个免费节点导入即可。</p>
+<h3 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h3><p>这东西不错 👉<a href="https://91unicorn.cloud/">91Unicorn</a>，里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。</p>
+]]></content>
+      <categories>
+        <category>科学上网</category>
+      </categories>
+      <tags>
+        <tag>魔法</tag>
+        <tag>科学上网</tag>
+        <tag>🪜梯子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python学习路线</title>
     <url>/posts/49364.html</url>
     <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
