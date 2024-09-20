@@ -5809,19 +5809,26 @@
 <li><a href="https://wwtu.lanzoue.com/i8sF728yw2rg">Mac</a> <code>密码：3j0w</code></li>
 </ul>
 <p>Download之后就正常安装，这个就不多说了。</p>
-<h2 id="免费节点，快速起步"><a href="#免费节点，快速起步" class="headerlink" title="免费节点，快速起步"></a>免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
+<h2 id="（不建议，基本都会出现加密方式不支持的方式）免费节点，快速起步"><a href="#（不建议，基本都会出现加密方式不支持的方式）免费节点，快速起步" class="headerlink" title="（不建议，基本都会出现加密方式不支持的方式）免费节点，快速起步"></a>（不建议，基本都会出现加密方式不支持的方式）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
 <ul>
 <li>这里是👉<a href="https://github.com/aiboboxx/clashfree">GitHub上的免费节点仓库</a></li>
 </ul>
-<p>这是对应的导入节点的教程：</p>
+<p>这是对应的导入节点的教程（不一定100%操作一样，但是大差不差，优先看下文中付费节点网站提供的使用文档。你可以看但是不买他们的对吧）：</p>
 <ul>
 <li><a href="https://wwtu.lanzoue.com/izcHK290e74h">Win</a>，选择<code>普通下载</code></li>
 <li><a href="https://clashx.org/">Mac</a></li>
 <li><a href="https://clashforandroid.org/">Android</a></li>
 </ul>
 <p>用这个免费节点导入即可。</p>
-<h2 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h2><p>开🪜。<br>这东西不错 👉<a href="https://91unicorn.cloud/">91Unicorn</a>，里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。</p>
-<p><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
+<h2 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h2><blockquote>
+<p>注意⚠️ 请务必优先参照网站提供的使用文档！</p>
+</blockquote>
+<p>这东西不错，不用梯子直接就能开 👉<a href="https://25ul.kfcloud.uk/">快帆云</a></p>
+<ul>
+<li><a href="https://25ul.kfcloud.uk/#/knowledge">快帆云的使用文档</a>，个人建议找<code>Clash for Windows</code>和<code>ClashX（Mac）</code></li>
+</ul>
+<hr>
+<p>这东西也不错，比前者便宜！但需要开🪜才能访问👉<a href="https://91unicorn.cloud/">91Unicorn</a><br>网站里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。<br><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
 ]]></content>
       <categories>
         <category>科学上网</category>
