@@ -5800,35 +5800,53 @@
   <entry>
     <title>🪜准保姆级手把手起步教程</title>
     <url>/posts/21959.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><strong><code>准备好开启新世界的大门！</code></strong></p>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
+<p>v3.0 本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了<br>感谢🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND俊俊</a>提供的大力支持（免费节点、Mac图片教程和他的仓库～）</p>
+</blockquote>
+<hr>
+<p><strong>准备好开启新世界的大门！</strong></p>
 <p>写这篇文章的原因很多，但大多都是身边的人在<strong>需要魔法的时候却无法使用</strong>，当想帮助他们时，发现资源和步骤都非常的多而不好找，并且有一定操作门槛，让我感到心有余而力不足，很难受……</p>
 <p>因此想先写这么一片比较简陋的介绍文章，起码<strong>整合了一些必要的资源和步骤，让大家能够顺利渡过起步阶段</strong>。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="下载Clash"><a href="#下载Clash" class="headerlink" title="下载Clash"></a>下载Clash</h2><p><code>Clash</code>在<code>GitHub</code>的删库让很多小白无从下手，也让<code>Clash</code>几近绝版。这里就简单提供两个版本（非Pro版）吧：</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="下载Clash"><a href="#下载Clash" class="headerlink" title="下载Clash"></a>下载Clash</h2><p><code>Clash</code>在<code>GitHub</code>的删库让很多小白无从下手，也让<code>Clash</code>几近绝版。</p>
+<p>俊俊贡献了一个他的仓库哦～ <a href="https://github.com/wonderland-club/Open-Source-Information">Clash（三件套）</a></p>
+<p>我也简单提供两个版本（非Pro版）吧：</p>
 <ul>
 <li><a href="https://wwtu.lanzoue.com/imNmZ28yw1oh">Win</a> <code>密码：8dsu</code></li>
 <li><a href="https://wwtu.lanzoue.com/i8sF728yw2rg">Mac</a> <code>密码：3j0w</code></li>
 </ul>
 <p>Download之后就正常安装，这个就不多说了。</p>
-<h2 id="（不建议，基本都会出现加密方式不支持的情况）免费节点，快速起步"><a href="#（不建议，基本都会出现加密方式不支持的情况）免费节点，快速起步" class="headerlink" title="（不建议，基本都会出现加密方式不支持的情况）免费节点，快速起步"></a>（不建议，基本都会出现加密方式不支持的情况）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
+<h2 id="（建议使用本教程提供的节点）免费节点，快速起步"><a href="#（建议使用本教程提供的节点）免费节点，快速起步" class="headerlink" title="（建议使用本教程提供的节点）免费节点，快速起步"></a>（建议使用本教程提供的节点）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
+<p>这里是👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub上的免费节点仓库</a></p>
+<p>这是对应的导入节点的教程（不一定100%操作一样，但是大差不差，<strong>优先看下文中付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
+<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h3><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
+<blockquote>
+<p>这里点击左下角的添加，将刚刚复制的clash节点链接粘贴进去。随便取个名字保存后，还需要在这个界面手动选择一下才能应用哦～</p>
+</blockquote>
+<p><img src="https://pic.imgdb.cn/item/66ee503ef21886ccc0ea6507.webp" alt="6"></p>
+<p>command + s开启系统代理就可以开始科学上网啦～</p>
 <ul>
-<li>这里是👉<a href="https://github.com/aiboboxx/clashfree">GitHub上的免费节点仓库</a></li>
+<li><a href="https://clashx.org/">Mac</a>，这个是较为完整的使用教程</li>
 </ul>
-<p>这是对应的导入节点的教程（不一定100%操作一样，但是大差不差，优先看下文中付费节点网站提供的使用文档。你可以看但是不买他们的对吧）：</p>
-<ul>
+<h3 id="Win"><a href="#Win" class="headerlink" title="Win"></a>Win</h3><ul>
 <li><a href="https://wwtu.lanzoue.com/izcHK290e74h">Win</a>，选择<code>普通下载</code></li>
-<li><a href="https://clashx.org/">Mac</a></li>
+</ul>
+<h3 id="Android-安卓"><a href="#Android-安卓" class="headerlink" title="Android 安卓"></a>Android 安卓</h3><ul>
 <li><a href="https://clashforandroid.org/">Android</a></li>
 </ul>
-<p>用这个免费节点导入即可。</p>
 <h2 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h2><blockquote>
 <p>注意⚠️ 请务必优先参照网站提供的使用文档！</p>
 </blockquote>
-<p>这东西不错，不用梯子直接就能开 👉<a href="https://25ul.kfcloud.uk/">快帆云</a></p>
+<p>这东西不错，还比后者便宜！但需要开🪜才能访问：</p>
 <ul>
-<li><a href="https://25ul.kfcloud.uk/#/knowledge">快帆云的使用文档</a>，个人建议找<code>Clash for Windows</code>和<code>ClashX（Mac）</code></li>
+<li><a href="https://91unicorn.cloud/">91Unicorn</a></li>
 </ul>
+<p>网站里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。<br><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
 <hr>
-<p>这东西也不错，比前者便宜！但需要开🪜才能访问👉<a href="https://91unicorn.cloud/">91Unicorn</a><br>网站里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。<br><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
+<p>这东西也不错，不用梯子直接就能开</p>
+<ul>
+<li><a href="https://25ul.kfcloud.uk/">快帆云</a></li>
+<li><a href="https://25ul.kfcloud.uk/#/knowledge">快帆云的使用文档</a>，个人建议找<code>Clash for Windows</code>和&#96;ClashX（Mac）</li>
+</ul>
 ]]></content>
       <categories>
         <category>科学上网</category>
