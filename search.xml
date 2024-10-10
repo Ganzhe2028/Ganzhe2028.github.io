@@ -5801,7 +5801,7 @@
     <title>🪜准保姆级手把手起步教程</title>
     <url>/posts/21959.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>v3.0 本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了<br>感谢🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND俊俊</a>提供的大力支持（免费节点、Mac图片教程和他的仓库～）</p>
+<p>v3.0 本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了<br>感谢🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND俊俊</a>提供的大力支持（免费节点、Mac图片教程和他的仓库～）<br>v3.1 本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……</p>
 </blockquote>
 <hr>
 <p><strong>准备好开启新世界的大门！</strong></p>
@@ -5818,7 +5818,7 @@
 <h2 id="（建议使用本教程提供的节点）免费节点，快速起步"><a href="#（建议使用本教程提供的节点）免费节点，快速起步" class="headerlink" title="（建议使用本教程提供的节点）免费节点，快速起步"></a>（建议使用本教程提供的节点）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
 <p>这里是👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub上的免费节点仓库</a></p>
 <p>这是对应的导入节点的教程（不一定100%操作一样，但是大差不差，<strong>优先看下文中付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
-<h3 id="Mac"><a href="#Mac" class="headerlink" title="Mac"></a>Mac</h3><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
+<h4 id="Mac-版本的导入方法：（往下找有Win和Android版本的）"><a href="#Mac-版本的导入方法：（往下找有Win和Android版本的）" class="headerlink" title="Mac 版本的导入方法：（往下找有Win和Android版本的）"></a>Mac 版本的导入方法：（往下找有Win和Android版本的）</h4><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
 <blockquote>
 <p>这里点击左下角的添加，将刚刚复制的clash节点链接粘贴进去。随便取个名字保存后，还需要在这个界面手动选择一下才能应用哦～</p>
 </blockquote>
@@ -5827,10 +5827,13 @@
 <ul>
 <li><a href="https://clashx.org/">Mac</a>，这个是较为完整的使用教程</li>
 </ul>
-<h3 id="Win"><a href="#Win" class="headerlink" title="Win"></a>Win</h3><ul>
-<li><a href="https://wwtu.lanzoue.com/izcHK290e74h">Win</a>，选择<code>普通下载</code></li>
+<h4 id="Win"><a href="#Win" class="headerlink" title="Win"></a>Win</h4><ul>
+<li><a href="https://wwtu.lanzoue.com/izcHK290e74h">Win</a>，选择<code>普通下载</code><blockquote>
+<p>各位记得在配置完成之后打开“开启系统代理”这个开关啊：<br><img src="https://pic.imgdb.cn/item/670754b4d29ded1a8c584a15.webp" alt="开启系统代理"></p>
+</blockquote>
+</li>
 </ul>
-<h3 id="Android-安卓"><a href="#Android-安卓" class="headerlink" title="Android 安卓"></a>Android 安卓</h3><ul>
+<h4 id="Android-安卓"><a href="#Android-安卓" class="headerlink" title="Android 安卓"></a>Android 安卓</h4><ul>
 <li><a href="https://clashforandroid.org/">Android</a></li>
 </ul>
 <h2 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h2><blockquote>
@@ -5840,6 +5843,7 @@
 <ul>
 <li><a href="https://91unicorn.cloud/">91Unicorn</a></li>
 </ul>
+<p><a href="https://91unicorn.cloud/#/knowledge">使用文档</a></p>
 <p>网站里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。<br><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
 <hr>
 <p>这东西也不错，不用梯子直接就能开</p>
