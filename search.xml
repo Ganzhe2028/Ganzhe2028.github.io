@@ -5801,19 +5801,17 @@
     <title>🪜准保姆级手把手起步教程</title>
     <url>/posts/21959.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>v3.0 本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了<br>感谢🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND俊俊</a>提供的大力支持（免费节点、Mac图片教程和他的仓库～）<br>v3.1 本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……</p>
+<p>v3.0：本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了。感谢🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND俊俊</a>提供的大力支持（免费节点、Mac图片教程和他的仓库～）<br>v3.1：本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……<br>v3.2：我在看蓝奏云的链接时发现链接失效，因此转换存储方式为GitHub</p>
 </blockquote>
-<hr>
 <p><strong>准备好开启新世界的大门！</strong></p>
 <p>写这篇文章的原因很多，但大多都是身边的人在<strong>需要魔法的时候却无法使用</strong>，当想帮助他们时，发现资源和步骤都非常的多而不好找，并且有一定操作门槛，让我感到心有余而力不足，很难受……</p>
 <p>因此想先写这么一片比较简陋的介绍文章，起码<strong>整合了一些必要的资源和步骤，让大家能够顺利渡过起步阶段</strong>。</p>
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="下载Clash"><a href="#下载Clash" class="headerlink" title="下载Clash"></a>下载Clash</h2><p><code>Clash</code>在<code>GitHub</code>的删库让很多小白无从下手，也让<code>Clash</code>几近绝版。</p>
 <p>俊俊贡献了一个他的仓库哦～ <a href="https://github.com/wonderland-club/Open-Source-Information">Clash（三件套）</a></p>
-<p>我也简单提供两个版本（非Pro版）吧：</p>
-<ul>
-<li><a href="https://wwtu.lanzoue.com/imNmZ28yw1oh">Win</a> <code>密码：8dsu</code></li>
-<li><a href="https://wwtu.lanzoue.com/i8sF728yw2rg">Mac</a> <code>密码：3j0w</code></li>
-</ul>
+<p>这里我也简单提供<a href="https://github.com/Ganzhe2028/Clash-Free">两个版本</a>。</p>
+<blockquote>
+<p>Tips: 打不开GitHub的去bilibili上搜索方法即可</p>
+</blockquote>
 <p>Download之后就正常安装，这个就不多说了。</p>
 <h2 id="（建议使用本教程提供的节点）免费节点，快速起步"><a href="#（建议使用本教程提供的节点）免费节点，快速起步" class="headerlink" title="（建议使用本教程提供的节点）免费节点，快速起步"></a>（建议使用本教程提供的节点）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
 <p>这里是👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub上的免费节点仓库</a></p>
