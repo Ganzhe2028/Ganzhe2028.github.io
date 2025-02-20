@@ -5840,17 +5840,17 @@
 </ul>
 <p>Download之后就正常安装，这个就不多说了。</p>
 <ul>
-<li><p><a href="https://clashxhub.com/clash-backup-download">Clash官网导航</a>，里面有iOS、macOS，win，Android四个大版本的。不知道是否能够一直有效</p>
-</li>
-<li><p>这里还有三个仓库，是我fork的：</p>
-<ul>
+<li>这里还有三个仓库，是我fork的：<ul>
 <li><a href="https://github.com/Ganzhe2028/clash_for_windows">clash_for_windows</a></li>
 <li><a href="https://github.com/Ganzhe2028/clash_for_android">clash_for_android</a></li>
 <li><a href="https://github.com/Ganzhe2028/clashx">clashx</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>这里给各位提供一个网址：<a href="https://91unicorn.yeahfast.com/knowledge">Unicorn的帮助页面</a>，初次访问的话，需要注册一下。<br>之后再次访问一下这个<a href="https://91unicorn.yeahfast.com/knowledge">链接</a>去找到帮助页面即可。<br>在帮助界面往下找，有各种版本的clash，点进相应的连接就会跳转，里面有详细使用教程。<br>我下面提供的教程里，有一些小疏漏，大家结合着看哈。</p>
+<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>这里给各位提供一个网址：<a href="https://91unicorn.yeahfast.com/knowledge">Unicorn的帮助页面</a>，初次访问的话，需要注册一下。<br>之后再次访问一下这个<a href="https://91unicorn.yeahfast.com/knowledge">链接</a>去找到帮助页面即可。<br>在帮助界面往下找，有各种版本的clash，点进相应的连接就会跳转，里面有详细使用教程，以及各种客户端的下载链接。<br>我下面提供的教程里，有一些小疏漏，大家结合着看哈。</p>
+<ul>
+<li><a href="https://clashxhub.com/clash-backup-download">Clash官网导航</a>（注意，这个可能需要梯子），里面有iOS、macOS，win，Android四个大版本的。不知道是否能够一直有效</li>
+</ul>
 <hr>
 <blockquote>
 <p>（建议使用本教程提供的节点）免费节点，快速起步</p>
