@@ -5850,7 +5850,12 @@
 </ul>
 </li>
 </ul>
-<h2 id="（建议使用本教程提供的节点）免费节点，快速起步"><a href="#（建议使用本教程提供的节点）免费节点，快速起步" class="headerlink" title="（建议使用本教程提供的节点）免费节点，快速起步"></a>（建议使用本教程提供的节点）免费节点，快速起步</h2><p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
+<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>这里给各位提供一个网址：<a href="https://91unicorn.yeahfast.com/knowledge">Unicorn的帮助页面</a>，初次访问的话，需要注册一下。<br>之后再次访问一下这个<a href="https://91unicorn.yeahfast.com/knowledge">链接</a>去找到帮助页面即可。<br>在帮助界面往下找，有各种版本的clash，点进相应的连接就会跳转，里面有详细使用教程。<br>我下面提供的教程里，有一些小疏漏，大家结合着看哈。</p>
+<hr>
+<blockquote>
+<p>（建议使用本教程提供的节点）免费节点，快速起步</p>
+</blockquote>
+<p>下载之后，Clash需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
 <p>这里是👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub上的免费节点仓库</a></p>
 <p>这是对应的导入节点的教程（不一定100%操作一样，但是大差不差，<strong>优先看下文中付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
 <h4 id="Mac-版本的导入方法：（往下找有Win和Android版本的）"><a href="#Mac-版本的导入方法：（往下找有Win和Android版本的）" class="headerlink" title="Mac 版本的导入方法：（往下找有Win和Android版本的）"></a>Mac 版本的导入方法：（往下找有Win和Android版本的）</h4><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
