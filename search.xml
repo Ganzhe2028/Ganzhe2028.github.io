@@ -5862,7 +5862,7 @@
 </blockquote>
 <p>下载之后，Clash 需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
 <p>这里是 👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub 上的免费节点仓库</a></p>
-<p>这是对应的导入节点的教程（不一定 100%操作一样，但是大差不差，<strong>优先看下文中付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
+<p>这是对应的导入节点的教程（不一定 100%操作一样，但是大差不差，<strong>优先看一些付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
 <h4 id="Mac-版本的导入方法：（往下找有-Win-和-Android-版本的）"><a href="#Mac-版本的导入方法：（往下找有-Win-和-Android-版本的）" class="headerlink" title="Mac 版本的导入方法：（往下找有 Win 和 Android 版本的）"></a>Mac 版本的导入方法：（往下找有 Win 和 Android 版本的）</h4><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
 <blockquote>
 <p>这里点击左下角的添加，将刚刚复制的 clash 节点链接粘贴进去。随便取个名字保存后，还需要在这个界面手动选择一下才能应用哦～</p>
@@ -5880,21 +5880,6 @@
 </ul>
 <h4 id="Android-安卓"><a href="#Android-安卓" class="headerlink" title="Android 安卓"></a>Android 安卓</h4><ul>
 <li><a href="https://clashforandroid.org/">Android</a></li>
-</ul>
-<h2 id="付费稳定节点"><a href="#付费稳定节点" class="headerlink" title="付费稳定节点"></a>付费稳定节点</h2><blockquote>
-<p>注意 ⚠️ 请务必优先参照网站提供的使用文档！</p>
-</blockquote>
-<p>这东西不错，还比后者便宜！但需要开 🪜 才能访问：</p>
-<ul>
-<li><a href="https://91unicorn.cloud/">91Unicorn</a></li>
-</ul>
-<p><a href="https://91unicorn.cloud/#/knowledge">使用文档</a></p>
-<p>网站里面的<code>使用文档</code>里有相应的<code>“一键导入”</code>的功能，导入节点文件非常方便。<br><img src="https://pic.imgdb.cn/item/66d7cad7d9c307b7e9764add.webp" alt="一键导入"></p>
-<hr>
-<p>这东西也不错，不用梯子直接就能开</p>
-<ul>
-<li><a href="https://25ul.kfcloud.uk/">快帆云</a></li>
-<li><a href="https://25ul.kfcloud.uk/#/knowledge">快帆云的使用文档</a>，个人建议找<code>Clash for Windows</code>和&#96;ClashX（Mac）</li>
 </ul>
 ]]></content>
       <categories>
