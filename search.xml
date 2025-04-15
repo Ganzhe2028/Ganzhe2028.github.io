@@ -5830,24 +5830,21 @@
 <p>注意，无论如何，请<strong>善用 Google 来进行任何资源</strong>的搜索。<strong>当你有了梯子，找再多的都不难</strong>（资源、软件、机场），难的就是怎么从没有梯子到用上梯子。本文的工作“难点”和价值所在不仅仅是提供一个 roadmap，更多的是需要找到一些在你没有梯子的时候就能访问到的能够接触到梯子下载等资源的网站。</p>
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="下载-Clash"><a href="#下载-Clash" class="headerlink" title="下载 Clash"></a>下载 Clash</h2><p><code>Clash</code>在<code>GitHub</code>的删库让很多小白无从下手，也让<code>Clash</code>几近绝版。</p>
 <ul>
-<li><p>俊俊贡献了一个他的仓库哦～ <a href="https://github.com/wonderland-club/Open-Source-Information">Clash（三件套）</a></p>
-</li>
-<li><p>这里我也简单提供<a href="https://github.com/Ganzhe2028/Clash-Free">两个版本</a>。</p>
-<blockquote>
-<p>Tips: 打不开 GitHub 的去 bilibili 上搜索方法即可</p>
-</blockquote>
-</li>
-</ul>
-<p>Download 之后就正常安装，这个就不多说了。</p>
+<li><p>这里还有三个仓库，是我 fork 的：</p>
 <ul>
-<li>这里还有三个仓库，是我 fork 的：<ul>
 <li><a href="https://github.com/Ganzhe2028/clash_for_windows">clash_for_windows</a></li>
 <li><a href="https://github.com/Ganzhe2028/clash_for_android">clash_for_android</a></li>
 <li><a href="https://github.com/Ganzhe2028/clashx">clashx</a></li>
 </ul>
 </li>
+<li><p>俊俊贡献了一个他的仓库哦～ <a href="https://github.com/wonderland-club/Open-Source-Information">Clash（三件套）</a></p>
+</li>
 </ul>
-<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>这里给各位提供一个网址：<a href="https://91unicorn.yeahfast.com/knowledge">Unicorn 的帮助页面</a>，初次访问的话，需要注册一下。<br>之后再次访问一下这个<a href="https://91unicorn.yeahfast.com/knowledge">链接</a>去找到帮助页面即可。<br>在帮助界面往下找，有各种版本的 clash，点进相应的连接就会跳转，里面有详细使用教程，以及各种客户端的下载链接。<br>我下面提供的教程里，有一些小疏漏，大家结合着看哈。</p>
+<blockquote>
+<p>Tips: 打不开 GitHub 的去 bilibili 上搜索方法即可</p>
+</blockquote>
+<p>Download 之后就正常安装，这个就不多说了。</p>
+<h2 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h2><p>我下面提供的教程里，有一些小疏漏……</p>
 <ul>
 <li><p><a href="https://clashxhub.com/clash-backup-download">Clash 官网导航</a>（注意，这个可能需要梯子），里面有 iOS、macOS，win，Android 四个大版本的。不知道是否能够一直有效</p>
 </li>
