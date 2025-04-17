@@ -4026,8 +4026,8 @@
   <entry>
     <title>hexo教程合集</title>
     <url>/posts/46286.html</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文希望收集一些hexo基础教程来供萌新小白（和我自己）参考，文章都是以连接的形式收录于本文中。会不断更新</p>
-<h1 id="hexo基础教程"><a href="#hexo基础教程" class="headerlink" title="hexo基础教程"></a>hexo基础教程</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://manamn.space/posts/95771693.html">
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文希望收集一些 hexo 基础教程来供萌新小白（和我自己）参考，文章都是以连接的形式收录于本文中。会不断更新</p>
+<h1 id="hexo-基础教程"><a href="#hexo-基础教程" class="headerlink" title="hexo 基础教程"></a>hexo 基础教程</h1><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="http://manamn.space/posts/95771693.html">
     <div class="tag-link-tips">引用站外地址</div>
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://img01.anheyu.com/useruploads/151/2023/07/15/64b2525d6c6fe.webp)">
@@ -4068,8 +4068,6 @@
         <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
     </div>
     </a></div>
-
-
 
 <h2 id="继续更新中…"><a href="#继续更新中…" class="headerlink" title="继续更新中…"></a>继续更新中…</h2>]]></content>
       <categories>
@@ -5886,6 +5884,23 @@
         <tag>魔法</tag>
         <tag>科学上网</tag>
         <tag>🪜梯子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Flash Vocab 闪记</title>
+    <url>/posts/50333.html</url>
+    <content><![CDATA[<h2 id="Flash-Vocab-闪记"><a href="#Flash-Vocab-闪记" class="headerlink" title="Flash Vocab 闪记"></a>Flash Vocab 闪记</h2><p>闪记起缘于 Li 老上课建议我们可以试试 AI 帮忙做背单词的小网页</p>
+<p>加之 Flomo 的降低起动摩擦的理念, 于是闪词就诞生了</p>
+<blockquote>
+<p>小红书:<a href="https://www.xiaohongshu.com/discovery/item/68008517000000001e00a61d?source=webshare&xhsshare=pc_web&xsec_token=ABLBVslRV42UzieZRptiZXvHvqVoZwiv6VIkW8Coup7js=&xsec_source=pc_share">【Flash Vocab 闪记 初步上线啦】</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>闪记</tag>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
