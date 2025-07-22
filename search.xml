@@ -5820,25 +5820,26 @@
     <title>🪜准保姆级手把手起步教程</title>
     <url>/posts/21959.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>【v3.0】本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了。感谢 🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND 俊俊</a>提供的大力支持（免费节点、Mac 图片教程和他的仓库～）<br>【v3.1】本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……<br>【v3.2】我在看蓝奏云的链接时发现链接失效，因此转换存储方式为 GitHub<br>【v3.3】2025.2.20，因为小鸿老师需要梯子，再一次让我想起了这件事，重操旧业，在 google 上搜索了一下，于是顺手新增了一些资源<br>【v5.0】2025.5.6 经过一些考虑之后呢，想着重新整理一下这篇文章的前面的内容…</p>
+<p>【v3.0】本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了。感谢 🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND 俊俊</a>提供的大力支持（免费节点、Mac 图片教程和他的仓库～）<br>【v3.1】本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……<br>【v3.2】我在看蓝奏云的链接时发现链接失效，因此转换存储方式为 GitHub<br>【v3.3】2025.2.20，因为小鸿老师需要梯子，再一次让我想起了这件事，重操旧业，在 google 上搜索了一下，于是顺手新增了一些资源<br>【v5.0】2025.5.6 经过一些考虑之后呢，想着重新整理一下这篇文章的前面的内容…<br>【v6.0】2025.7.22 大改，全部用小旋风的help页面内容了</p>
 </blockquote>
 <h2 id="极速省流版"><a href="#极速省流版" class="headerlink" title="极速省流版"></a>极速省流版</h2><blockquote>
 <p>请努力锻炼并精进自己的搜索信息的能力…善用<code>bing.com</code></p>
 </blockquote>
 <p><strong>积极尝试、善用各大搜索引擎</strong>，不要因为担心遇到困难就放弃，那我会看不起你的</p>
+<hr>
+<p><strong>省流直接看：使用教程</strong></p>
+<ul>
+<li><a href="https://ca02.xxfvipaff.pro/#/help">客户端教程们</a><blockquote>
+<p>里面有 iOS，macOS，win，Android</p>
+</blockquote>
+</li>
+</ul>
+<hr>
 <p><strong>三个 GitHub 仓库</strong></p>
 <ul>
 <li><a href="https://github.com/Ganzhe2028/clash_for_windows">clash_for_windows</a></li>
 <li><a href="https://github.com/Ganzhe2028/clash_for_android">clash_for_android</a></li>
 <li><a href="https://github.com/Ganzhe2028/clashx">clashx</a></li>
-</ul>
-<p><strong>使用教程</strong></p>
-<ul>
-<li><a href="https://clashxhub.com/clash-backup-download">Clash 官网导航</a>（注意，这个可能需要梯子），里面有 iOS、macOS，win，Android 四个大版本的。不知道是否能够一直有效<ul>
-<li><a href="https://clashxhub.com/clash-for-windows/">Windows 使用教程</a></li>
-<li><a href="https://clashxhub.com/clashx-for-mac/">macOS 使用教程</a></li>
-</ul>
-</li>
 </ul>
 <hr>
 <p><strong>准备好开启新世界的大门！</strong></p>
@@ -5848,15 +5849,6 @@
 <p>注意，无论如何，请<strong>善用 “Bing 必应”和“Google” 来进行任何资源</strong>的搜索。</p>
 </blockquote>
 <p><strong>当你有了梯子，找再多的都不难</strong>（资源、软件、机场），难的就是怎么从没有梯子到用上梯子。本文的工作“难点”和价值所在不仅仅是提供一个 roadmap，更多的是需要找到一些在你没有梯子的时候就能访问到的能够接触到梯子下载等资源的网站。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>下载 clash 之后，Clash 需要节点来“施展魔法”。市面上稳定节点都是付费节点（机场等），作为帮助小白入门的简陋教程，就先用免费的过渡一下。</p>
-<p>这里是 👉<a href="https://github.com/OpenRunner/clash-freenode">GitHub 上的免费节点仓库</a></p>
-<p>这是对应的导入节点的教程（不一定 100%操作一样，但是大差不差，<strong>优先看一些付费节点网站提供的使用文档</strong>。<code>你可以看但是不买他们的对吧</code>）：</p>
-<h4 id="Mac-版本的导入方法：（往下找有-Win-和-Android-版本的）"><a href="#Mac-版本的导入方法：（往下找有-Win-和-Android-版本的）" class="headerlink" title="Mac 版本的导入方法：（往下找有 Win 和 Android 版本的）"></a>Mac 版本的导入方法：（往下找有 Win 和 Android 版本的）</h4><p><img src="https://pic.imgdb.cn/item/66ee4840f21886ccc0e3684d.webp" alt="1"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e36884.webp" alt="2"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3693d.webp" alt="3"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e368e9.webp" alt="4"><br><img src="https://pic.imgdb.cn/item/66ee4841f21886ccc0e3689f.webp" alt="5"></p>
-<blockquote>
-<p>这里点击左下角的添加，将刚刚复制的 clash 节点链接粘贴进去。随便取个名字保存后，还需要在这个界面手动选择一下才能应用哦～</p>
-</blockquote>
-<p><img src="https://pic.imgdb.cn/item/66ee503ef21886ccc0ea6507.webp" alt="6"></p>
-<p>command + s 开启系统代理就可以开始科学上网啦～</p>
 ]]></content>
       <categories>
         <category>科学上网</category>
