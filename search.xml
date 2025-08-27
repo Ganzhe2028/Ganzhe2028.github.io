@@ -5820,14 +5820,16 @@
     <title>🪜准保姆级手把手起步教程</title>
     <url>/posts/21959.html</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
-<p>【v3.0】本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了。感谢 🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND 俊俊</a>提供的大力支持（免费节点、Mac 图片教程和他的仓库～）<br>【v3.1】本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……<br>【v3.2】我在看蓝奏云的链接时发现链接失效，因此转换存储方式为 GitHub<br>【v3.3】2025.2.20，因为小鸿老师需要梯子，再一次让我想起了这件事，重操旧业，在 google 上搜索了一下，于是顺手新增了一些资源<br>【v5.0】2025.5.6 经过一些考虑之后呢，想着重新整理一下这篇文章的前面的内容…<br>【v6.0】2025.7.22 大改，全部用小旋风的help页面内容了</p>
+<p>【v3.0】本文经过数次修改，至此版本已经可以让我校小学生也可以正常且顺利地使用了。感谢 🙏<a href="https://chenjunyan1.github.io/">@WONDERLAND 俊俊</a>提供的大力支持（免费节点、Mac 图片教程和他的仓库～）<br>【v3.1】本文经过再一次修改，临时地补充了部分内容。想必还是有疏漏的，大家评论区指出啊……<br>【v3.2】我在看蓝奏云的链接时发现链接失效，因此转换存储方式为 GitHub<br>【v3.3】2025.2.20，因为小鸿老师需要梯子，再一次让我想起了这件事，重操旧业，在 google 上搜索了一下，于是顺手新增了一些资源<br>【v5.0】2025.5.6 经过一些考虑之后呢，想着重新整理一下这篇文章的前面的内容…<br>【v6.0】2025.7.22 大改，全部用小旋风的 help 页面内容了</p>
 </blockquote>
 <h2 id="极速省流版"><a href="#极速省流版" class="headerlink" title="极速省流版"></a>极速省流版</h2><blockquote>
 <p>请努力锻炼并精进自己的搜索信息的能力…善用<code>bing.com</code></p>
 </blockquote>
 <p><strong>积极尝试、善用各大搜索引擎</strong>，不要因为担心遇到困难就放弃，那我会看不起你的</p>
 <hr>
-<p><strong>省流直接看：使用教程</strong></p>
+<ol>
+<li><strong>直接看这个使用教程</strong></li>
+</ol>
 <ul>
 <li><a href="https://ca02.xxfvipaff.pro/#/help">客户端教程们</a><blockquote>
 <p>里面有 iOS，macOS，win，Android</p>
@@ -5835,14 +5837,16 @@
 </li>
 </ul>
 <hr>
-<p><strong>三个 GitHub 仓库</strong></p>
+<ol start="2">
+<li><strong>三个存放了 clash 的 GitHub 仓库</strong></li>
+</ol>
 <ul>
 <li><a href="https://github.com/Ganzhe2028/clash_for_windows">clash_for_windows</a></li>
 <li><a href="https://github.com/Ganzhe2028/clash_for_android">clash_for_android</a></li>
 <li><a href="https://github.com/Ganzhe2028/clashx">clashx</a></li>
 </ul>
 <hr>
-<p><strong>准备好开启新世界的大门！</strong></p>
+<h3 id="一些想说的话……"><a href="#一些想说的话……" class="headerlink" title="一些想说的话……"></a>一些想说的话……</h3><p><strong>准备好开启新世界的大门！</strong></p>
 <p>写这篇文章的原因很多，但大多都是身边的人在<strong>需要魔法的时候却无法使用</strong>，当想帮助他们时，发现资源和步骤都非常的多而不好找，并且有一定操作门槛，让我感到心有余而力不足</p>
 <p>因此想先写这么一片比较简陋的介绍文章，起码<strong>整合了一些必要的资源和步骤，让大家能够顺利渡过起步阶段</strong>。</p>
 <blockquote>
