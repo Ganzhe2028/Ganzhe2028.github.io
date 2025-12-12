@@ -1379,19 +1379,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2025年度回顾</title>
-    <url>/posts/34980.html</url>
-    <content><![CDATA[<p>2025 这一年</p>
-]]></content>
-      <categories>
-        <category>复盘</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>年度复盘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java学习路线</title>
     <url>/posts/63587.html</url>
     <content><![CDATA[<div class="note info flat"><p>里面的图太多了，换不过来，转载主要给鱼哥引个流，建议看原文~（文章底部有原文链接）</p>
@@ -4136,6 +4123,19 @@
       <tags>
         <tag>样式</tag>
         <tag>转载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025 年度复盘</title>
+    <url>/posts/34980.html</url>
+    <content><![CDATA[<p>2025 这一年</p>
+]]></content>
+      <categories>
+        <category>复盘</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>年度复盘</tag>
       </tags>
   </entry>
   <entry>
